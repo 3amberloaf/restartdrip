@@ -30,17 +30,17 @@ const App = () => {
         </div>
       </header>
       <main className="main-content">
-        <div className="hero-section">
-          <div className="hero-text">
+        <div className="homepage-section">
+          <div className="homepage-text">
             <h1>Mobile IV Therapy</h1>
-            <h2>& Medical Services Delivered To You</h2>
-            <div className="hero-buttons">
+            <h2>& Medical Services Delivered To You!</h2>
+            <div className="homepage-buttons">
               <button className="book-iv-therapy">Book IV Therapy</button>
               <button className="view-all-services">View all Services</button>
             </div>
           </div>
-          <div className="hero-image">
-            <img src="images/homepage_background.png" alt="Homepage"/ >
+            <div className="homepage-image">
+              <img src="images/homepage_background.png" alt="Homepage"/ >
             
           </div>
         </div>

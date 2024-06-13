@@ -24,8 +24,15 @@ body {
   background-color: #124d83;
   color: white;
   border: none;
-  padding: 5px 10px;
+  padding: 10px 20px;
   cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.join-now:hover {
+  background-color: #0e3e66;
+  transform: scale(1.05);
 }
 
 .nav-bar {
@@ -63,8 +70,15 @@ body {
   background-color: #1a63a7;
   color: white;
   border: none;
-  padding: 10px 10px;
+  padding: 12px 20px;
   cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.book-service:hover, .log-in:hover {
+  background-color: #145b91;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .search {
@@ -76,62 +90,72 @@ body {
 }
 
 .main-content {
-  background-color: #e5f9f8;
   text-align: center;
-  padding: 40px 20px;
   position: relative;
 }
 
-.hero-section {
+.homepage-section {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   position: relative;
 }
 
-.hero-text {
+.homepage-text {
   max-width: 50%;
   z-index: 10;
   position: absolute;
-  top: 50%;
-  left: 10%;
+  top: 40%;
+  left: 15%;
   transform: translateY(-50%);
   text-align: left;
   color: black;
 }
 
-.hero-text h1 {
+.homepage-text h1 {
   font-size: 48px;
   margin: 0;
 }
 
-.hero-text h2 {
+.homepage-text h2 {
   font-size: 24px;
   margin: 10px 0;
 }
 
-.hero-buttons {
-  margin-top: 20px;
+.homepage-buttons {
+  margin-top: 40px;
 }
 
-.hero-buttons button {
-  background-color: #00b3a6;
+.homepage-buttons button {
+  background: linear-gradient(135deg, #1a63a7, #124d83);
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 15px 25px;
   margin: 0 10px;
   cursor: pointer;
+  border-radius: 20px;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
 }
 
-.hero-image {
-  width: 100%;
-  height: 100vh; /* Make the image cover the full viewport height */
-  object-fit: cover; /* Cover the entire container */
+.homepage-buttons button:hover {
+  background: linear-gradient(135deg, #145b91, #0e3e66);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+
+.homepage-image {
+  max-width: fit-content;
+  height: auto; /* Make the image cover the full viewport height */
 }
 
 .footer {
-  background-color: #005f6b;
-  color: white;
-  text-align: center;
-  padding: 20px;
+  background-color: #1a63a7;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
