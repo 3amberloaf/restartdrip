@@ -6,7 +6,9 @@ const App = () => {
     <div className="App">
       <header className="header">
         <div className="top-bar">
-          <span>Up to 40% off savings with IV Memberships!</span>
+          <div className="moving-text-container">
+            <span className="moving-text">Up to 40% off savings with IV Memberships!</span>
+          </div>
           <button className="join-now">JOIN NOW</button>
         </div>
         <div className="nav-bar">
@@ -15,16 +17,15 @@ const App = () => {
           </div>
           <nav>
             <ul className="nav-links">
-              <li><a href="#in-home-services">In-Home Services</a></li>
+              <li><a href="#in-home-services">Services</a></li>
               <li><a href="#shipped-to-you">Delivery</a></li>
               <li><a href="#memberships">Memberships</a></li>
-              <li><a href="#locations">Locations</a></li>
               <li><a href="#about-us">About Us</a></li>
             </ul>
           </nav>
           <div className="nav-actions">
             <button className="book-service">Book Service</button>
-            <button className="log-in">Log in</button>
+            <button className="log-in">Log In</button>
             <button className="search">🔍</button>
           </div>
         </div>
@@ -39,14 +40,31 @@ const App = () => {
               <button className="view-all-services">View all Services</button>
             </div>
           </div>
-            <div className="homepage-image">
-              <img src="images/homepage_background.png" alt="Homepage"/ >
-            
+          <div className="homepage-image">
+            <img src="images/homepage_background.png" alt="Homepage" />
           </div>
         </div>
       </main>
       <footer className="footer">
-        {/* Footer content */}
+        <div className="footer-content">
+          <div className="footer-logo">
+            <img src="images/logo.png" alt="Company Logo" />
+          </div>
+          <div className="footer-links">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#delivery">Delivery</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div className="footer-social">
+            <a href="#facebook" className="social-icon">FB</a>
+            <a href="#twitter" className="social-icon">TW</a>
+            <a href="#linkedin" className="social-icon">IN</a>
+          </div>
+        </div>
+        <div className="footer-bottom">
+          <p>&copy; 2024 Restart Drip. All rights reserved.</p>
+        </div>
       </footer>
     </div>
   );
