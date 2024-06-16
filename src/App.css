@@ -105,25 +105,26 @@ body {
   max-width: 50%;
   z-index: 10;
   position: absolute;
-  top: 40%;
-  left: 15%;
+  top: 20%;
+  left: 10%;
   transform: translateY(-50%);
   text-align: left;
   color: black;
 }
 
 .homepage-text h1 {
-  font-size: 48px;
+  font-size: 55px;
   margin: 0;
 }
 
 .homepage-text h2 {
-  font-size: 24px;
+  font-size: 30px;
   margin: 10px 0;
 }
 
 .homepage-buttons {
   margin-top: 40px;
+  font-size: 15px;
 }
 
 .homepage-buttons button {
@@ -170,6 +171,7 @@ body {
 .footer-links {
   display: flex;
   gap: 20px;
+  list-style-type:none;
 }
 
 .footer-links a {
@@ -233,4 +235,75 @@ body {
   100% {
     transform: translateX(100%);
   }
+}
+
+.IV-section {
+  font-family: 'Transport Std Medium', sans-serif; /* Use font-family and include a fallback font */
+  padding: 50px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  text-align: center; /* Center text in the section */
+}
+
+.IV-text h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: #484343;
+}
+
+.IV-text h2 {
+  font-size: 1.5em;
+  color: #666;
+  margin-bottom: 1em;
+}
+
+.treatment-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.treatment-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  text-align: center; /* Center text in the treatment card */
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.treatment-card:hover {
+  transform: scale(1.05); /* Enlarge the card on hover */
+}
+
+.treatment-card img {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.treatment-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.treatment-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.treatment-card button {
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.treatment-card button:hover {
+  background-color: #007acc;
 }

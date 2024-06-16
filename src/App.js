@@ -1,14 +1,42 @@
 import React from 'react';
 import './App.css'; // Import your CSS file for styling
-import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
-function Home() {
-  return <h2>Home</h2>;
-}
+const treatments = [
+  {
+    name: 'DEHYDRATION',
+    price: '$249',
+    description: 'Rehydrate and replenish your body with IV fluids.',
+    imageUrl: 'images/homepage/dehydration.png', // Update with actual path
+  },
+  {
+    name: 'ENERGY BOOST',
+    price: '$299',
+    description: 'Replenish with essential energy-boosting fluids and vitamins.',
+    imageUrl: 'images/homepage/energy.png', // Update with actual path
+  },
+  {
+    name: 'HANGOVER',
+    price: '$299',
+    description: 'Resolve nausea, headaches, & fight fatigue.',
+    imageUrl: 'images/homepage/hangover.png', // Update with actual path
+  },
+  {
+    name: 'IMMUNE BOOST',
+    price: '$299',
+    description: 'Strengthen your immunity and support whole body wellness.',
+    imageUrl: 'images/homepage/immune.png', // Update with actual path
+  },
+];
 
-function About() {
-  return <h2>About</h2>;
-}
+const TreatmentCard = ({ name, price, description, imageUrl }) => (
+  <div className="treatment-card">
+    <img src={imageUrl} alt={name} />
+    <h3>{name} - {price}</h3>
+    <p>{description}</p>
+    <button>Book Now</button>
+  </div>
+);
 
 const App = () => {
   return (
@@ -42,11 +70,7 @@ const App = () => {
           </div>
         </header>
         <main className="main-content">
-          <Routes>
           
-            <Route path="/about" element={<About />} />
-
-          </Routes>
           <div className="homepage-section">
             <div className="homepage-text">
               <h1>Mobile IV Therapy</h1>
@@ -57,21 +81,37 @@ const App = () => {
               </div>
             </div>
             <div className="homepage-image">
-              <img src="images/homepage_background.png" alt="Homepage" />
+              <img src="images/homepage/homepage_background.png" alt="Homepage" />
             </div>
-          </div>
+            <div className="IV-section">
+        <div className="IV-text">
+          <h1>Vitamin IV Therapy</h1>
+          <h2>Experience all the benefits of IV therapy in the comfort of your own home.</h2>
+        </div>
+        
+        <div className="treatment-container">
+          {treatments.map((treatment, index) => (
+            <TreatmentCard key={index} {...treatment} />
+          ))}
+        </div>
+        </div>
+      
+    </div>
         </main>
         <footer className="footer">
           <div className="footer-content">
             <div className="footer-logo">
               <img src="images/logo.png" alt="Company Logo" />
             </div>
-            <div className="footer-links">
-              <a href="#home">Home</a>
-              <a href="#services">Services</a>
-              <a href="#delivery">Delivery</a>
-              <a href="#contact">Contact</a>
-            </div>
+            <nav>
+              <ul className="footer-links" >
+                <li><Link to="/home">Home</Link></li>
+                <li><Link to="/in-home-services">Services</Link></li>
+                <li><Link to="/shipped-to-you">Delivery</Link></li>
+                <li><Link to="/memberships">Memberships</Link></li>
+                <li><Link to="/about-us">About Us</Link></li>
+              </ul>
+            </nav>
             <div className="footer-social">
               <a href="#facebook" className="social-icon">FB</a>
               <a href="#twitter" className="social-icon">EM</a>
