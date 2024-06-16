@@ -71,49 +71,43 @@
     margin: auto;
     font-family: Arial, sans-serif;
     color: #272401;
-  }
-  
-  .iv-therapy-image-text {
+}
+
+.iv-therapy-image-text {
     max-width: 45%;
     margin-right: 20px;
-  }
-  
-  .iv-therapy-image-text h2 {
-    color: #0d0d0d;
-    margin-bottom: 10px;
-    font-size: 2em;
-  }
-  
-  .iv-therapy-image-text h3 {
+}
+
+.iv-therapy-image-text h3 {
     color: #557373;
     margin-bottom: 20px;
     font-size: 1.5em;
-  }
-  
-  .iv-therapy-image-text p {
+}
+
+.iv-therapy-image-text p {
     color: #272401;
     margin-bottom: 20px;
     line-height: 1.6;
     font-size: 1.1em;
-  }
-  
-  .iv-therapy-image {
+}
+
+.iv-therapy-image {
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .iv-therapy-section {
+}
+
+.iv-therapy-section {
     max-width: 45%;
     flex: 1;
-  }
-  
-  .service-list {
+}
+
+.service-list {
     display: flex;
     flex-direction: column;
-  }
-  
-  .service-button {
+}
+
+.service-button {
     background-color: #557373;
     color: #f2efea;
     border: none;
@@ -130,23 +124,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .service-button:hover {
+}
+
+.service-button:hover {
     background-color: #272401;
     transform: translateY(-2px);
-  }
-  
-  .icon {
+}
+
+.icon {
     font-size: 1.5em;
     transition: transform 0.3s;
-  }
-  
-  .icon.open {
+}
+
+.icon.open {
     transform: rotate(180deg);
-  }
-  
-  .service-content {
+}
+
+.service-content {
     background-color: #f2efea;
     color: #272401;
     padding: 15px 20px;
@@ -158,9 +152,9 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 1.1em;
     line-height: 1.6;
-  }
-  
-  @keyframes fadeIn {
+}
+
+@keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
-  }
+}
