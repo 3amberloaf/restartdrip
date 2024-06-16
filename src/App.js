@@ -27,6 +27,30 @@ const treatments = [
     description: 'Strengthen your immunity and support whole body wellness.',
     imageUrl: 'images/homepage/immune.png', // Update with actual path
   },
+  {
+    name: 'STOMACH FLU',
+    price: '$299',
+    description: 'Get instant relief from upset stomach, nausea, & dehydration.',
+    imageUrl: 'images/homepage/stomach.png', // Update with actual path
+  },
+  {
+    name: 'MYERS COCKTAIL',
+    price: '$299',
+    description: 'Restore balance, alleviate chronic illness symptoms, and support overall wellness.',
+    imageUrl: 'images/homepage/myers.png', // Update with actual path
+  },
+  {
+    name: 'RECOVERY',
+    price: '$299',
+    description: 'Improve endurance, shorten muscle recovery, & refuel the body.',
+    imageUrl: 'images/homepage/recovery.png', // Update with actual path
+  },
+  {
+    name: 'BEAUTY',
+    price: '$299',
+    description: 'Fortify hair, skin, & nails, support collagen to help improve complexion.',
+    imageUrl: 'images/homepage/beauty.png', // Update with actual path
+  }
 ];
 
 const TreatmentCard = ({ name, price, description, imageUrl }) => (
@@ -43,12 +67,7 @@ const App = () => {
     <Router>
       <div className="App">
         <header className="header">
-          <div className="top-bar">
-            <div className="moving-text-container">
-              <span className="moving-text">Up to 40% off savings with IV Memberships!</span>
-            </div>
-            <button className="join-now">JOIN NOW</button>
-          </div>
+          
           <div className="nav-bar">
             <div className="logo">
               <img src="images/logo.png" alt="Company Logo" />
@@ -63,9 +82,9 @@ const App = () => {
               </ul>
             </nav>
             <div className="nav-actions">
-              <button className="book-service">Book Service</button>
+
               <button className="log-in">Log In</button>
-              <button className="search">🔍</button>
+
             </div>
           </div>
         </header>
