@@ -1,6 +1,14 @@
+@font-face {
+  font-family: 'Ostrich';
+  src: url('./fonts/ostrich-sans-master/OstrichSans-Heavy.otf') format('truetype'); /* Adjust the path and format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Ostrich';
 }
 
 .header {
@@ -16,7 +24,6 @@ body {
   justify-content: space-between;
   align-items: center;
   font-size: 15px;
-  font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }
 
@@ -153,7 +160,6 @@ body {
   background-color: #1a63a7;
   color: #ffffff;
   padding: 20px;
-  font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }
 
@@ -238,11 +244,13 @@ body {
 }
 
 .IV-section {
-  font-family: 'Transport Std Medium', sans-serif; /* Use font-family and include a fallback font */
   padding: 50px;
   background-color: #f9f9f9;
   border-radius: 10px;
-  text-align: center; /* Center text in the section */
+  text-align: center;
+  width: 100%; /* Ensure the section spans the full width */
+  box-sizing: border-box; /* Include padding in the width calculation */
+  margin: 0 auto; /* Center the section */
 }
 
 .IV-text h1 {
@@ -261,6 +269,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  width: 100%; /* Ensure the container spans the full width */
 }
 
 .treatment-card {
@@ -270,12 +279,12 @@ body {
   padding: 20px;
   margin: 10px;
   width: 200px;
-  text-align: center; /* Center text in the treatment card */
-  transition: transform 0.3s ease; /* Smooth transition for scaling */
+  text-align: center;
+  transition: transform 0.3s ease;
 }
 
 .treatment-card:hover {
-  transform: scale(1.05); /* Enlarge the card on hover */
+  transform: scale(1.05);
 }
 
 .treatment-card img {
@@ -301,7 +310,7 @@ body {
   border-radius: 5px;
   padding: 10px;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  transition: background-color 0.3s ease;
 }
 
 .treatment-card button:hover {
