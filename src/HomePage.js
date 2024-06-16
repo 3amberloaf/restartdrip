@@ -1,8 +1,8 @@
 // src/HomePage.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import AllServices from './pages/AllServices';
-
+import IVTherapy from './components/Infographics';
+import './homepage.css';
 const HomePageButtons = () => {
   return (
     <div className="homepage-buttons">
@@ -32,6 +32,7 @@ const HomePage = () => {
         <div className="homepage-image">
           <img src="images/homepage/homepage_background.png" alt="Homepage" />
         </div>
+        < IVTherapy />
         
   
 </div>
