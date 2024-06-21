@@ -13,8 +13,8 @@ const IVTherapy = () => {
             <div className="iv-therapy-image-text">
                 <h3>RELAX - RECHARGE - REHYDRATE</h3>
                 <p>
-                    New to IV therapy? At Restart Drip, we are here to make YOU restart your life at 100%!
-                </p>
+                New to IV therapy? At Restart Drip, we will help you <span style={{ fontWeight: 'bold', fontStyle: 'italic', color: 'red' }}>RESTART</span> your life at 100%!
+            </p>
                 <img src="./images/homepage/woodline.png" alt="Hydrate IV Bar" className="iv-therapy-image" />
             </div>
             <div className="iv-therapy-section">
