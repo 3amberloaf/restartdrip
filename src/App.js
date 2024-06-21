@@ -94,7 +94,6 @@ const App = () => {
             </nav>
             <div className="footer-social">
               <a href="#facebook" className="social-icon">FB</a>
-              <a href="#twitter" className="social-icon">TW</a>
               <a href="https://www.instagram.com/restartdrip/" className="social-icon">IN</a>
             </div>
           </div>

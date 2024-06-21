@@ -32,7 +32,8 @@ body {
 }
 
 .logo img {
-  height: 80px;
+  height: 100px;
+  
 }
 
 .nav-links {
@@ -179,27 +180,5 @@ body {
   font-size: 20px;
 }
 
-.moving-text-container {
-  overflow: hidden;
-  white-space: nowrap;
-  width: 100%;
-  padding: 10px 0;
-}
 
-.moving-text {
-  display: inline-block;
-  font-size: 20px;
-  color: #FFFFFF; /* White */
-  padding-left: 100%;
-  animation: moveText 20s linear infinite;
-}
-
-@keyframes moveText {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
-}
 
