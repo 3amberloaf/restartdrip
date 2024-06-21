@@ -1,5 +1,6 @@
 // src/pages/AllServices.js
 import React from 'react';
+import '../css/services.css';
 
 const treatments = [
   {
@@ -64,8 +65,8 @@ const TreatmentCard = ({ name, price, description, imageUrl }) => (
 const AllServices = () => {
   return (
     <div>
-      <div className="IV-section">
-        <div className="IV-text">
+      <div className="IV-services">
+        <div className="services-text">
           <h1>Vitamin IV Therapy</h1>
           <h2>Experience all the benefits of IV therapy in the comfort of your own home.</h2>
         </div>

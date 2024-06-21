@@ -7,8 +7,8 @@ const HomePageButtons = () => {
   return (
     <div className="homepage-buttons">
       <button className="book-iv-therapy">Book IV Therapy</button>
-      <Link to="/all-services">
-        <button className="view-all-services">View all Services</button>
+      <Link to="/services">
+        <button className="view-services">View all Services</button>
       </Link>
     </div>
   );
@@ -24,8 +24,8 @@ const HomePage = () => {
           <h2>& Medical Services Delivered To You!</h2>
           <div className="homepage-buttons">
             <button className="book-iv-therapy">Book IV Therapy</button>
-            <Link to="/all-services">
-              <button className="view-all-services">View all Services</button>
+            <Link to="/services">
+              <button className="view-services">View all Services</button>
             </Link>
           </div>
         </div>

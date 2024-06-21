@@ -1,16 +1,16 @@
-// src/App.js
 import React from 'react';
 import './App.css'; // Import your CSS file for styling
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import AllServices from './pages/AllServices';
 import HomePage from './pages/HomePage'; // Ensure you have this component
+import About from './pages/About';
 
 const HomePageButtons = () => {
   return (
     <div className="homepage-buttons">
       <button className="book-iv-therapy">Book IV Therapy</button>
-      <Link to="/all-services">
-        <button className="view-all-services">View all Services</button>
+      <Link to="/services">
+        <button className="view-services">View all Services</button>
       </Link>
     </div>
   );
@@ -27,11 +27,43 @@ const App = () => {
             </div>
             <nav>
               <ul className="nav-links">
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/all-services">Services</Link></li>
-                <li><Link to="/delivery">Delivery</Link></li>
-                <li><Link to="/memberships">Memberships</Link></li>
-                <li><Link to="/about-us">About Us</Link></li>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/services">Services</Link>
+                  <ul className="dropdown">
+                    <li><Link to="/services/vitamin">Vitamin IV Therapy</Link></li>
+                    <li><Link to="/services/specialty">Specialty IV Treatment</Link></li>
+                    <li><Link to="/services/medical">Medical Care</Link></li>
+                  </ul>
+                </li>
+                <li>
+                  <Link to="/delivery">Delivery</Link>
+                    <ul className="dropdown">
+                      <li><Link to="/delivery/weight-loss">Medical Weight Loss</Link></li>
+                      <li><Link to="/delivery/nad+">NAD+ Therapy</Link></li>
+                      <li><Link to="/delivery/peptide">Peptide Therapy</Link></li>
+                      <li><Link to="/delivery/testosterone">Testosterone Therapy</Link></li>
+                      <li><Link to="/delivery/vitamin">Vitamin Injections</Link></li>
+                      <li><Link to="/delivery/ketamine">Ketamine Therapy</Link></li>
+                      <li><Link to="/delivery/vitamin">Vitamin Injections</Link></li>
+                      <li><Link to="/delivery/hair">Hair Loss Treatments</Link></li>
+                      <li><Link to="/delivery/rapamycin">Rapamycin</Link></li>
+                    </ul>
+                </li>
+                <li>
+                  <Link to="/memberships">Memberships</Link>
+                    <ul className="dropdown">
+                      <li><Link to="/memberships/vitamin-drip">Vitamin Drip Memberships</Link></li>
+                      <li><Link to="/memberships/nad-drip">Nad Drip Memberships</Link></li>
+                      <li><Link to="/memberships/longevity">Longevity Memberships</Link></li>
+                    </ul>
+                </li>
+                <li>
+                  <Link to="/about-us">About Us</Link>
+          
+                </li>
               </ul>
             </nav>
             <div className="nav-actions">
@@ -42,8 +74,8 @@ const App = () => {
         <main className="main-content">
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/all-services" element={<AllServices />} />
-            {/* Add more routes here as needed */}
+            <Route path="/services" element={<AllServices />} />
+            <Route path = "/about-us" element = {<About />} />
           </Routes>
         </main>
         <footer className="footer">
@@ -54,7 +86,7 @@ const App = () => {
             <nav>
               <ul className="footer-links">
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/all-services">Services</Link></li>
+                <li><Link to="/services">Services</Link></li>
                 <li><Link to="/shipped-to-you">Delivery</Link></li>
                 <li><Link to="/memberships">Memberships</Link></li>
                 <li><Link to="/about-us">About Us</Link></li>
@@ -62,7 +94,7 @@ const App = () => {
             </nav>
             <div className="footer-social">
               <a href="#facebook" className="social-icon">FB</a>
-              <a href="#twitter" className="social-icon">EM</a>
+              <a href="#twitter" className="social-icon">TW</a>
               <a href="https://www.instagram.com/restartdrip/" className="social-icon">IN</a>
             </div>
           </div>

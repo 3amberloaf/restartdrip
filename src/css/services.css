@@ -1,0 +1,77 @@
+
+
+.IV-services {
+    padding: 50px;
+    background-color: #f2efea; /* Light Cream */
+    border-radius: 10px;
+    text-align: center;
+    width: 100%; /* Ensure the section spans the full width */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    margin: 0 auto; /* Center the section */
+  }
+  
+  .IV-services h1 {
+    font-family: 'Ostrich', sans-serif;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #0d0d0d; /* Very Dark Gray */
+  }
+  
+  .IV-services h2 {
+    font-size: 1.5em;
+    color: #557373; /* Gray Blue */
+    margin-bottom: 1em;
+  }
+  
+  .treatment-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%; /* Ensure the container spans the full width */
+  }
+  
+  .treatment-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .treatment-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .treatment-card img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .treatment-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #0d0d0d; /* Very Dark Gray */
+  }
+  
+  .treatment-card p {
+    font-size: 17px;
+    color: #557373; /* Gray Blue */
+  }
+  
+  .treatment-card button {
+    background-color: #557373; /* Gray Blue */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .treatment-card button:hover {
+    background-color: #272401; /* Dark Green */
+  }
