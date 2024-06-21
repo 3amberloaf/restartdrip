@@ -38,11 +38,12 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 25px;
   margin: 0;
   padding: 0;
-  font-size: 25px;
+  font-size: 28px;
   position: relative;
+  font-family: 'Ostrich';
 }
 
 .nav-links li {
@@ -135,8 +136,8 @@ body {
   display: flex;
   gap: 20px;
   list-style-type: none;
-  font-size: 25px;
-  
+  font-size: 28px;
+  font-family: 'Ostrich';
 }
 
 .footer-links a {

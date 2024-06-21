@@ -1,5 +1,5 @@
 .about-us-container {
-    font-family: 'Ostrich', sans-serif;
+    font-family: 'Playfair', sans-serif;
     color: #0d0d0d;
     padding: 20px;
 }
@@ -15,7 +15,7 @@
     font-size: 24px;
 }
 
-.our-mission, .our-founder, .client-testimonials {
+.our-mission, .our-founder, .client-reviews {
     margin: 40px 0;
 }
 
@@ -58,7 +58,7 @@ p {
     margin-bottom: 10px;
 }
 
-.client-testimonials blockquote {
+.client-reviews blockquote {
     font-size: 18px;
     line-height: 1.6;
     font-style: italic;
@@ -67,3 +67,4 @@ p {
     border-left: 4px solid #557373; /* Dark Green */
     color: #272401; /* Dark Brown */
 }
+

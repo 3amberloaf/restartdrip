@@ -1,10 +1,16 @@
 import React from 'react';
 import '../css/about.css';
+import Reviews from '../components/reviews';
 
 const About = () => {
   return (
     <div className="about-us-container">
-     
+      <section className="hero-section">
+        <div className="hero-content">
+          <h1>About Us</h1>
+          <p>We are dedicated to delivering exceptional in-home IV therapy and medical services.</p>
+        </div>
+      </section>
       
       <section className="our-mission">
         <h2>Our Mission</h2>
@@ -29,15 +35,8 @@ const About = () => {
         </div>
       </section>
 
-      <section className="client-testimonials">
-        <h2>What Our Clients Say</h2>
-        <blockquote>
-          "The convenience and professionalism of the in-home services are unmatched. I felt genuinely cared for, and the results were outstanding." - A satisfied client
-        </blockquote>
-        <blockquote>
-          "Mrs.Paul and her team are amazing. Their personalized approach made all the difference in my treatment." - Another happy client
-        </blockquote>
-      </section>
+      <Reviews /> {/* Add the reviews component here */}
+      
     </div>
   );
 };

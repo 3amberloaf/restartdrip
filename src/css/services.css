@@ -11,14 +11,14 @@
   }
   
   .IV-services h1 {
-    font-family: 'Ostrich', sans-serif;
-    font-size: 2em;
+    font-family: 'Ostrich';
+    font-size: 50px;
     margin-bottom: 0.5em;
     color: #0d0d0d; /* Very Dark Gray */
   }
   
   .IV-services h2 {
-    font-size: 1.5em;
+    font-size: 25px;
     color: #557373; /* Gray Blue */
     margin-bottom: 1em;
   }
