@@ -1,5 +1,5 @@
 .about-us-container {
-    font-family: 'Playfair', sans-serif;
+    font-family: 'Playfair';
     color: #0d0d0d;
     padding: 30px;
 }
@@ -8,6 +8,7 @@
 .hero-content h1 {
     font-size: 40px;
     margin-bottom: 10px;
+    color: #1E3A5F;
     text-transform: uppercase;
 }
 
@@ -22,7 +23,7 @@
 h2 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #557373; /* Dark Green */
+    color: #273B5A; /* Dark Green */
     text-transform: uppercase;
     position: relative;
     display: inline-block;

@@ -1,7 +1,7 @@
 
 
 .IV-services {
-    padding: 50px;
+    padding: 30px;
     background-color: #f2efea; /* Light Cream */
     border-radius: 10px;
     text-align: center;
@@ -11,10 +11,10 @@
   }
   
   .IV-services h1 {
-    font-family: 'Ostrich';
+    font-family: 'Playfield';
     font-size: 50px;
     margin-bottom: 0.5em;
-    color: #0d0d0d; /* Very Dark Gray */
+    color: #273B5A; /* Very Dark Gray */
   }
   
   .IV-services h2 {

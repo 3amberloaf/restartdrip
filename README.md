@@ -21,6 +21,7 @@ Light Gray: #F0F0F0
 **Accent Colors**
 Dark Blue: #1E3A5F
 Teal: #008080
+#557373 green i like
 
 The colors in the "Restart Drip" logo include:
 
