@@ -51,9 +51,10 @@ p {
 .our-founder .founder {
     display: flex;
     align-items: center;
+    background-color: aliceblue;
     gap: 20px;
     margin-bottom: 20px;
-    
+   justify-content: center;
 }
 
 .our-founder .founder-image {
@@ -66,7 +67,6 @@ p {
 
 .our-founder .founder-info {
     max-width: 600px;
-    align-items: center;
 }
 
 .our-founder .founder-info h3 {

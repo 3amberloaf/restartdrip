@@ -22,7 +22,7 @@ const About = () => {
           </div>
       </section>
 
-      <section className="our-founder">
+      <div className="our-founder">
         <h2>Meet Our Founder</h2>
         <div className="founder">
           <img src="images/homepage/founder.png" alt="Founder" className="founder-image" />
@@ -36,7 +36,7 @@ const About = () => {
             </p>
           </div>
         </div>
-      </section>
+      </div>
 
       <Reviews /> {}
       
