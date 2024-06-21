@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './components.css';
 
 const IVTherapy = () => {
     const [activeSection, setActiveSection] = useState(null);

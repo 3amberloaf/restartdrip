@@ -6,49 +6,49 @@ const treatments = [
     name: 'DEHYDRATION',
     price: '$249',
     description: 'Rehydrate and replenish your body with IV fluids.',
-    imageUrl: 'images/homepage/dehydration.png', // Update with actual path
+    imageUrl: 'images/services/dehydration.png', // Update with actual path
   },
   {
     name: 'ENERGY BOOST',
     price: '$299',
     description: 'Replenish with essential energy-boosting fluids and vitamins.',
-    imageUrl: 'images/homepage/energy.png', // Update with actual path
+    imageUrl: 'images/services/energy.png', // Update with actual path
   },
   {
     name: 'HANGOVER',
     price: '$299',
     description: 'Resolve nausea, headaches, & fight fatigue.',
-    imageUrl: 'images/homepage/hangover.png', // Update with actual path
+    imageUrl: 'images/services/hangover.png', // Update with actual path
   },
   {
     name: 'IMMUNE BOOST',
     price: '$299',
     description: 'Strengthen your immunity and support whole body wellness.',
-    imageUrl: 'images/homepage/immune.png', // Update with actual path
+    imageUrl: 'images/services/immune.png', // Update with actual path
   },
   {
     name: 'STOMACH FLU',
     price: '$299',
     description: 'Get instant relief from upset stomach, nausea, & dehydration.',
-    imageUrl: 'images/homepage/stomach.png', // Update with actual path
+    imageUrl: 'images/services/stomach.png', // Update with actual path
   },
   {
     name: 'MYERS COCKTAIL',
     price: '$299',
     description: 'Restore balance, alleviate chronic illness symptoms, and support overall wellness.',
-    imageUrl: 'images/homepage/myers.png', // Update with actual path
+    imageUrl: 'images/services/myers.png', // Update with actual path
   },
   {
     name: 'RECOVERY',
     price: '$299',
     description: 'Improve endurance, shorten muscle recovery, & refuel the body.',
-    imageUrl: 'images/homepage/recovery.png', // Update with actual path
+    imageUrl: 'images/services/recovery.png', // Update with actual path
   },
   {
     name: 'BEAUTY',
     price: '$299',
     description: 'Fortify hair, skin, & nails, support collagen to help improve complexion.',
-    imageUrl: 'images/homepage/beauty.png', // Update with actual path
+    imageUrl: 'images/services/beauty.png', // Update with actual path
   }
 ];
 

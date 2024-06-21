@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css'; // Import your CSS file for styling
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import AllServices from './pages/AllServices';
-import HomePage from './HomePage'; // Ensure you have this component
+import HomePage from './pages/HomePage'; // Ensure you have this component
 
 const HomePageButtons = () => {
   return (
