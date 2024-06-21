@@ -7,8 +7,8 @@ const About = () => {
     <div className="about-us-container">
       <section className="hero-section">
         <div className="hero-content">
-          <h1>About Us</h1>
-          <p>We are dedicated to delivering exceptional in-home IV therapy and medical services.</p>
+          <h1>Restart Drip</h1>
+          <p>Dedicated to delivering exceptional in-home IV therapy and medical services.</p>
         </div>
       </section>
       
@@ -17,6 +17,9 @@ const About = () => {
         <p>
           At Restart Drip, our mission is to empower individuals to achieve optimal health and well-being through personalized IV hydration therapy. As a woman-owned business, we are committed to delivering exceptional care with a focus on integrity, compassion, and excellence. We strive to create a supportive and welcoming environment where our clients can rejuvenate and thrive. Our goal is to inspire and uplift our community by promoting wellness from within, fostering a culture of health, and making a positive impact on the lives we touch.
         </p>
+          <div className="nurse-image">
+            <img src="images/about/nurse.png" alt="About" />
+          </div>
       </section>
 
       <section className="our-founder">
@@ -35,7 +38,7 @@ const About = () => {
         </div>
       </section>
 
-      <Reviews /> {/* Add the reviews component here */}
+      <Reviews /> {}
       
     </div>
   );
