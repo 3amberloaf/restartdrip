@@ -40,35 +40,34 @@ const Dehydration = () => {
       </div>
 
       <div className="banner">
-        Additional Information
+         ** R E S T A R T - D R I P **
       </div>
 
       <div className="additional-info">
-        <h2>Dehydration Symptoms</h2>
-        <p>A few of the more unpleasant symptoms of a hangover can include:</p>
-        <ul>
-          <li>Dehydration</li>
-          <li>Nausea and vomiting</li>
-          <li>Headache and aching muscles</li>
-          <li>Dizziness</li>
-          <li>Weakness and shakiness</li>
-          <li>Irritability</li>
-        </ul>
-        <h2>Hangover IV Therapy Help</h2>
-        <p>
-          One of the main symptoms (and causes) of a hangover is dehydration. Alcohol suppresses the hormone known as vasopressin, which controls water loss in your body. The more alcohol you drink, the more you urinate, and the more dehydrated you become. According to Dr. Gary Murray from the National Institute on Alcohol Abuse and Alcoholism, “Alcohol is a diuretic, so you end up losing water. And the dehydration effect is probably the most severe contributor to hangover.”
-        </p>
-        <p>
-          The unpleasant symptoms of a hangover can last as long as 24 hours (though for others it can feel longer). That’s a long time to endure such misery! Fortunately, there is help at hand with Hydrate IV Bar. As we like to say, “Don’t wait, hydrate!” IV therapy for hangovers can help to rehydrate your body to get you feeling better quickly. Our special IV Hydration drip for hangovers, the Recovery IV, was developed by our team of medical and wellness professionals. The Recovery IV includes normal saline, b-complex, vitamin b6, and magnesium to aid in relieving pain and nausea. This combination of vitamins can help to relieve the awful feeling of a hangover and get you feeling better quickly.
-        </p>
-        <h2>Why Choose Us for IV Hydration?</h2>
-        <p>
-          When you’re in need of liquid IV therapy for a hangover or recovery of any kinds in Denver, Colorado, look no further than Hydrate IV Bar. Our focus is on promoting wellness from within, and that includes helping those who need to feel better fast! A registered nurse will administer your Recovery IV drip in one of our eight comfortable and relaxing IV spas — located throughout Denver, Boulder, Fort Collins, Arizona, or Dallas, Texas.
-        </p>
-        <p>
-          Simply choose one of our Hydrate IV Bar locations closest to you to book an appointment for IV hydration for hangovers online, and then sit back, relax, rehydrate, and recover from the debilitating effects of your overindulgence.
-        </p>
-      </div>
+          <h1>Are you dehydrated?</h1>
+          <p>According to the National Library of Medicine, around <span style={{ fontWeight: 'bold', fontStyle: 'italic', color: 'red' }}>75%</span> of Americans are chronically dehydrated. Some of the most common symptons include:</p>
+          <ul>
+            <li>Dehydration</li>
+            <li>Nausea and vomiting</li>
+            <li>Headache and aching muscles</li>
+            <li>Dizziness</li>
+            <li>Weakness and shakiness</li>
+            <li>Irritability</li>
+          </ul>
+          <h1>Dehydration IV Therapy</h1>
+          <p>
+          Dehydration IV therapy is a vital health intervention that quickly replenishes fluids and essential nutrients in the body. Whether due to intense physical activity, illness, or everyday stress, dehydration can impair bodily functions, leading to fatigue, headaches, and decreased performance. IV therapy ensures rapid and effective hydration, delivering fluids directly into the bloodstream for immediate absorption. 
+          </p>
+          <p>This method bypasses the digestive system, making it especially beneficial for those who need quick recovery. Everyone can benefit from dehydration IV therapy as it helps maintain optimal hydration levels, supports overall wellness, and enhances physical and mental performance. Investing in regular IV hydration can lead to better health, increased energy, and improved quality of life.
+          </p>
+         
+          <h1>Why Choose Us for IV Hydration?</h1>
+          <p>
+            When you’re in need of liquid IV therapy for a hangover or recovery of any kinds in the New Jersey area, look no further than Restart Drip. Our focus is on promoting wellness from within, and that includes helping those who need to feel better fast! 
+          </p>
+          
+        </div>
+
     </div>
   );
 };
