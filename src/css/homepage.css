@@ -153,7 +153,18 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 1.1em;
     line-height: 1.6;
+    
 }
+.service-content ul {
+  list-style-position: inside; /* Ensures bullets align with text */
+  padding: 0; /* Removes default padding */
+  margin-left: 20px; /* Adjust this value as needed for alignment */
+}
+
+.service-content li {
+  margin-bottom: 10px; /* Adds space between list items */
+}
+
 
 @keyframes fadeIn {
     from { opacity: 0; }

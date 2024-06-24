@@ -62,16 +62,31 @@
     color: #557373; /* Gray Blue */
   }
   
-  .treatment-card button {
-    background-color: #557373; /* Gray Blue */
-    color: white;
+
+
+  .learn-more-button{
+    display: inline-block;
+    padding: 12px 20px;
+    color: #FFFFFF;
+    background: linear-gradient(45deg, #1E3A5F, #2D6A8B);
     border: none;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 5px;
+    transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
     cursor: pointer;
-    transition: background-color 0.3s ease;
   }
   
-  .treatment-card button:hover {
-    background-color: #272401; /* Dark Green */
+  .learn-more-button:hover  {
+    background: linear-gradient(45deg, #008080, #20B2AA);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  .learn-more-button:active {
+    background: linear-gradient(45deg, #006666, #1E3A5F);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
   }

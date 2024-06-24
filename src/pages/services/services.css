@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #272401;
+    background-color: #f2efea;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .content-container h1 {
+    font-size: 2.5em;
+    margin: 0 0 10px;
+    color: #1E3A5F;
+  }
+  
+  .content-container h2 {
+    font-size: 1.5em;
+    color: #557373;
+    margin: 0 0 20px;
+    font-style: italic;
+  }
+  
+  .content-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button-container .book-now {
+    background: linear-gradient(45deg, #1E3A5F, #2D6A8B);
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button-container .book-now:hover {
+    background: linear-gradient(45deg, #008080, #20B2AA);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  .button-container .book-now:active {
+    background: linear-gradient(45deg, #006666, #1E3A5F);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
+  }
+  

@@ -65,6 +65,7 @@ const App = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/services" element={<AllServices />} />
             <Route path = "/about-us" element = {<About />} />
+            <Route path="/services/:serviceId" element={<AllServices />} /> {/* Adjust as needed */}
           </Routes>
         </main>
         <footer className="footer">
