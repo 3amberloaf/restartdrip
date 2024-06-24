@@ -97,18 +97,20 @@ body {
 
 
 .log-in {
-  background-color: #1E3A5F; /* Dark Blue */
-  color: #FFFFFF; /* White */
+  background: linear-gradient(135deg, #D0E1F9, #A9A9A9); /* Light Blue to Gray */
+  color: #273B5A; /* Navy Blue */
   border: none;
-  padding: 12px 20px;
+  padding: 15px 30px;
+  margin: 0 10px;
   cursor: pointer;
-  border-radius: 20px;
-  transition: background-color 0.3s, box-shadow 0.3s;
+  border-radius: 10px;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
 }
 
 .log-in:hover {
-  background-color: #008080; /* Teal */
+  background: linear-gradient(135deg, #5CB8E6, #237AB7); /* Dark Blue to Teal */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
 }
 
 

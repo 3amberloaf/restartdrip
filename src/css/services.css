@@ -67,12 +67,13 @@
   .learn-more-button{
     display: inline-block;
     padding: 12px 20px;
-    color: #FFFFFF;
-    background: linear-gradient(45deg, #1E3A5F, #2D6A8B);
+    color: #273B5A;
+    background: linear-gradient(135deg, #D0E1F9, #A9A9A9);
     border: none;
     border-radius: 20px;
     text-decoration: none;
     font-size: 1em;
+    font-family: 'Playfield';
     font-weight: bold;
     margin: 5px;
     transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
@@ -80,9 +81,9 @@
   }
   
   .learn-more-button:hover  {
-    background: linear-gradient(45deg, #008080, #20B2AA);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    transform: translateY(-2px);
+    background: linear-gradient(135deg, #5CB8E6, #237AB7); /* Dark Blue to Teal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
   }
   
   .learn-more-button:active {
