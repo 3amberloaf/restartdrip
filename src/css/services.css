@@ -74,8 +74,7 @@
     border: none;
     border-radius: 20px;
     text-decoration: none;
-    font-size: 1em;
-    font-family: 'Playfield';
+    font-size: 18px;
     font-weight: bold;
     margin: 5px;
     transition: background 0.3s, box-shadow 0.3s, transform 0.3s;

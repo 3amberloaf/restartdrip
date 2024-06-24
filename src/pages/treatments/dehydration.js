@@ -13,7 +13,7 @@ const Dehydration = () => {
         <p>
           Rehydrate and replenish your body with IV fluids. This IV therapy cocktail is great for recovery from dehydration due to illness, travel, or strenuous activity.
         </p>
-        <p>Enjoy better hydration and well-being.</p>
+  
         <div className="button-container">
           <button className="book-now">Book Here</button>
         </div>
@@ -40,7 +40,7 @@ const Dehydration = () => {
       </div>
 
       <div className="banner">
-         ** R E S T A R T - D R I P **
+          RESTART - DRIP 
       </div>
 
       <div className="additional-info">
