@@ -27,3 +27,5 @@ The colors in the "Restart Drip" logo include:
 
 Light Blue: #5CB8E6 (used for the text and part of the droplet and swirl)
 Darker Blue: #237AB7 (used for the rest of the droplet)
+
+app background-color: #FAF9F6;

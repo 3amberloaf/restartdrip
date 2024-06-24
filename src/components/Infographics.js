@@ -18,7 +18,7 @@ const IVTherapy = () => {
             </div>
             <div className="iv-therapy-section">
                 <div className="service-list">
-                    {['whatIsIt', 'whatAreTheBenefits', 'howDoesItWork', 'whoCanBenefit', 'whatShouldIExpect', 'learnMore'].map(section => (
+                    {['whatIsIt?', 'whatAreTheBenefits?', 'howDoesItWork?', 'whoCanBenefit?', 'whatShouldIExpect?', 'learnMore!'].map(section => (
                         <div key={section}>
                             <button className="service-button" onClick={() => toggleSection(section)}>
                                 {section.split(/(?=[A-Z])/).join(" ").toUpperCase()}
@@ -26,12 +26,12 @@ const IVTherapy = () => {
                             </button>
                             {activeSection === section && (
                                 <div className="service-content">
-                                    {section === 'whatIsIt' && (
+                                    {section === 'whatIsIt?' && (
                                         <p>
                                             Intravenous (IV) therapy involves delivering fluids, vitamins, minerals, and other nutrients directly into the bloodstream through a vein. It's a medical treatment commonly used to rehydrate the body, replenish essential nutrients, and address various health concerns.
                                         </p>
                                     )}
-                                    {section === 'whatAreTheBenefits' && (
+                                    {section === 'whatAreTheBenefits?' && (
                                         <p>
                                             IV therapy offers several benefits, including:
                                             <ul>
@@ -42,12 +42,12 @@ const IVTherapy = () => {
                                             </ul>
                                         </p>
                                     )}
-                                    {section === 'howDoesItWork' && (
+                                    {section === 'howDoesItWork?' && (
                                         <p>
                                             During IV therapy, a healthcare professional inserts a thin needle into a vein, typically in the arm, and connects it to a tube attached to a bag containing the desired fluids and nutrients. The infusion rate is controlled to ensure a steady flow of the solution into the bloodstream. This allows for quick absorption and utilization of the nutrients by the body. Sessions typically last 45 minutes to 1 hour.
                                         </p>
                                     )}
-                                    {section === 'whatShouldIExpect' && (
+                                    {section === 'whatShouldIExpect?' && (
                                         <p>
                                             <ul>
                                                 <li>Consultation: Before the treatment, you'll have a consultation with a healthcare provider to discuss your health goals and any concerns.</li>
@@ -57,12 +57,12 @@ const IVTherapy = () => {
                                             </ul>
                                         </p>
                                     )}
-                                    {section === 'whoCanBenefit' && (
+                                    {section === 'whoCanBenefit?' && (
                                         <p>
                                             Athletes, those recovering from illness, jet-setters, and anyone needing an extra wellness boost.
                                         </p>
                                     )}
-                                    {section === 'learnMore' && (
+                                    {section === 'learnMore!' && (
                                         <p>
                                             Learn more about the many benefits of IV Therapy by booking a free consultation below.
                                         </p>
