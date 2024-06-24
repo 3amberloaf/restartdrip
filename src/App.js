@@ -4,6 +4,7 @@ import { Link, Routes, Route } from 'react-router-dom';
 import AllServices from './pages/AllServices';
 import HomePage from './pages/HomePage'; // Ensure you have this component
 import About from './pages/About';
+import ServiceDetail from './pages/services/servicedetail';
 
 
 const App = () => {
@@ -65,7 +66,7 @@ const App = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/services" element={<AllServices />} />
             <Route path = "/about-us" element = {<About />} />
-            <Route path="/services/:serviceId" element={<AllServices />} /> {/* Adjust as needed */}
+            <Route path="/services/:serviceId" element={<ServiceDetail />} /> {/* Adjust as needed */}
           </Routes>
         </main>
         <footer className="footer">
