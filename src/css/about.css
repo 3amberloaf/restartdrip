@@ -8,7 +8,8 @@
 .hero-content h1 {
     font-size: 40px;
     margin-bottom: 10px;
-    color: #1E3A5F;
+    letter-spacing: 1ch;
+    color: #5CB8E6;
     text-transform: uppercase;
 }
 
@@ -37,7 +38,7 @@ h2 {
     right: 0;
     bottom: 0;
     height: 2px; /* Adjust the height of the underline */
-    background-color: #557373; /* Dark Green */
+    background-color: #273B5A; /* Dark Green */
     transform: scaleX(1.7); /* Adjust the scale to make the underline extend beyond the text */
   }
 
