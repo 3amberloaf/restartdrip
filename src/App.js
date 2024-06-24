@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css'; // Import your CSS file for styling
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { Link, Routes, Route } from 'react-router-dom';
 import AllServices from './pages/AllServices';
 import HomePage from './pages/HomePage'; // Ensure you have this component
 import About from './pages/About';
@@ -8,7 +8,6 @@ import About from './pages/About';
 
 const App = () => {
   return (
-    <Router>
       <div className="App">
         <header className="header">
           <div className="nav-bar">
@@ -92,7 +91,6 @@ const App = () => {
           </div>
         </footer>
       </div>
-    </Router>
   );
 };
 

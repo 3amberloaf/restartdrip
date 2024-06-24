@@ -1,15 +1,12 @@
 // src/HomePage.js
 import React from 'react';
-import { BrowserRouter as Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import IVTherapy from '../components/Infographics';
 import '../css/homepage.css';
-
-
 
 const HomePage = () => {
   return (
     <main className="main-content">
-  
       <div className="homepage-section">
         <div className="homepage-text">
           <h1>Mobile IV Therapy</h1>
@@ -22,12 +19,10 @@ const HomePage = () => {
           </div>
         </div>
         <div className="homepage-image">
-          <img src="images/homepage/homepage_background.png" alt="Homepage" />
+          <img src="/images/homepage/homepage_background.png" alt="Homepage" /> {/* Corrected image path */}
         </div>
-        < IVTherapy />
-        
-  
-</div>
+        <IVTherapy />
+      </div>
     </main>
   );
 };

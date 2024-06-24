@@ -4,7 +4,7 @@ Create a website for Woodline's IV Drip business
 
 ## Start up website
 
-1. cd myapp
+1. cd restartdrip
 2. npm start
 
 ## Color Scheme
