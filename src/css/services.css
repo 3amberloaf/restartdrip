@@ -2,7 +2,7 @@
 
 .IV-services {
     padding: 30px;
-    background-color: #f2efea; /* Light Cream */
+    background-color: #ffffff; /* Light Cream */
     border-radius: 10px;
     text-align: center;
     width: 100%; /* Ensure the section spans the full width */
@@ -11,15 +11,17 @@
   }
   
   .IV-services h1 {
-    font-family: 'Playfield';
+    font-family: 'Ostrich';
     font-size: 50px;
-    margin-bottom: 0.5em;
-    color: #273B5A; /* Very Dark Gray */
+    margin-bottom: 0.2em;
+    letter-spacing: 1ch;
+    color: #244a7c;
   }
   
   .IV-services h2 {
     font-size: 25px;
-    color: #557373; /* Gray Blue */
+    color: #585d61;
+    text-transform: lowercase;
     margin-bottom: 1em;
   }
   
@@ -59,7 +61,7 @@
   
   .treatment-card p {
     font-size: 17px;
-    color: #557373; /* Gray Blue */
+    color: #1E3A5F;
   }
   
 

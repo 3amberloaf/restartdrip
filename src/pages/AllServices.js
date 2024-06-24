@@ -20,7 +20,7 @@ const AllServices = () => {
       <div className="IV-services">
         <div className="services-text">
           <h1>Vitamin IV Therapy</h1>
-          <h2>Experience all the benefits of IV therapy in the comfort of your own home.</h2>
+          <h2>~ Experience all the benefits of IV therapy in the comfort of your own home ~ </h2>
         </div>
         
         
