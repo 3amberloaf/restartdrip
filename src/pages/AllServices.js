@@ -2,7 +2,7 @@
 import React from 'react';
 import '../css/services.css';
 import { Link } from 'react-router-dom';
-import treatments from './services/treatments';
+import treatments from './treatments/treatments';
 
 
 const TreatmentCard = ({ name, price, description, imageUrl, servicePath }) => (

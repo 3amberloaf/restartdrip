@@ -4,8 +4,7 @@ import { Link, Routes, Route } from 'react-router-dom';
 import AllServices from './pages/AllServices';
 import HomePage from './pages/HomePage'; // Ensure you have this component
 import About from './pages/About';
-import ServiceDetail from './pages/services/servicedetail';
-
+import Dehydration from './pages/treatments/dehydration';
 
 const App = () => {
   return (
@@ -13,7 +12,7 @@ const App = () => {
         <header className="header">
           <div className="nav-bar">
             <div className="logo">
-              <img src="images/logo.png" alt="Company Logo" />
+              <img src="../images/logo.png" alt="Company Logo" />
             </div>
             <nav>
               <ul className="nav-links">
@@ -66,13 +65,14 @@ const App = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/services" element={<AllServices />} />
             <Route path = "/about-us" element = {<About />} />
-            <Route path="/services/:serviceId" element={<ServiceDetail />} /> {/* Adjust as needed */}
+            <Route path="/services/dehydration" element={<Dehydration />} />
+
           </Routes>
         </main>
         <footer className="footer">
           <div className="footer-content">
             <div className="footer-logo">
-              <img src="images/logo.png" alt="Company Logo" />
+              <img src="../images/logo.png" alt="Company Logo" />
             </div>
             <nav>
               <ul className="footer-links">
