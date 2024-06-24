@@ -5,16 +5,6 @@ import AllServices from './pages/AllServices';
 import HomePage from './pages/HomePage'; // Ensure you have this component
 import About from './pages/About';
 
-const HomePageButtons = () => {
-  return (
-    <div className="homepage-buttons">
-      <button className="book-iv-therapy">Book IV Therapy</button>
-      <Link to="/services">
-        <button className="view-services">View all Services</button>
-      </Link>
-    </div>
-  );
-};
 
 const App = () => {
   return (

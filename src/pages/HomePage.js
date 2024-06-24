@@ -4,16 +4,7 @@ import { BrowserRouter as Link } from 'react-router-dom';
 import IVTherapy from '../components/Infographics';
 import '../css/homepage.css';
 
-const HomePageButtons = () => {
-  return (
-    <div className="homepage-buttons">
-      <button className="book-iv-therapy">Book IV Therapy</button>
-      <Link to="/services">
-        <button className="view-services">View all Services</button>
-      </Link>
-    </div>
-  );
-};
+
 
 const HomePage = () => {
   return (
