@@ -1,5 +1,4 @@
 
-
 .main-content {
     text-align: center;
     position: relative;
@@ -62,6 +61,7 @@
   .homepage-image {
     max-width: fit-content;
     height: auto; /* Make the image cover the full viewport height */
+    
   }
 
   .iv-therapy-container {
