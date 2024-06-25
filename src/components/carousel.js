@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import treatments from '../pages/treatments/treatments';
 import './carousel.css'; // Ensure you have appropriate styling
 
@@ -13,7 +13,7 @@ const TreatmentsCarousel = () => {
             <h3>{treatment.name}</h3>
             <p>{treatment.price}</p>
             <p>{treatment.description}</p>
-            <a href={treatment.servicePath} className="learn-more">Learn More</a>
+              <Link to={treatment.servicePath} className="learn-more-button">Learn More</Link>
           </div>
         ))}
       </div>

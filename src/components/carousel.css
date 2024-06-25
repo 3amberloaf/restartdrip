@@ -1,6 +1,7 @@
 .carousel-container {
     width: 70%;
     margin: 0 auto;
+    padding: 30px;
     text-align: center;
     overflow: hidden;
   }
@@ -12,6 +13,10 @@
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  }
+
+  .carousel-container h2 {
+    font-family: 'Playfield';
   }
   
   .carousel-scroll::-webkit-scrollbar {
@@ -51,15 +56,30 @@
     margin-bottom: 10px;
   }
   
-  .learn-more {
-    color: #1E3A5F;
+  .learn-more-button{
+    display: inline-block;
+    padding: 12px 20px;
+    color: #273B5A;
+    background: linear-gradient(135deg, #D0E1F9, #A9A9A9);
+    border: none;
+    border-radius: 20px;
     text-decoration: none;
+    font-size: 18px;
     font-weight: bold;
-    margin-top: 10px;
+    margin: 5px;
+    transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
   }
   
-  .treatment-slide:hover {
-    transform: scale(1.05); /* Scale up on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  .learn-more-button:hover  {
+    background: linear-gradient(135deg, #5CB8E6, #237AB7); /* Dark Blue to Teal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+  }
+  
+  .learn-more-button:active {
+    background: linear-gradient(45deg, #006666, #1E3A5F);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
   }
   
