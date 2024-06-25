@@ -65,30 +65,30 @@
   }
   
 
-
-  .learn-more-button{
+  .learn-more-button {
     display: inline-block;
     padding: 12px 20px;
-    color: #273B5A;
-    background: linear-gradient(135deg, #D0E1F9, #A9A9A9);
+    color: #ffffff;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
     margin: 5px;
     transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
     cursor: pointer;
-  }
-  
-  .learn-more-button:hover  {
-    background: linear-gradient(135deg, #5CB8E6, #237AB7); /* Dark Blue to Teal */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.learn-more-button:hover {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     transform: scale(1.05);
-  }
-  
-  .learn-more-button:active {
-    background: linear-gradient(45deg, #006666, #1E3A5F);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transform: translateY(0);
-  }
+}
+
+.learn-more-button:active {
+    background: linear-gradient(135deg, #5ee7df 0%, #b490ca 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+}
