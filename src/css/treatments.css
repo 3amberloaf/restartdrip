@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 20px;
+  padding: 50px 70px;
   flex-wrap: wrap;
 }
 
@@ -17,7 +17,7 @@
 .image-container img {
   max-width: 80%;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
 
 .content-container {
@@ -45,6 +45,7 @@
   line-height: 1.6;
   font-family: 'Playfield';
   margin-bottom: 20px;
+  text-align: ;
 }
 
 .button-container {
@@ -77,41 +78,45 @@
 }
 
 .additional-info {
-  margin-top: 40px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   padding: 20px;
-  background-color: #f2f7fc;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+
 }
 
 .additional-info h1 {
-  font-size: 1.8em;
+  font-size: 1.3em;
   color: #1E3A5F;
-  margin-top: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
   margin-bottom: 10px;
   border-bottom: 2px solid #1E3A5F;
   padding-bottom: 5px;
 }
 
 .additional-info p, .additional-info ul {
-  font-size: 21px;
+  font-size: 18px;
 
-  margin-bottom: 10px;
+
   color: #333;
 }
 
 .additional-info ul {
-  padding-left: 20px;
+  padding-left: 40px;
+  margin-left: 0; /* Ensure no additional left margin */
+  list-style: none; /* Remove default list style */
 }
 
 .additional-info ul li {
-  list-style-type: none;
   display: flex;
   align-items: center;
+  margin-bottom: 5px;
+  position: relative;
+  padding-left: 20px; /* Space for custom bullet */
 }
-
 .additional-info ul li::before {
   content: '•';
   font-size: 1.5em;
@@ -126,10 +131,13 @@
 
   .additional-info h2 {
     font-size: 1.5em;
+    text-align: left;
   }
 
   .additional-info p, .additional-info ul {
     font-size: 1em;
+    align-items: flex-start;
+    text-align: left;
   }
 }
 
