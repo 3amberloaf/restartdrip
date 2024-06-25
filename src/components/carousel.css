@@ -1,0 +1,65 @@
+.carousel-container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .carousel-scroll {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  }
+  
+  .carousel-scroll::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+  
+  .treatment-slide {
+    flex: 0 0 auto;
+    width: 80%;
+    max-width: 250px; /* Adjust based on your design */
+    margin: 10px;
+    background-color: #f2f7fc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition */
+  }
+  
+  .treatment-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .treatment-slide h3 {
+    font-size: 1.5em;
+    color: #1E3A5F;
+    margin-bottom: 10px;
+  }
+  
+  .treatment-slide p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .learn-more {
+    color: #1E3A5F;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .treatment-slide:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  }
+  

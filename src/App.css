@@ -95,24 +95,63 @@ body {
   color: #557373; /* Gray Blue */
 }
 
-
 .log-in {
-  background: linear-gradient(135deg, #D0E1F9, #A9A9A9); /* Light Blue to Gray */
+  background: #ffffff; /* Light Blue to Gray */
   color: #273B5A; /* Navy Blue */
-  border: none;
+  border:#7dd6ff;
+  border-radius: 40%;
   padding: 15px 30px;
+  border: 4px;
   margin: 0 10px;
-  font-size: 23px;
+  font-size: 28px;
+  font-family: 'Ostrich';
   cursor: pointer;
   border-radius: 15px;
-  transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.3s, color 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added shadow */
+}
+
+.log-in::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  transform: translate(-50%, -50%) scale(0.5);
+  transition: transform 0.3s, opacity 0.3s;
+  opacity: 0;
+}
+
+.log-in:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
 }
 
 .log-in:hover {
   background: linear-gradient(135deg, #5CB8E6, #237AB7); /* Dark Blue to Teal */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
   transform: scale(1.05);
+  color: #ffffff; /* Increase text contrast on hover */
+  cursor: pointer; /* Ensure pointer cursor is used */
 }
+
+.log-in:active {
+  transform: scale(0.95);
+}
+
+.log-in i {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+
 
 
 
