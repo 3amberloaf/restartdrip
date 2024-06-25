@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+
 import treatments from '../pages/treatments/treatments';
 import './carousel.css'; // Ensure you have appropriate styling
 
