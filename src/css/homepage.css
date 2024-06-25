@@ -40,14 +40,14 @@
   }
   
   .homepage-buttons button {
-    background: linear-gradient(135deg, #D0E1F9, #A9A9A9); /* Light Blue to Gray */
+    background: rgb(251, 248, 69);
     color: #273B5A; /* Navy Blue */
     border: none;
     padding: 15px 30px;
-    margin: 0 10px;
-    font-family: 'Playfield';
+    margin: 0 20px;
+    font-family: 'Ostrich';
     cursor: pointer;
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 10px;
     transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
   }
