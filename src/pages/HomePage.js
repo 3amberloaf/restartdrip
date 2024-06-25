@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import IVTherapy from '../components/Infographics';
 import '../css/homepage.css';
+import Reviews from '../components/reviews';
 
 const HomePage = () => {
   return (
@@ -22,6 +23,7 @@ const HomePage = () => {
           <img src="/images/homepage/homepage_background.png" alt="Homepage" /> {/* Corrected image path */}
         </div>
         <IVTherapy />
+        <Reviews /> {}
       </div>
     </main>
   );

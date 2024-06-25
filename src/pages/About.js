@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/about.css';
-import Reviews from '../components/reviews';
+
 
 const About = () => {
   return (
@@ -38,7 +38,7 @@ const About = () => {
         </div>
       </div>
 
-      <Reviews /> {}
+     
       
     </div>
   );
