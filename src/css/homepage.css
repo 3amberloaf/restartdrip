@@ -66,9 +66,9 @@
 }
 
   .homepage-image {
-    max-width: fit-content;
+    min-width: auto;
     height: auto; /* Make the image cover the full viewport height */
-    
+    padding-bottom: 30px;
   }
 
   .iv-therapy-container {
