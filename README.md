@@ -107,8 +107,8 @@ To add a hover to an element, you add a transition to a property by using 'trans
 To import a new font, you have to first download the zip file and activate on mac's font family application. Then, create a font folder to store your fonts in src folder and in your css file create a name for it.
 
 `@font-face {
-  font-family: 'Ostrich';
-  src: url('./fonts/ostrich-sans-master/OstrichSans-Black.otf') format('truetype');
+  font-family: 'Barlow';
+  src: url('./fonts/Barlow-sans-master/BarlowSans-Black.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }`

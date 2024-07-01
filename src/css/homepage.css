@@ -45,7 +45,7 @@
     border: none;
     padding: 15px 30px;
     margin: 0 20px;
-    font-family: 'Playfield';
+    font-family: 'Montserrat';
     cursor: pointer;
     font-size: 25px;
     border-radius: 10px;
@@ -93,7 +93,7 @@
     color: #273B5A;
     margin-bottom: 20px;
     font-size: 1.5em;
-    font-family: 'Playfield';
+    font-family: 'Montserrat';
 }
 
 .iv-therapy-image-text p {
@@ -121,7 +121,7 @@
 
 .service-button {
     background-color: #dfe5f3;
-    font-family: 'Playfield';
+    font-family: 'Montserrat';
     color: #273B5A;
     border: none;
     padding: 15px 20px;

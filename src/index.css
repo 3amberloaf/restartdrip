@@ -13,8 +13,8 @@ code {
 }
 
 @font-face {
-  font-family: 'Ostrich';
-  src: url('./fonts/ostrich-sans-master/OstrichSans-Black.otf') format('truetype');
+  font-family: 'Barlow';
+  src: url('./fonts/Barlow/Barlow-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
   font-weight: normal;
   font-style: normal;
 }
