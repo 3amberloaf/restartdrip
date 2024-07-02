@@ -3,42 +3,36 @@ import './steps.css';
 
 const Steps = () => {
   const handleMouseOver = (event) => {
-    const hoverImage = document.getElementById('hover-image');
-    const imageType = event.currentTarget.getAttribute('data-hover');
-    console.log(`Hovering over: ${imageType}`); // Log the hovered image type
-    hoverImage.style.backgroundImage = `url(${imageType})`;
+    const hoverImage = event.currentTarget.querySelector('.hover-image');
     hoverImage.style.display = 'block';
-    const rect = event.currentTarget.getBoundingClientRect();
-    hoverImage.style.top = `${rect.top + window.scrollY}px`; // Position aligned vertically with the circle
-    hoverImage.style.left = `${rect.left + window.scrollX}px`; // Align horizontally with the circle
   };
 
-  const handleMouseOut = () => {
-    const hoverImage = document.getElementById('hover-image');
+  const handleMouseOut = (event) => {
+    const hoverImage = event.currentTarget.querySelector('.hover-image');
     hoverImage.style.display = 'none';
   };
 
   return (
     <div className="background">
+     
       <h1 className="title">HOW IT WORKS</h1>
       <div className="circle-container">
-        <div className="circle" data-hover="/restartdrip/public/images/homepage/email.png" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+        <div className="circle" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
           <p>RESTART</p>
-
+          <div className="hover-image" style={{ backgroundImage: `url(../images/homepage/email.png)` }}></div>
         </div>
-        <div className="circle" data-hover="/restartdrip/public/images/homepage/appointment.png" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+        <div className="circle" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
           <p>DRIP</p>
-
+          <div className="hover-image" style={{ backgroundImage: `url(../images/services/beauty.png)` }}></div>
         </div>
-        <div className="circle" data-hover="/restartdrip/public/images/homepage/fit.png" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+        <div className="circle" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
           <p>IV</p>
-
+          <div className="hover-image" style={{ backgroundImage: `url(../images/homepage/appointment.png)` }}></div>
         </div>
-        <div className="circle" data-hover="/restartdrip/public/images/homepage/founder.png" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+        <div className="circle" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
           <p>THERAPY</p>
-
+          <div className="hover-image" style={{ backgroundImage: `url(../images/logo.png)` }}></div>
         </div>
-        <div id="hover-image"></div>
       </div>
     </div>
   );
