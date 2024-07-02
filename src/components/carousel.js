@@ -1,13 +1,30 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import treatments from '../pages/treatments/treatments';
 import './carousel.css';
 
 const TreatmentsCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [visibleSlides, setVisibleSlides] = useState(3); // Default to 3 slides
+
+  useEffect(() => {
+    const updateVisibleSlides = () => {
+      if (window.innerWidth < 600) {
+        setVisibleSlides(1); // 1 slide for small screens
+      } else if (window.innerWidth < 900) {
+        setVisibleSlides(2); // 2 slides for medium screens
+      } else {
+        setVisibleSlides(3); // 3 slides for large screens
+      }
+    };
+
+    updateVisibleSlides();
+    window.addEventListener('resize', updateVisibleSlides);
+
+    return () => window.removeEventListener('resize', updateVisibleSlides);
+  }, []);
 
   const totalSlides = treatments.length;
-  const visibleSlides = 3; // Number of slides to show at once
 
   const handlePrevClick = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + totalSlides) % totalSlides);
@@ -39,8 +56,10 @@ const TreatmentsCarousel = () => {
           </div>
         ))}
       </div>
-      <button className="carousel-button carousel-button-left" onClick={handlePrevClick}>&lt;</button>
-      <button className="carousel-button carousel-button-right" onClick={handleNextClick}>&gt;</button>
+     
+        <button className="carousel-button carousel-button-left" onClick={handlePrevClick}>&lt;</button>
+        <button className="carousel-button carousel-button-right" onClick={handleNextClick}>&gt;</button>
+ 
     </div>
   );
 };

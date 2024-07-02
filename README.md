@@ -8,6 +8,10 @@ Here I will track what I learned each day I worked on the website and what I acc
 
 ## July 2nd, 2024
 
+** Spacing **
+
+To space in between something use margins
+
 **Add lines in CSS**
 
 To add lines below or around some texts or a container, use a border

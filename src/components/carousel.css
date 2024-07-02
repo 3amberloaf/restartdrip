@@ -1,16 +1,20 @@
 .carousel-container {
-    width: 80%;
     margin: 0 auto;
-    padding: 40px;
-    
+    padding: 20px;
     text-align: center;
     overflow: hidden;
     position: relative; /* For positioning arrows */
+    width: 100%;
+    max-width: 900px; /* Adjust based on desired container size */
+    box-sizing: border-box;
 }
 
 .carousel-scroll {
     display: flex;
     transition: transform 0.8s ease-in-out; /* Smoother transition */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .carousel-container h2 {
@@ -18,11 +22,11 @@
 }
 
 .treatment-slide {
-    flex: 0 0 33.33%; /* Show 3 slides at a time */
-    max-width: 310px; /* Adjust based on your design */
+    
+    max-width: 300px; /* Adjust based on your design */
     margin: 15px;
     background-color: #f2f7fc;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -37,14 +41,14 @@
 .treatment-slide img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    border-radius: 30px;
+    margin-bottom: 0px;
 }
 
 .treatment-slide h3 {
     font-size: 1.5em;
     color: #1E3A5F;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .treatment-slide p {
@@ -54,33 +58,26 @@
 }
 
 .learn-more-button {
-  display: inline-block;
-  padding: 12px 20px;
-  color: #ffffff;
-  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
-  border: none;
-  border-radius: 30px;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
-  margin: 5px;
-  transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    padding: 12px 20px;
+    color: #ffffff;
+    background: linear-gradient(135deg, #74BBDF 0%, #1089B8 100%);
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+    transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .learn-more-button:hover {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  transform: scale(1.05);
+    background: linear-gradient(135deg, #00AFEF 0%, #0097B2 100%); /* Bright blue to green/blue */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
 }
-
-.learn-more-button:active {
-  background: linear-gradient(135deg, #5ee7df 0%, #b490ca 100%);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transform: scale(1);
-}
-
 
 /* Navigation Buttons */
 .carousel-button {
@@ -95,16 +92,19 @@
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel-button:hover {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(216, 216, 216);
 }
 
 .carousel-button-left {
-    left: 0px;
+    left: 10px; /* Adjust as needed */
 }
 
 .carousel-button-right {
-    right: 0px;
+    right: 10px; /* Adjust as needed */
 }
