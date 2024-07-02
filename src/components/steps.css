@@ -1,33 +1,33 @@
 body {
     margin: 0;
     font-family: 'Montserrat';
-}
-
-.background {
+  }
+  
+  .background {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 70vh;
-    background-image: url('/public/images/homepage/fit.png'); /* Replace with your background image path */
+    background-image: url('/Users/ambersautner/Programming/IV_DRIP/restartdrip/public/images/homepage/fit.png');
     background-size: cover;
     background-position: center;
     color: white;
     padding-top: 50px;
-}
-.title {
+  }
+  
+  .title {
     font-size: 4em;
     margin-bottom: 50px;
-
-}
-
-.circle-container {
+  }
+  
+  .circle-container {
     display: flex;
     gap: 40px;
     font-family: 'Barlow';
     position: relative; /* Make this container relative positioning context */
-}
-
-.circle {
+  }
+  
+  .circle {
     width: 150px;
     height: 150px;
     background-color: #fff;
@@ -40,36 +40,43 @@ body {
     position: relative;
     cursor: pointer;
     transition: transform 0.3s;
-
-}
-
-.circle img {
+  }
+  
+  .circle img {
     width: 50px;
     height: 50px;
-}
-
-.circle p {
+    visibility: hidden; /* Hide the image initially */
+  }
+  
+  .circle p {
     margin: 0;
     font-size: 20px;
     font-weight: bold;
     color: #272401;
-}
-
-.circle:hover p {
+  }
+  
+  .circle:hover p {
     visibility: hidden;
-}
-
-#hover-image {
+  }
+  
+  .circle:hover img {
+    transform: scale(1.1);
+    visibility: visible;
+  }
+  
+  #hover-image {
     position: absolute;
-    width: 300px;
-    height: 2000px;
+    width: 150px; /* Adjust width to fit within circle */
+    height: 150px; /* Adjust height to fit within circle */
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
+    border-radius: 50%;
     display: none;
     z-index: 1000;
-}
-
-.circle:hover {
+    pointer-events: none; /* Ensure hover image does not interfere with mouse events */
+  }
+  
+  .circle:hover {
     transform: scale(1.1);
-}
+  }
+  
