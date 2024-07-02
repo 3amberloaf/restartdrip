@@ -151,36 +151,43 @@ body {
 
 
 .footer {
-  background-color: #FFFFFF; /* Teal */
-  color: #273B5A; /* White */
-  padding: 20px;
-  font-weight: bold;
+  background-color: #FFFFFF; /* Light Blue */
+  color: #273B5A; /* Navy Blue */
 
+  border-bottom: 2px solid #939393; /* Line below */
+  padding: 10px 0; /* Adjust padding as needed */
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  align-self: flex-start;
+  text-transform: uppercase;
 
+  padding: 0px 20px;
 }
 
-.footer-logo img {
-  height: 100px;
-}
+
 
 .footer-links {
+  list-style: none;
   display: flex;
-  gap: 20px;
-  list-style-type: none;
-  font-size: 28px;
+  gap: 40px;
+  margin: 0;
+  padding: 10px;
+
+  font-size: 15px;
+  position: relative;
+  border-top: 1px solid #273B5A; /* Line above */
+  border-bottom: 1px solid #273B5A; /* Line below */
   font-family: 'Barlow';
 }
 
 .footer-links a {
-  color: #273B5A; /* White */
+  color: #0d0d0d; /* Very Dark Gray */
   text-decoration: none;
+  font-weight: bold;
   transition: color 0.3s;
 }
 

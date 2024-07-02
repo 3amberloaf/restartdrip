@@ -11,8 +11,8 @@ const HomePage = () => {
     <main className="main-content">
       <div className="homepage-section">
         <div className="homepage-text">
-          <h1>Mobile IV Therapy</h1>
-          <h2>& Medical Services Delivered To You!</h2>
+          <h1>Restart Drip</h1>
+          <h2>IV Drip Hydration Therapy</h2>
           <div className="homepage-buttons">
             <button className="book-iv-therapy">Book IV Therapy</button>
             <Link to="/services">

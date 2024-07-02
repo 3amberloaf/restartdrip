@@ -81,7 +81,7 @@ const App = () => {
         </main>
         <footer className="footer">
           <div className="footer-content">
-            <div className="footer-logo">
+            <div className="logo">
               <img src="../images/logo.png" alt="Company Logo" />
             </div>
             <nav>

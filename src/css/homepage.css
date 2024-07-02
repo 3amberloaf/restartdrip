@@ -2,12 +2,13 @@
 .main-content {
     text-align: center;
     position: relative;
+    font-family: 'Barlow';
   }
   
   .homepage-section {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+
     position: relative;
   }
   
@@ -31,6 +32,7 @@
   .homepage-text h2 {
     font-size: 30px;
     margin: 10px 0;
+    text-transform: capitalize;
     
   }
   
@@ -66,7 +68,7 @@
 }
 
   .homepage-image {
-    min-width: auto;
+    max-width: 700px;
     height: auto; /* Make the image cover the full viewport height */
     padding-bottom: 30px;
   }
