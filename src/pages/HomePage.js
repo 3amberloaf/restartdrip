@@ -14,7 +14,6 @@ const HomePage = () => {
           <h1>Restart Drip</h1>
           <h2>IV Drip Hydration Therapy</h2>
           <div className="homepage-buttons">
-            <button className="book-iv-therapy">Book IV Therapy</button>
             <Link to="/services">
               <button className="view-services">View All Services</button>
             </Link>
@@ -23,10 +22,11 @@ const HomePage = () => {
         <div className="homepage-image">
           <img src="/images/homepage/homepage_background.png" alt="Homepage" /> {/* Corrected image path */}
         </div>
+        </div>
         <IVTherapy />
         <TreatmentsCarousel />
         <Reviews /> {}
-      </div>
+
     </main>
   );
 };

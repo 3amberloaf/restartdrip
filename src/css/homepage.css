@@ -16,8 +16,8 @@
     max-width: 50%;
     z-index: 10;
     position: absolute;
-    top: 13%;
-    left: 10%;
+    top: 25%;
+    left: 15%;
     transform: translateY(-50%);
     text-align: left;
     color: #273B5A; /* Navy Blue */
@@ -37,40 +37,36 @@
   }
   
   .homepage-buttons {
-    margin-top: 40px;
+    margin-top: 20px;
 
   }
   
   .homepage-buttons button {
-    color: #000000;
-    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    color: #FFFFFF; /* White text */
+    background: linear-gradient(135deg, #74BBDF 0%, #1089B8 100%); /* Tealish Blue to Darker Navy Blue */
     border: none;
     padding: 15px 30px;
     margin: 0 20px;
     font-family: 'Montserrat';
     cursor: pointer;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 10px;
     transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
   
   .homepage-buttons button:hover {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient(135deg, #00AFEF 0%, #0097B2 100%); /* Bright blue to green/blue */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     transform: scale(1.05);
   }
   
-  .homepage-buttons button:active {
-    background: linear-gradient(135deg, #5ee7df 0%, #b490ca 100%);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transform: scale(1);
-}
 
-  .homepage-image {
-    max-width: 700px;
-    height: auto; /* Make the image cover the full viewport height */
-    padding-bottom: 30px;
+
+  .homepage-image img{
+    max-width: 90%;
+    align-items: center;
+    padding: 30px;
   }
 
   .iv-therapy-container {
