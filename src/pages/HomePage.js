@@ -1,4 +1,3 @@
-// src/HomePage.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Steps from '../components/steps';
@@ -19,15 +18,15 @@ const HomePage = () => {
             </Link>
           </div>
         </div>
-        <div className="homepage-image">
-          <img src="/images/homepage/homepage_background.png" alt="Homepage" /> {/* Corrected image path */}
+        <div className="homepage-image-container">
+          <div className="homepage-image">
+            <img src="/images/homepage/homepage_background.png" alt="Homepage" />
+          </div>
         </div>
-        </div>
-        <Steps />
-
-        <TreatmentsCarousel />
-        <Reviews /> {}
-
+      </div>
+      <Steps />
+      <TreatmentsCarousel />
+      <Reviews />
     </main>
   );
 };
