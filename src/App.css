@@ -23,7 +23,11 @@ body {
 .header {
   background-color: #FFFFFF; /* Light Blue */
   color: #273B5A; /* Navy Blue */
+
+  border-bottom: 2px solid #939393; /* Line below */
+  padding: 10px 0; /* Adjust padding as needed */
 }
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -46,10 +50,12 @@ body {
   display: flex;
   gap: 40px;
   margin: 0;
-  padding: 0;
+  padding: 10px;
+
   font-size: 15px;
   position: relative;
-
+  border-top: 1px solid #273B5A; /* Line above */
+  border-bottom: 1px solid #273B5A; /* Line below */
   font-family: 'Barlow';
 }
 
@@ -104,60 +110,43 @@ body {
 .log-in {
   background: #ffffff; /* Light Blue to Gray */
   color: #273B5A; /* Navy Blue */
-  border:#74BBDF;
-  border-radius: 20%;
-  padding: 15px 30px;
-  border: 8px;
+  border: none;
+  padding: 10px 30px;
 
-  font-size: 20px;
+
+
   font-family: 'Barlow';
   cursor: pointer;
-  border-radius: 15px;
-  transition: background 0.3s, box-shadow 0.3s, transform 0.3s, color 0.3s;
+  
   display: inline-flex;
   align-items: center;
   justify-content: center;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added shadow */
+
 }
 
-.log-in::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 300%;
-  height: 300%;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  transform: translate(-50%, -50%) scale(0.5);
-  transition: transform 0.3s, opacity 0.3s;
-  opacity: 0;
+.log-in-button {
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  color: #939393;
+  padding-left: 0px;
 }
 
-.log-in:hover::before {
-  transform: translate(-50%, -50%) scale(1);
-  opacity: 1;
-}
-
-.log-in:hover {
-  background: linear-gradient(135deg, #5CB8E6, #237AB7); /* Dark Blue to Teal */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
-  transform: scale(1.05);
-  color: #ffffff; /* Increase text contrast on hover */
-  cursor: pointer; /* Ensure pointer cursor is used */
-}
-
-.log-in:active {
-  transform: scale(0.95);
-}
-
-.log-in i {
-  margin-right: 10px;
-  font-size: 1.2em;
+.log-in :hover {
+  color: #454545;
 }
 
 
+
+
+.log-in img {
+  height: 30px;
+  padding: 0px 20px;
+
+  
+}
 
 
 
@@ -228,5 +217,21 @@ body {
   font-size: 20px;
 }
 
+.search-bar input {
+  border: 1px solid #273B5A; /* Border color */
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Barlow';
+}
 
+.search-bar button {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 5px;
+  font-size: 20px;
+  color: #273B5A; /* Icon color */
+  cursor: pointer;
+}
 

@@ -57,9 +57,18 @@ const App = () => {
               </ul>
             </nav>
             <div className="nav-actions">
-              <button className="log-in">Log In</button>
+            <div className="search-bar">
+              <input type="text" placeholder="Search..." />
+              <button type="button">
+                <i className="fas fa-search"></i> {/* FontAwesome search icon */}
+              </button>
+            </div>
+            <div className = "log-in" >
+              <img src="../images/homepage/log_in.png" alt="Log-In" />
+              <button className="log-in-button">Log In</button>
             </div>
           </div>
+        </div>
         </header>
         <main className="main-content">
           <Routes>

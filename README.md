@@ -6,6 +6,18 @@ Create a website for Woodline's IV Drip business
 
 Here I will track what I learned each day I worked on the website and what I accomplished.
 
+## July 2nd, 2024
+
+**Add lines in CSS**
+
+To add lines below or around some texts or a container, use a border
+
+`.header {
+  border-top: 1px solid #273B5A; /* Line above */
+  border-bottom: 1px solid #273B5A; /* Line below */
+}`
+
+
 ## June 25th, 2024
 
 **Link button**
