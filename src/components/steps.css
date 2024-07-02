@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     align-items: center;
     height: 70vh;
-    background-image: url('/Users/ambersautner/Programming/IV_DRIP/restartdrip/public/images/homepage/fit.png'); /* Replace with your background image path */
+    background-image: url('/public/images/homepage/fit.png'); /* Replace with your background image path */
     background-size: cover;
     background-position: center;
     color: white;
