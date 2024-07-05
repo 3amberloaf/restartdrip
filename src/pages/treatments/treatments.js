@@ -1,43 +1,51 @@
 const treatments = [
     {
-      name: 'DEHYDRATION ELIMINATOR',
+      name: 'DEHYDRATION',
       price: '$105',
-      description: 'Rehydrate and replenish your body with IV fluids.',
+      description: 'Rehydrate and replenish your body!',
       imageUrl: 'images/services/dehydration.png', // Update with actual path
       servicePath: '/services/dehydration'
     },
     {
+      name: 'BEAUTY/YOUTH',
+      price: '$195',
+      description: 'Become the Best Version of YOU!',
+      imageUrl: 'images/services/beauty.png', // Update with actual path
+      servicePath: '/services/beauty'
+    },
+    {
+      name: 'MIGRAINE FIGHTER',
+      price: '$180',
+      description: 'Fight back against headaches and nausea!',
+      imageUrl: 'images/services/migraine.png', // Update with actual path
+      servicePath: '/services/migraine'
+    },
+    {
       name: 'ENERGY BOOST',
       price: '$200',
-      description: 'Replenish with essential energy-boosting fluids and vitamins.',
+      description: 'Replenish with vital fluids and vitamins.',
       imageUrl: 'images/services/energy.png', // Update with actual path
       servicePath: '/services/energy-boost'
     },
     {
       name: 'HANGOVER DETOX',
       price: '$220',
-      description: 'Resolve nausea, headaches, & fight fatigue.',
+      description: 'Resolve nausea, headaches, & fatigue.',
       imageUrl: 'images/services/hangover.png', // Update with actual path
       servicePath: '/services/hangover'
     },
     {
       name: 'IMMUNE BOOSTER',
       price: '$200',
-      description: 'Strengthen your immunity and support whole body wellness.',
+      description: 'Boost Your Immune System!',
       imageUrl: 'images/services/immune.png', // Update with actual path
       servicePath: '/services/immune-boost'
     },
-    {
-      name: 'MIGRAINE FIGHTER',
-      price: '$180',
-      description: 'Fight back against headaches and nausea',
-      imageUrl: 'images/services/stomach.png', // Update with actual path
-      servicePath: '/services/stomach-flu'
-    },
+
     {
       name: 'MYERS COCKTAIL',
       price: '$280',
-      description: 'Restore balance, alleviate chronic illness symptoms, and support overall wellness.',
+      description: 'Packed with Everything You Need!',
       imageUrl: 'images/services/myers.png', // Update with actual path
       servicePath: '/services/myers-cocktail'
     },
@@ -45,22 +53,16 @@ const treatments = [
       name: 'FAT BURNER',
       price: '$175',
       description: 'Increase Energy, Mood and Health!',
-      imageUrl: 'images/services/recovery.png', // Update with actual path
-      servicePath: '/services/recovery'
+      imageUrl: 'images/services/fat.png', // Update with actual path
+      servicePath: '/services/fat_burner'
     },
-    {
-      name: 'BEAUTY/YOUTH',
-      price: '$195',
-      description: 'Fortify hair, skin, & nails, support collagen to help improve complexion.',
-      imageUrl: 'images/services/beauty.png', // Update with actual path
-      servicePath: '/services/beauty'
-    },
+
     {
     name: 'ATHLETE RECOVERY',
     price: '$250',
-    description: 'Workout, perform, recover!',
-    imageUrl: 'images/services/beauty.png', // Update with actual path
-    servicePath: '/services/beauty'
+    description: 'Workout & Recover!',
+    imageUrl: 'images/services/athlete.png', // Update with actual path
+    servicePath: '/services/athlete'
   }
   ];
 
