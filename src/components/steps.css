@@ -23,12 +23,12 @@ body {
   .circle-container {
     display: flex;
     gap: 40px;
-    font-family: 'Barlow';
+    font-family: 'Montserrant';
   }
   
   .circle {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     background-color: #fff;
     border-radius: 50%;
     display: flex;
@@ -42,20 +42,20 @@ body {
   
   .circle p {
     margin: 0;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
-    color: #272401;
+    color: #1089B8;
   }
   
   .hover-image {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 80%;
-    height: 100%;
+    top: 20;
+    left: 20;
+    width: 60%;
+    height: 60%;
     background-size: cover;
     background-position: center;
-    border-radius: 50%;
+
     display: none;
     z-index: 1;
     pointer-events: none; /* Ensure hover image does not interfere with mouse events */
