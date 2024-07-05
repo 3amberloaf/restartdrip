@@ -25,7 +25,6 @@ const App = () => {
                   <ul className="dropdown">
                     <li><Link to="/services/vitamin">Vitamin IV Therapy</Link></li>
                     <li><Link to="/services/specialty">Specialty IV Treatment</Link></li>
-                    <li><Link to="/services/medical">Medical Care</Link></li>
                   </ul>
                 </li>
                 

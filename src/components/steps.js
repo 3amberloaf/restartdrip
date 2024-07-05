@@ -12,36 +12,39 @@ const Steps = () => {
     hoverImage.style.display = 'none';
   };
 
+  const backgroundStyle = {
+    backgroundImage: `url(${process.env.PUBLIC_URL}/images/homepage/fit.png)`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center'
+  };
+
   return (
-    <div className="background">
-     
+    <div className="background" style={backgroundStyle}>
       <h1 className="title">HOW IT WORKS</h1>
       <div className="circle-container">
         <div className="circle" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
           <p>RESTART</p>
-          <div className="hover-image" style={{ backgroundImage: `url(../images/homepage/email.png)` }}></div>
+          <div className="hover-image" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/homepage/email.png)` }}></div>
         </div>
         <div className="circle" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
           <p>DRIP</p>
-          <div className="hover-image" style={{ backgroundImage: `url(../images/homepage/treatment.png)` }}></div>
+          <div className="hover-image" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/homepage/treatment.png)` }}></div>
         </div>
         <div className="circle" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
           <p>INFUSION</p>
-          <div className="hover-image" style={{ backgroundImage: `url(../images/homepage/appointment.png)` }}></div>
+          <div className="hover-image" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/homepage/appointment.png)` }}></div>
         </div>
         <div className="circle" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
           <p>THERAPY</p>
-          <div className="hover-image" style={{ backgroundImage: `url(../images/logo.png)` }}></div>
+          <div className="hover-image" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/logo.png)` }}></div>
         </div>
       </div>
-      
       <div className="steps">
         <h3> STEP 1 </h3>
         <h3> STEP 2 </h3>
         <h3> STEP 3 </h3>
         <h3> STEP 4</h3>
       </div>
-     
     </div>
   );
 };

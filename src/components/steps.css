@@ -1,83 +1,79 @@
 body {
-    margin: 0;
-    font-family: 'Montserrat';
-  }
-  
-  .background {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 70vh;
-    background-image: url('/Users/ambersautner/Programming/IV_DRIP/restartdrip/public/images/homepage/fit.png');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding-top: 50px;
-  }
-  .steps {
-    display: flex;
-    gap: 125px;
-    flex-direction: row;
-    font-family: 'Montserrant';
-    font-size: 20px;
-    font-weight: bolder;
-  }
-  
-  .title {
-    font-size: 4em;
-    margin-bottom: 50px;
-  }
-  
-  .circle-container {
-    display: flex;
-    gap: 40px;
-    font-family: 'Montserrant';
-  }
-  
-  .circle {
-    width: 160px;
-    height: 160px;
-    background-color: #fff;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    cursor: pointer;
-    transition: transform 0.3s;
-  }
-  
-  .circle p {
-    margin: 0;
-    font-size: 25px;
-    font-weight: bold;
-    color: #1089B8;
-  }
-  
-  .hover-image {
-    position: absolute;
-    top: 20;
-    left: 20;
-    width: 60%;
-    height: 60%;
-    background-size: cover;
-    background-position: center;
+  margin: 0;
+  font-family: 'Montserrat';
+}
 
-    display: none;
-    z-index: 1;
-    pointer-events: none; /* Ensure hover image does not interfere with mouse events */
-  }
-  
-  .circle:hover {
-    transform: scale(1.1);
-  }
-  
-  .circle:hover p {
-    visibility: hidden;
-  }
-  
-  .circle:hover .hover-image {
-    display: block;
-  }
-  
+.background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  color: white;
+  padding-top: 50px;
+}
+
+.steps {
+  display: flex;
+  gap: 175px;
+  flex-direction: row;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.title {
+  font-size: 4em;
+  margin-bottom: 50px;
+}
+
+.circle-container {
+  display: flex;
+  gap: 70px;
+  font-family: 'Montserrat';
+}
+
+.circle {
+  width: 180px;
+  height: 180px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.circle p {
+  margin: 0;
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.hover-image {
+  position: absolute;
+  top: 20;
+  left: 20;
+  width: 60%;
+  height: 60%;
+  background-size: cover;
+  background-position: center;
+  display: none;
+  z-index: 1;
+  pointer-events: none; /* Ensure hover image does not interfere with mouse events */
+}
+
+.circle:hover {
+  transform: scale(1.1);
+}
+
+.circle:hover p {
+  visibility: hidden;
+}
+
+.circle:hover .hover-image {
+  display: block;
+}
