@@ -28,28 +28,7 @@ const App = () => {
                     <li><Link to="/services/medical">Medical Care</Link></li>
                   </ul>
                 </li>
-                <li>
-                  <Link to="/delivery">Delivery</Link>
-                    <ul className="dropdown">
-                      <li><Link to="/delivery/weight-loss">Medical Weight Loss</Link></li>
-                      <li><Link to="/delivery/nad+">NAD+ Therapy</Link></li>
-                      <li><Link to="/delivery/peptide">Peptide Therapy</Link></li>
-                      <li><Link to="/delivery/testosterone">Testosterone Therapy</Link></li>
-                      <li><Link to="/delivery/vitamin">Vitamin Injections</Link></li>
-                      <li><Link to="/delivery/ketamine">Ketamine Therapy</Link></li>
-                      <li><Link to="/delivery/vitamin">Vitamin Injections</Link></li>
-                      <li><Link to="/delivery/hair">Hair Loss Treatments</Link></li>
-                      <li><Link to="/delivery/rapamycin">Rapamycin</Link></li>
-                    </ul>
-                </li>
-                <li>
-                  <Link to="/memberships">Memberships</Link>
-                    <ul className="dropdown">
-                      <li><Link to="/memberships/vitamin-drip">Vitamin Drip Memberships</Link></li>
-                      <li><Link to="/memberships/nad-drip">Nad Drip Memberships</Link></li>
-                      <li><Link to="/memberships/longevity">Longevity Memberships</Link></li>
-                    </ul>
-                </li>
+                
                 <li>
                   <Link to="/about-us">About Us</Link>
           
@@ -88,8 +67,6 @@ const App = () => {
               <ul className="footer-links">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/services">Services</Link></li>
-                <li><Link to="/shipped-to-you">Delivery</Link></li>
-                <li><Link to="/memberships">Memberships</Link></li>
                 <li><Link to="/about-us">About Us</Link></li>
               </ul>
             </nav>
