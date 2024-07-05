@@ -23,10 +23,10 @@ const Steps = () => {
         </div>
         <div className="circle" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
           <p>DRIP</p>
-          <div className="hover-image" style={{ backgroundImage: `url(../images/services/beauty.png)` }}></div>
+          <div className="hover-image" style={{ backgroundImage: `url(../images/homepage/treatment.png)` }}></div>
         </div>
         <div className="circle" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-          <p>IV</p>
+          <p>INFUSION</p>
           <div className="hover-image" style={{ backgroundImage: `url(../images/homepage/appointment.png)` }}></div>
         </div>
         <div className="circle" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
@@ -34,6 +34,14 @@ const Steps = () => {
           <div className="hover-image" style={{ backgroundImage: `url(../images/logo.png)` }}></div>
         </div>
       </div>
+      
+      <div className="steps">
+        <h3> STEP 1 </h3>
+        <h3> STEP 2 </h3>
+        <h3> STEP 3 </h3>
+        <h3> STEP 4</h3>
+      </div>
+     
     </div>
   );
 };
