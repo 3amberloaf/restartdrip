@@ -14,11 +14,12 @@ body {
 
 .steps {
   display: flex;
-  gap: 175px;
+  gap: 160px;
   flex-direction: row;
   font-family: 'Montserrat';
   font-size: 20px;
   font-weight: bolder;
+  color: #00AFEF;
 }
 
 .title {
@@ -28,7 +29,7 @@ body {
 
 .circle-container {
   display: flex;
-  gap: 70px;
+  gap: 60px;
   font-family: 'Montserrat';
 }
 
@@ -48,7 +49,7 @@ body {
 
 .circle p {
   margin: 0;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   color: #000000;
 }
