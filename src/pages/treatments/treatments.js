@@ -1,60 +1,67 @@
 const treatments = [
     {
-      name: 'DEHYDRATION',
-      price: '$249',
+      name: 'DEHYDRATION ELIMINATOR',
+      price: '$105',
       description: 'Rehydrate and replenish your body with IV fluids.',
       imageUrl: 'images/services/dehydration.png', // Update with actual path
       servicePath: '/services/dehydration'
     },
     {
       name: 'ENERGY BOOST',
-      price: '$299',
+      price: '$200',
       description: 'Replenish with essential energy-boosting fluids and vitamins.',
       imageUrl: 'images/services/energy.png', // Update with actual path
       servicePath: '/services/energy-boost'
     },
     {
-      name: 'HANGOVER',
-      price: '$299',
+      name: 'HANGOVER DETOX',
+      price: '$220',
       description: 'Resolve nausea, headaches, & fight fatigue.',
       imageUrl: 'images/services/hangover.png', // Update with actual path
       servicePath: '/services/hangover'
     },
     {
-      name: 'IMMUNE BOOST',
-      price: '$299',
+      name: 'IMMUNE BOOSTER',
+      price: '$200',
       description: 'Strengthen your immunity and support whole body wellness.',
       imageUrl: 'images/services/immune.png', // Update with actual path
       servicePath: '/services/immune-boost'
     },
     {
-      name: 'STOMACH FLU',
-      price: '$299',
-      description: 'Get instant relief from upset stomach, nausea, & dehydration.',
+      name: 'MIGRAINE FIGHTER',
+      price: '$180',
+      description: 'Fight back against headaches and nausea',
       imageUrl: 'images/services/stomach.png', // Update with actual path
       servicePath: '/services/stomach-flu'
     },
     {
       name: 'MYERS COCKTAIL',
-      price: '$299',
+      price: '$280',
       description: 'Restore balance, alleviate chronic illness symptoms, and support overall wellness.',
       imageUrl: 'images/services/myers.png', // Update with actual path
       servicePath: '/services/myers-cocktail'
     },
     {
-      name: 'RECOVERY',
-      price: '$299',
-      description: 'Improve endurance, shorten muscle recovery, & refuel the body.',
+      name: 'FAT BURNER',
+      price: '$175',
+      description: 'Increase Energy, Mood and Health!',
       imageUrl: 'images/services/recovery.png', // Update with actual path
       servicePath: '/services/recovery'
     },
     {
-      name: 'BEAUTY',
-      price: '$299',
+      name: 'BEAUTY/YOUTH',
+      price: '$195',
       description: 'Fortify hair, skin, & nails, support collagen to help improve complexion.',
       imageUrl: 'images/services/beauty.png', // Update with actual path
       servicePath: '/services/beauty'
-    }
+    },
+    {
+    name: 'ATHLETE RECOVERY',
+    price: '$250',
+    description: 'Workout, perform, recover!',
+    imageUrl: 'images/services/beauty.png', // Update with actual path
+    servicePath: '/services/beauty'
+  }
   ];
 
 export default treatments;

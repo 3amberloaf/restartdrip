@@ -8,10 +8,10 @@ const Dehydration = () => {
         <img src="../images/services/dehydrated.png" alt="Dehydration IV" /> {/* Replace with the actual image path */}
       </div>
       <div className="content-container">
-        <h1>DEHYDRATION</h1>
+        <h1>DEHYDRATION ELIMINATOR</h1>
         <h2>b-complex, magnesium, b6</h2>
         <p>
-          Rehydrate and replenish your body with IV fluids. This IV therapy cocktail is great for recovery from dehydration due to illness, travel, or strenuous activity.
+        Provides instant hydration and electrolytes. Whether you have been hitting the gym hard, partying all night or just need a pick me up this service will but the pep back in your step.
         </p>
   
         <div className="button-container">
