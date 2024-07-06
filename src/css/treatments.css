@@ -4,6 +4,7 @@
   align-items: center;
   padding: 50px 70px;
   flex-wrap: wrap;
+  font-family: 'Montserrant';
 }
 
 .image-container {
@@ -38,6 +39,7 @@
   color: #557373;
   margin: 0 0 20px;
   font-style: italic;
+  font-family: 'Barlow';
 }
 
 .content-container p {
@@ -45,12 +47,13 @@
   line-height: 1.6;
   font-family: 'Montserrat';
   margin-bottom: 20px;
-  text-align: ;
+  text-align: left;
 }
 
 .button-container {
   text-align: center;
   margin-top: 20px;
+
 }
 
 .button-container .book-now {
@@ -60,6 +63,7 @@
   padding: 15px 30px;
   margin: 0 10px;
   cursor: pointer;
+  font-family: 'Montserrant';
   font-size: 20px;
   border-radius: 20px;
   transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
@@ -191,6 +195,7 @@
   text-transform: lowercase;
   padding: 0;
   border: none;
+  font-weight: 100;
 }
 
 .ingredient-container h1, .ingredient-container h3 {
@@ -201,7 +206,7 @@
 
 .banner {
   width: 100%;
-  font-family: 'Montserrat';
+  font-family: 'Barlow';
   background-color: #b4def3; /* Adjust this color to match your theme */
   color: #1e5379; /* Text color */
   font-size: 1.5em;

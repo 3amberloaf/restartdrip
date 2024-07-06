@@ -36,7 +36,7 @@ const Steps = () => {
         </div>
         <div className="circle" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
           <p>THERAPY</p>
-          <div className="hover-image" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/logo.png)` }}></div>
+          <div className="hover-image" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/homepage/logo2.png)` }}></div>
         </div>
       </div>
       <div className="steps">

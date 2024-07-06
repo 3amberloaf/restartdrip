@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage'; // Ensure you have this component
 import About from './pages/About';
 import Dehydration from './pages/treatments/dehydration';
 import Energy from './pages/treatments/energy';
+import Athlete from './pages/treatments/athlete';
 
 const App = () => {
   return (
@@ -55,6 +56,7 @@ const App = () => {
             <Route path = "/about-us" element = {<About />} />
             <Route path="/services/dehydration" element={<Dehydration />} />
             <Route path="/services/energy-boost" element={<Energy />} />
+            <Route path="/services/athlete" element={<Athlete />} />
           </Routes>
         </main>
         <footer className="footer">
