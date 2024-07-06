@@ -7,6 +7,13 @@ import About from './pages/About';
 import Dehydration from './pages/treatments/dehydration';
 import Energy from './pages/treatments/energy';
 import Athlete from './pages/treatments/athlete';
+import Beauty from './pages/treatments/beauty';
+import Migraine from './pages/treatments/migraine';
+import Fat from './pages/treatments/fat';
+import Myers from './pages/treatments/myers';
+import Immune from './pages/treatments/immune';
+import Hangover from './pages/treatments/hangover';
+
 
 const App = () => {
   return (
@@ -57,6 +64,12 @@ const App = () => {
             <Route path="/services/dehydration" element={<Dehydration />} />
             <Route path="/services/energy-boost" element={<Energy />} />
             <Route path="/services/athlete" element={<Athlete />} />
+            <Route path="/services/beauty" element={<Beauty />} />
+            <Route path="/services/migraine" element={<Migraine />} />
+            <Route path="/services/immune" element={<Immune />} />
+            <Route path="/services/myers" element={<Myers />} />
+            <Route path="/services/fatburner" element={<Fat />} />
+            <Route path="/services/hangover" element={<Hangover />} />
           </Routes>
         </main>
         <footer className="footer">
