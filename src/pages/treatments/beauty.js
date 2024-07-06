@@ -5,14 +5,13 @@ const Beauty = () => {
   return (
     <div className="container">
       <div className="image-container">
-        <img src="../images/services/gym.png" alt="Athlete IV" /> {/* Replace with the actual image path */}
+        <img src="../images/services/gym.png" alt="Beauty IV" /> {/* Replace with the actual image path */}
       </div>
       <div className="content-container">
-        <h1>ATHLETE RECOVERY</h1>
-        <h2>b12, magnesium, sodium chloride</h2>
+        <h1>BEAUTY & YOUTH</h1>
+        <h2>vitamin c, biotin, sodium chloride</h2>
         <p>
-        Recovering from a workout or gearing up for a competition? This service is for you, amino acids and B12 help with muscle conditioning, recovery and endurance. This blend also assists in our bodies nervous system, metabolism and protein synthesis. 
-        </p>
+        This beauty/youth IV infusion provides essential nutrients, antioxidants and vitamins that support our hormone pathways, reduce oxidative stress, and nourish the body to produce fatty acids preventing premature and visible skin aging.</p>
   
         <div className="button-container">
           <button className="book-now">Book Here</button>
@@ -23,18 +22,18 @@ const Beauty = () => {
         <div className="ingredient-wrapper">
           <div className="ingredient-container">
             <img src="../images/services/smile.png" alt="B-COMPLEX" />
-            <h1>B-COMPLEX</h1>
-            <h3><i> enables the release of energy through metabolism and supports nervous system</i></h3>
+            <h1>VITAMIN C</h1>
+            <h3><i>to form blood vessels, cartilage, muscle and collagen in bones</i></h3>
           </div>
           <div className="ingredient-container">
             <img src="../images/services/lightbulb.png" alt="MAGNESIUM" />
-            <h1>MAGNESIUM</h1>
-            <h3><i>for nerve and muscle function, mood, natural relaxant</i></h3>
+            <h1>BIOTIN</h1>
+            <h3><i> to metabolize carbohydrates, fats, and amino acids as well as build protein</i></h3>
           </div>
           <div className="ingredient-container">
             <img src="../images/services/waterdrop.png" alt="B12" /> {/* Replace with the actual image path */}
-            <h1>B12</h1>
-            <h3><i>for cell metabolism, nerve function, and the creation of red blood cells</i></h3>
+            <h1>SODIUM CHLORIDE</h1>
+            <h3><i>for the absorption and transportation of nutrients</i></h3>
           </div>
         </div>
       </div>
@@ -44,20 +43,17 @@ const Beauty = () => {
       </div>
 
       <div className="additional-info">
-          <h1>Benefits of Athlete Recovery</h1>
+          <h1>Benefits of Beauty IV Therapy</h1>
           <ul>
-            <li>Aids recovery</li>
-            <li>Improved endurance</li>
-            <li>Helps with muscle conditioning</li>
+            <li>Provides essential nutrients</li>
+            <li>Reduces oxidative stress</li>
+            <li>Prevents visible skin aging</li>
           </ul>
-          <h1>Athlete Recovery IV Therapy</h1>
+          <h1>Beauty/Youth IV Therapy</h1>
           <p>
-          Athlete recovery IV therapy combines essential nutrients such as magnesium, vitamin B12, and B complex vitamins to support rapid recovery and enhance performance. This specialized IV treatment delivers these nutrients directly into the bloodstream, bypassing the digestive system for immediate absorption and effectiveness. 
+          Beauty IV therapy is designed to boost skin health and overall beauty through a targeted combination of essential nutrients. Vitamin C serves as a potent antioxidant, protecting the skin from environmental damage and promoting collagen production, which enhances elasticity and firmness. Biotin, also known as Vitamin B7, supports healthy hair, skin, and nails by strengthening them and aiding in renewal and repair processes. Sodium Chloride helps maintain electrolyte balance and hydration, crucial for skin moisture and cellular function. 
           </p>
-          <p>Magnesium plays a crucial role in muscle function and relaxation, which is essential for athletes recovering from intense physical activity. Vitamin B12 supports red blood cell production, aids in energy metabolism, and helps maintain neurological function, all of which are vital for optimal athletic performance. B complex vitamins further contribute to energy production and help in the synthesis of new cells.
-          </p>
-          <p>
-          This targeted IV therapy is particularly beneficial for athletes and active individuals who need quick replenishment of fluids and nutrients to combat dehydration and fatigue. By ensuring rapid hydration and delivering key nutrients directly where they are needed most, athlete recovery IV therapy supports overall wellness, enhances physical recovery, and promotes mental clarity. Regular sessions can contribute to sustained energy levels, improved recovery times, and overall better performance, making it a valuable investment in maintaining peak health and quality of life.
+          <p>This therapy delivers these vital nutrients directly into the bloodstream, ensuring rapid absorption and effectiveness. It's particularly beneficial for improving skin texture, promoting a youthful glow, and strengthening hair and nails. Regular sessions of Beauty IV therapy can enhance overall skin health and contribute to a radiant, healthy appearance. It's a valuable option for individuals seeking to complement their skincare regimen with internal nourishment.
           </p>
          
           <h1>Why Choose Us for IV Hydration?</h1>

@@ -5,13 +5,13 @@ const Myers = () => {
   return (
     <div className="container">
       <div className="image-container">
-        <img src="../images/services/gym.png" alt="Athlete IV" /> {/* Replace with the actual image path */}
+        <img src="../images/services/myers.jpg" alt="Myers IV" /> {/* Replace with the actual image path */}
       </div>
       <div className="content-container">
-        <h1>ATHLETE RECOVERY</h1>
-        <h2>b12, magnesium, sodium chloride</h2>
+        <h1>Myers Cocktail</h1>
+        <h2>vitamin c, magnesium, sodium chloride, pyridoxine</h2>
         <p>
-        Recovering from a workout or gearing up for a competition? This service is for you, amino acids and B12 help with muscle conditioning, recovery and endurance. This blend also assists in our bodies nervous system, metabolism and protein synthesis. 
+        This blend of B vitamins, Vitamin C, Magnesium and Calcium all work in combination to increase metabolism, replace electrolytes lost by dehydration, and facilitate enzymatic reactions in intracellular processes. This will revitalize, enhance relaxation, recovery, reduce blood pressure and stress.
         </p>
   
         <div className="button-container">
@@ -23,8 +23,8 @@ const Myers = () => {
         <div className="ingredient-wrapper">
           <div className="ingredient-container">
             <img src="../images/services/smile.png" alt="B-COMPLEX" />
-            <h1>B-COMPLEX</h1>
-            <h3><i> enables the release of energy through metabolism and supports nervous system</i></h3>
+            <h1>VITAMIN C</h1>
+            <h3><i>to form blood vessels, cartilage, muscle and collagen in bones</i></h3>
           </div>
           <div className="ingredient-container">
             <img src="../images/services/lightbulb.png" alt="MAGNESIUM" />
@@ -33,8 +33,13 @@ const Myers = () => {
           </div>
           <div className="ingredient-container">
             <img src="../images/services/waterdrop.png" alt="B12" /> {/* Replace with the actual image path */}
-            <h1>B12</h1>
-            <h3><i>for cell metabolism, nerve function, and the creation of red blood cells</i></h3>
+            <h1>SODIUM CHLORIDE</h1>
+            <h3><i>for the absorption and transportation of nutrients</i></h3>
+          </div>
+          <div className="ingredient-container">
+            <img src="../images/services/waterdrop.png" alt="B12" /> {/* Replace with the actual image path */}
+            <h1>PYRIDOXINE</h1>
+            <h3><i>for brain development and keeping the nervous system healthy</i></h3>
           </div>
         </div>
       </div>
@@ -44,21 +49,19 @@ const Myers = () => {
       </div>
 
       <div className="additional-info">
-          <h1>Benefits of Athlete Recovery</h1>
+          <h1>Benefits of Myers Cocktail</h1>
           <ul>
-            <li>Aids recovery</li>
-            <li>Improved endurance</li>
-            <li>Helps with muscle conditioning</li>
+            <li>Enhances relaxation</li>
+            <li>Reduces blood pressure</li>
+            <li>Increases metabolism</li>
           </ul>
-          <h1>Athlete Recovery IV Therapy</h1>
+          <h1>Myers Cocktail IV Therapy</h1>
           <p>
-          Athlete recovery IV therapy combines essential nutrients such as magnesium, vitamin B12, and B complex vitamins to support rapid recovery and enhance performance. This specialized IV treatment delivers these nutrients directly into the bloodstream, bypassing the digestive system for immediate absorption and effectiveness. 
+          The Myers' Cocktail IV therapy is particularly beneficial for individuals seeking to enhance energy levels, support immune function, and improve overall well-being. It is often used to alleviate symptoms of fatigue, dehydration, migraines, and chronic conditions like fibromyalgia and asthma.
           </p>
-          <p>Magnesium plays a crucial role in muscle function and relaxation, which is essential for athletes recovering from intense physical activity. Vitamin B12 supports red blood cell production, aids in energy metabolism, and helps maintain neurological function, all of which are vital for optimal athletic performance. B complex vitamins further contribute to energy production and help in the synthesis of new cells.
+          <p>Regular sessions of Myers' Cocktail IV therapy can contribute to improved energy levels, reduced symptoms of illness or chronic conditions, and enhanced overall health and vitality. It is a valuable option for individuals looking to optimize their nutritional status and support their body's natural healing processes.
           </p>
-          <p>
-          This targeted IV therapy is particularly beneficial for athletes and active individuals who need quick replenishment of fluids and nutrients to combat dehydration and fatigue. By ensuring rapid hydration and delivering key nutrients directly where they are needed most, athlete recovery IV therapy supports overall wellness, enhances physical recovery, and promotes mental clarity. Regular sessions can contribute to sustained energy levels, improved recovery times, and overall better performance, making it a valuable investment in maintaining peak health and quality of life.
-          </p>
+          
          
           <h1>Why Choose Us for IV Hydration?</h1>
           <p>
