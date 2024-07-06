@@ -6,6 +6,19 @@ Create a website for Woodline's IV Drip business
 
 Here I will track what I learned each day I worked on the website and what I accomplished.
 
+## July 7th, 2024
+
+**How to redirect links to specific parts of page**
+
+`const App = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);`
+
+The useEffect will wait for changes in the location object and whenever a route is changed, it scrolls to the top
+
 ## July 2nd, 2024
 
 ** Spacing **

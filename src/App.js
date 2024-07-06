@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css'; // Import your CSS file for styling
-import { Link, Routes, Route } from 'react-router-dom';
+import { Link, Routes, Route, useLocation } from 'react-router-dom';
 import AllServices from './pages/AllServices';
 import HomePage from './pages/HomePage'; // Ensure you have this component
 import About from './pages/About';
@@ -16,6 +16,12 @@ import Hangover from './pages/treatments/hangover';
 
 
 const App = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
       <div className="App">
         <header className="header">
