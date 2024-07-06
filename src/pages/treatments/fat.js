@@ -5,14 +5,13 @@ const Fat = () => {
   return (
     <div className="container">
       <div className="image-container">
-        <img src="../images/services/gym.png" alt="Athlete IV" /> {/* Replace with the actual image path */}
+        <img src="../images/services/fat-burner.jpg" alt="Athlete IV" /> {/* Replace with the actual image path */}
       </div>
       <div className="content-container">
-        <h1>ATHLETE RECOVERY</h1>
-        <h2>b12, magnesium, sodium chloride</h2>
+        <h1>FAT BURNER</h1>
+        <h2>amino blend, b-plex, glutathione, sodium chloride</h2>
         <p>
-        Recovering from a workout or gearing up for a competition? This service is for you, amino acids and B12 help with muscle conditioning, recovery and endurance. This blend also assists in our bodies nervous system, metabolism and protein synthesis. 
-        </p>
+        These essential amino acids, vitamins and B12, are the perfect blend to transport fatty acids into mitochondria where they can be burned for energy. An extra benefit is mood improvement and additional appetite control.</p>
   
         <div className="button-container">
           <button className="book-now">Book Here</button>
@@ -23,18 +22,23 @@ const Fat = () => {
         <div className="ingredient-wrapper">
           <div className="ingredient-container">
             <img src="../images/services/smile.png" alt="B-COMPLEX" />
-            <h1>B-COMPLEX</h1>
-            <h3><i> enables the release of energy through metabolism and supports nervous system</i></h3>
+            <h1>AMINO BLEND</h1>
+            <h3><i>to boost your metabolism, improve energy levels, increase endurance, and help to burn fat</i></h3>
           </div>
           <div className="ingredient-container">
             <img src="../images/services/lightbulb.png" alt="MAGNESIUM" />
-            <h1>MAGNESIUM</h1>
-            <h3><i>for nerve and muscle function, mood, natural relaxant</i></h3>
+            <h1>B-PLEX</h1>
+            <h3><i> enables the release of energy through metabolism and supports the nervous system</i></h3>
           </div>
           <div className="ingredient-container">
             <img src="../images/services/waterdrop.png" alt="B12" /> {/* Replace with the actual image path */}
-            <h1>B12</h1>
-            <h3><i>for cell metabolism, nerve function, and the creation of red blood cells</i></h3>
+            <h1>GLUTATHIONE</h1>
+            <h3><i>for body detoxification, inflammation, and immune system</i></h3>
+          </div>
+          <div className="ingredient-container">
+            <img src="../images/services/lightbulb.png" alt="MAGNESIUM" />
+            <h1>SODIUM CHLORIDE</h1>
+            <h3><i>for the absorption and transportation of nutrients</i></h3>
           </div>
         </div>
       </div>
@@ -44,21 +48,18 @@ const Fat = () => {
       </div>
 
       <div className="additional-info">
-          <h1>Benefits of Athlete Recovery</h1>
+          <h1>Benefits of Fat Burner</h1>
           <ul>
-            <li>Aids recovery</li>
-            <li>Improved endurance</li>
-            <li>Helps with muscle conditioning</li>
+            <li>Improves mood</li>
+            <li>Helps appetite control</li>
           </ul>
-          <h1>Athlete Recovery IV Therapy</h1>
+          <h1>Fat Burner IV Therapy</h1>
           <p>
-          Athlete recovery IV therapy combines essential nutrients such as magnesium, vitamin B12, and B complex vitamins to support rapid recovery and enhance performance. This specialized IV treatment delivers these nutrients directly into the bloodstream, bypassing the digestive system for immediate absorption and effectiveness. 
+          Fat burner IV therapy combines essential nutrients such as an amino blend, B-plex vitamins, glutathione, and sodium chloride to support rapid fat metabolism and enhance weight loss. This specialized IV treatment delivers these nutrients directly into the bloodstream, bypassing the digestive system for immediate absorption and effectiveness.
           </p>
-          <p>Magnesium plays a crucial role in muscle function and relaxation, which is essential for athletes recovering from intense physical activity. Vitamin B12 supports red blood cell production, aids in energy metabolism, and helps maintain neurological function, all of which are vital for optimal athletic performance. B complex vitamins further contribute to energy production and help in the synthesis of new cells.
-          </p>
+          <p>The amino blend plays a crucial role in promoting fat metabolism and maintaining muscle mass, which is essential for individuals aiming to lose weight and improve body composition. B-plex vitamins support energy metabolism, aid in the conversion of food into energy, and help maintain overall metabolic function, all of which are vital for effective weight management. Glutathione acts as a powerful antioxidant, detoxifying the body and improving cellular function.</p>
           <p>
-          This targeted IV therapy is particularly beneficial for athletes and active individuals who need quick replenishment of fluids and nutrients to combat dehydration and fatigue. By ensuring rapid hydration and delivering key nutrients directly where they are needed most, athlete recovery IV therapy supports overall wellness, enhances physical recovery, and promotes mental clarity. Regular sessions can contribute to sustained energy levels, improved recovery times, and overall better performance, making it a valuable investment in maintaining peak health and quality of life.
-          </p>
+          This targeted IV therapy is particularly beneficial for individuals looking to boost their weight loss efforts and enhance their overall wellness. By ensuring rapid hydration and delivering key nutrients directly where they are needed most, fat burner IV therapy supports effective fat metabolism, improves energy levels, and promotes mental clarity. Regular sessions can contribute to sustained weight loss, improved energy levels, and overall better health, making it a valuable investment in achieving and maintaining peak physical condition and quality of life.</p>
          
           <h1>Why Choose Us for IV Hydration?</h1>
           <p>

@@ -54,7 +54,7 @@ const treatments = [
       price: '$175',
       description: 'Increase Energy, Mood and Health!',
       imageUrl: 'images/services/fat.png', // Update with actual path
-      servicePath: '/services/fat_burner'
+      servicePath: '/services/fatburner'
     },
 
     {
