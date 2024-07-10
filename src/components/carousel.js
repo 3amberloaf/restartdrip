@@ -52,7 +52,7 @@ const TreatmentsCarousel = () => {
             <h3>{treatment.name}</h3>
             <p>{treatment.price}</p>
             <p>{treatment.description}</p>
-            <Link to={treatment.servicePath} className="learn-more-button">Learn More</Link>
+            <Link to={treatment.servicePath} className="learn-more-button">Book Now</Link>
           </div>
         ))}
       </div>
