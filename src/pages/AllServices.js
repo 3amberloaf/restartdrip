@@ -10,7 +10,7 @@ const TreatmentCard = ({ name, price, description, imageUrl, servicePath }) => (
     <img src={imageUrl} alt={name} />
     <h3>{name} - {price}</h3>
     <p>{description}</p>
-    <Link to={servicePath} className="learn-more-button">Learn More</Link>
+    <Link to={servicePath} className="learn-more-button">Book Now!</Link>
   </div>
 );
 
