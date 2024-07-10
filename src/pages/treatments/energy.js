@@ -5,13 +5,13 @@ const Energy = () => {
   return (
     <div className="container">
       <div className="image-container">
-        <img src="../images/services/running.png" alt="Dehydration IV" /> {/* Replace with the actual image path */}
+        <img src="../images/services/running.png" alt="Athlete IV" /> {/* Replace with the actual image path */}
       </div>
       <div className="content-container">
         <h1>ENERGY BOOST</h1>
         <h2>b-complex, vitamin c, b12</h2>
         <p>
-          Rehydrate and replenish your body with IV fluids. This IV therapy cocktail is great for recovery from dehydration due to illness, travel, or strenuous activity.
+        Rehydrate and replenish your body with IV fluids. This IV therapy cocktail is great for recovery from dehydration due to illness, travel, or strenuous activity.
         </p>
         <div className="button-container">
           <button className="book-now">Book Here</button>

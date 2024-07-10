@@ -13,7 +13,7 @@ const Steps = () => {
   };
 
   const backgroundStyle = {
-    backgroundImage: `url(${process.env.PUBLIC_URL}/images/homepage/fit.png)`,
+    backgroundImage: `url(${process.env.PUBLIC_URL}/images/homepage/fit.gif)`,
     backgroundSize: 'cover',
     backgroundPosition: 'center'
   };

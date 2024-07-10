@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Montserrat';
+
 }
 
 .background {
@@ -16,15 +16,18 @@ body {
   display: flex;
   gap: 160px;
   flex-direction: row;
-  font-family: 'Montserrat';
+  font-family: 'Barlow';
   font-size: 20px;
   font-weight: bolder;
-  color: #ffffff;
+  color: #000000;
 }
 
 .title {
   font-size: 4em;
   margin-bottom: 50px;
+  color: #000000;
+  font-family: 'Montserrant';
+
 }
 
 .circle-container {
