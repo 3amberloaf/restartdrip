@@ -11,7 +11,7 @@ const HomePage = () => {
       <div className="homepage-section">
         <div className="homepage-text">
           <h1>Restart Drip</h1>
-          <h2>IV Drip Hydration Therapy</h2>
+          <h2>IV therapy + vitamin injections + NAD+wellness • illness • recovery • beauty</h2>
           <div className="homepage-buttons">
             <Link to="/services">
               <button className="view-services">View All Services</button>
