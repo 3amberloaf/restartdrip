@@ -32,7 +32,7 @@ const App = () => {
             <nav>
               <ul className="nav-links">
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link to="/">Book Now</Link>
                 </li>
                 <li>
                   <Link to="/services">Services</Link>
@@ -42,24 +42,17 @@ const App = () => {
                     <li><Link to="/services/specialty">Specialty IV Treatment</Link></li>
                   </ul>
                 </li>
-                
+                <li><Link to="/pricing">Pricing</Link></li>
                 <li>
                   <Link to="/about-us">About Us</Link>
-          
                 </li>
+                  <li><Link to="/contact">Contact</Link></li>
+                  
               </ul>
             </nav>
             <div className="nav-actions">
-            <div className="search-bar">
-              <input type="text" placeholder="Search..." />
-              <button type="button">
-                <i className="fas fa-search"></i> {/* FontAwesome search icon */}
-              </button>
-            </div>
-            <div className = "log-in" >
-              <img src="../images/homepage/log_in.png" alt="Log-In" />
-              <button className="log-in-button">Log In</button>
-            </div>
+          
+  
           </div>
         </div>
         </header>
@@ -86,9 +79,11 @@ const App = () => {
             </div>
             <nav>
               <ul className="footer-links">
-                <li><Link to="/">Home</Link></li>
+                <li><Link to="/">Book Now</Link></li>
                 <li><Link to="/services">Services</Link></li>
+                <li><Link to="/pricing">Pricing</Link></li>
                 <li><Link to="/about-us">About Us</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
               </ul>
             </nav>
             <div className="footer-social">
