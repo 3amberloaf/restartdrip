@@ -14,7 +14,7 @@
 
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   background-color: #FFFFFF; /* Light Blue */
   color: #273B5A; /* Navy Blue */
   
@@ -24,8 +24,8 @@ body {
   background-color: #FFFFFF; /* Light Blue */
   color: #273B5A; /* Navy Blue */
 
-  border-bottom: 2px solid #939393; /* Line below */
-  padding: 10px 0; /* Adjust padding as needed */
+
+
 }
 
 .nav-bar {
@@ -35,12 +35,12 @@ body {
   align-self: flex-start;
   text-transform: uppercase;
 
-  padding: 0px 20px;
+  padding: 0px 140px;
 }
 
 .logo img {
   height: 100px;
-  padding: 0px 20px;
+  padding: 10px 0px;
 
   
 }
@@ -51,12 +51,9 @@ body {
   gap: 40px;
   margin: 0;
   padding: 10px;
-
   font-size: 15px;
   position: relative;
-  border-top: 1px solid #273B5A; /* Line above */
-  border-bottom: 1px solid #273B5A; /* Line below */
-  font-family: 'Barlow';
+  font-family: 'Montserrant';
 }
 
 .nav-links li {
@@ -64,9 +61,9 @@ body {
 }
 
 .nav-links li a {
-  color: #0d0d0d; /* Very Dark Gray */
+  color: #5b5b5b; /* Very Dark Gray */
   text-decoration: none;
-  font-weight: bold;
+
   transition: color 0.3s;
 }
 
@@ -83,7 +80,7 @@ body {
   list-style: none;
   padding: 10px;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 15px;
   top: 100%;
   left: 0;
 }
@@ -107,46 +104,7 @@ body {
   color: #557373; /* Gray Blue */
 }
 
-.log-in {
-  background: #ffffff; /* Light Blue to Gray */
-  color: #273B5A; /* Navy Blue */
-  border: none;
-  padding: 10px 30px;
 
-
-
-  font-family: 'Barlow';
-  cursor: pointer;
-  
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  overflow: hidden;
-
-}
-
-.log-in-button {
-  font-size: 20px;
-  background-color: white;
-  border: none;
-  color: #939393;
-  padding-left: 0px;
-}
-
-.log-in :hover {
-  color: #454545;
-}
-
-
-
-
-.log-in img {
-  height: 30px;
-  padding: 0px 20px;
-
-  
-}
 
 
 
@@ -222,23 +180,5 @@ body {
 .footer-bottom p {
   margin: 0;
   font-size: 20px;
-}
-
-.search-bar input {
-  border: 1px solid #273B5A; /* Border color */
-  border-radius: 5px;
-  padding: 5px;
-  font-size: 15px;
-  font-family: 'Barlow';
-}
-
-.search-bar button {
-  background: none;
-  border: none;
-  position: absolute;
-  right: 5px;
-  font-size: 20px;
-  color: #273B5A; /* Icon color */
-  cursor: pointer;
 }
 
