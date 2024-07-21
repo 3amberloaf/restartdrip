@@ -14,7 +14,7 @@ const HomePage = () => {
           backgroundImage: 'url(/images/homepage/homepage_background.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          height: '100vh', // Full viewport height
+          height: '90vh', // Full viewport height
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
