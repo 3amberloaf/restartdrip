@@ -8,28 +8,31 @@
   width: 100%; /* Full width */
   margin: 0 auto; /* Center the container */
   box-sizing: border-box;
+
 }
 
 .homepage-logo {
   width: 400px;
   margin-bottom: 20px;
+  
 }
 
 .homepage-logo img {
   width: 100%;
   height: auto;
+
 }
 
 .homepage-text {
   max-width: 80%;
   z-index: 10;
   text-align: center;
-  color: #273B5A; /* Navy Blue */
+  color: #f7f8f9; /* Navy Blue */
 }
 
 .homepage-text h3 {
   font-size: 24px;
-  margin: 10px 0;
+  margin: 0px 0;
   text-align: center;
 }
 
