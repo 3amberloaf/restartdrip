@@ -5,9 +5,9 @@
 
     border-radius: 10px;
     
-    max-width: 1200px;
+    max-width: 1100px;
     margin: auto;
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
     color: #272401;
 }
 
@@ -15,22 +15,26 @@
     border-bottom: 1px solid black;
     border-top: 1px solid black;
     font-family: 'Monstserrant';
-    color: #5CB8E6;
+    color: #6aade5;
     background-color: #ffffff4c;
+    font-weight: bolder;
 }
 
 
 
 .iv-therapy-image-text {
-    max-width: 45%;
+    max-width: 50%;
     margin-right: 20px;
+ 
+
 }
 
 .iv-therapy-image-text h3 {
-    color: #273B5A;
+    color: #6aade5;
     margin-bottom: 20px;
     font-size: 1.5em;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
 }
 
 .iv-therapy-image-text p {
@@ -38,6 +42,7 @@
     margin-bottom: 20px;
     line-height: 1.6;
     font-size: 1.1em;
+    font-weight: 400;
 }
 
 .iv-therapy-image {
@@ -65,10 +70,10 @@
     cursor: pointer;
     border-radius: 5px;
     width: 100%;
-    max-width: 600px;
+    width: 400px;
     text-align: left;
     position: relative;
-    font-size: 1.2em;
+    font-size: 1em;
     transition: background-color 0.3s, transform 0.3s;
     display: flex;
     justify-content: space-between;
