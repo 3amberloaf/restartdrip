@@ -49,7 +49,7 @@ const App = () => {
 };
 
 const Menu = () => (
-  <header className="header">
+  <footer className="footer">
     <div className="nav-bar">
       <div className="logo">
         <Link to="/">
@@ -61,16 +61,12 @@ const Menu = () => (
           <li>
             <Link to="/">Book Now</Link>
           </li>
-          <li className="dropdown">
-            <Link to="/services" className="dropdown-toggle">Services <span className="caret">&#9662;</span></Link>
-            <ul className="dropdown-menu">
+          <li>
+            <Link to="/services">Services</Link>
+            <ul className="dropdown">
               <li>
-                <Link to="/services/vitamin" className="dropdown-toggle">Vitamin IV Therapy <span className="caret">&#9656;</span></Link>
-                <ul className="dropdown-submenu">
-                  <li><Link to="/services/vitamin/a">Vitamin A</Link></li>
-                  <li><Link to="/services/vitamin/b">Vitamin B</Link></li>
-                  <li><Link to="/services/vitamin/c">Vitamin C</Link></li>
-                </ul>
+                <Link to="/services/vitamin">Vitamin IV Therapy</Link>
+                
               </li>
               <li><Link to="/services/injections">Injections</Link></li>
               <li><Link to="/services/specialty">Specialty IV Treatment</Link></li>
@@ -86,7 +82,8 @@ const Menu = () => (
         <a href="https://www.instagram.com/restartdrip/" className="social-icon">IN</a>
       </div>
     </div>
-  </header>
+  </footer>
 );
+
 
 export default App;
