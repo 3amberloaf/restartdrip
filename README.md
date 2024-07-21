@@ -16,6 +16,23 @@ Here I will track what I learned each day I worked on the website and what I acc
         </Link>
       </div>``
 
+**Text overlay on image**
+
+1. Place the text elements, buttons, and image all inside the same container
+2. Use absolute positioning to place the text over the image
+
+``<div className="homepage">
+      <div className="waves">
+        <h1>Thirsty?</h1>
+        <div className="homepage-buttons">
+          <Link to="/services">
+            <button className="view-services">Book Now</button>
+          </Link>
+        </div>
+        <img src="/images/homepage/waves.png" alt="waves" />
+      </div>
+    </div>``
+
 ## July 7th, 2024
 
 **How to redirect links to specific parts of page**

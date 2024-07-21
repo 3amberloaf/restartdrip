@@ -42,19 +42,16 @@ const App = () => {
       </main>
       <Menu />
       <div className="footer-bottom">
-      <p>&copy; 2024 Restart Drip. All rights reserved.</p>
-    </div>
+        <p>&copy; 2024 Restart Drip. All rights reserved.</p>
+      </div>
     </div>
   );
 };
 
-
-
 const Menu = () => (
-  <footer className="footer">
+  <header className="header">
     <div className="nav-bar">
       <div className="logo">
-
         <Link to="/">
           <img src="../images/logo.png" alt="Company Logo" />
         </Link>
@@ -64,18 +61,23 @@ const Menu = () => (
           <li>
             <Link to="/">Book Now</Link>
           </li>
-          <li>
-            <Link to="/services">Services</Link>
-            <ul className="dropdown">
-              <li><Link to="/services/vitamin">Vitamin IV Therapy</Link></li>
-              <li><Link to="/services/vitamin">Injections</Link></li>
+          <li className="dropdown">
+            <Link to="/services" className="dropdown-toggle">Services <span className="caret">&#9662;</span></Link>
+            <ul className="dropdown-menu">
+              <li>
+                <Link to="/services/vitamin" className="dropdown-toggle">Vitamin IV Therapy <span className="caret">&#9656;</span></Link>
+                <ul className="dropdown-submenu">
+                  <li><Link to="/services/vitamin/a">Vitamin A</Link></li>
+                  <li><Link to="/services/vitamin/b">Vitamin B</Link></li>
+                  <li><Link to="/services/vitamin/c">Vitamin C</Link></li>
+                </ul>
+              </li>
+              <li><Link to="/services/injections">Injections</Link></li>
               <li><Link to="/services/specialty">Specialty IV Treatment</Link></li>
             </ul>
           </li>
           <li><Link to="/pricing">Pricing</Link></li>
-          <li>
-            <Link to="/about-us">About Us</Link>
-          </li>
+          <li><Link to="/about-us">About Us</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
@@ -84,8 +86,7 @@ const Menu = () => (
         <a href="https://www.instagram.com/restartdrip/" className="social-icon">IN</a>
       </div>
     </div>
-    
-  </footer>
+  </header>
 );
 
 export default App;

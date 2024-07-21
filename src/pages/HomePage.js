@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Steps from '../components/steps';
+
 import Reviews from '../components/reviews';
 import TreatmentsCarousel from '../components/carousel';
 import IVTherapy from '../components/IVTherapy';
@@ -56,12 +56,24 @@ const HomePage = () => {
         <div className="droplet">
         <img src="/images/homepage/droplet.png" alt="droplet" />
       </div>
-    
+      
       <IVTherapy />
       
       <TreatmentsCarousel />
       <Reviews />
+      <div className="homepage">
+      <div className="waves">
+        <h1>Thirsty?</h1>
+        <div className="waves-buttons">
+          <Link to="/services">
+            <button className="view-services">BOOK NOW</button>
+          </Link>
+        </div>
+        <img src="/images/homepage/waves.png" alt="waves" />
+      </div>
+    </div>
     </main>
+    
   );
 };
 
