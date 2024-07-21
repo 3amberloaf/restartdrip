@@ -26,9 +26,9 @@ const HomePage = () => {
         <div className="homepage-logo">
           <img src="/images/logo.png" alt="logo" />
         </div>
-        <div className="homepage-text">
+        <div className="homepage-text" style={{ position: 'relative', top: '-50px' }}>
           <h3>IV therapy + vitamin injections + NAD+</h3>
-          <h3>wellness • illness • recovery • beauty</h3>
+          <h4>wellness • illness • recovery • beauty</h4>
           <div className="homepage-buttons">
             <Link to="/services">
               <button className="view-services">Book Now</button>
@@ -53,7 +53,7 @@ const HomePage = () => {
         <p>We invite you to step out of the hustle and into Hydrate IV Bar.</p>
       </div>
       <IVTherapy />
-      <Steps />
+      
       <TreatmentsCarousel />
       <Reviews />
     </main>

@@ -6,6 +6,16 @@ Create a website for Woodline's IV Drip business
 
 Here I will track what I learned each day I worked on the website and what I accomplished.
 
+## July 21st, 2024
+
+**How to embed a link in an image**
+
+``   <div className="logo">
+        <Link to="/services">
+          <img src="../images/logo.png" alt="Company Logo" />
+        </Link>
+      </div>``
+
 ## July 7th, 2024
 
 **How to redirect links to specific parts of page**

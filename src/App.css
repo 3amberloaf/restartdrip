@@ -14,16 +14,16 @@
 
 body {
   margin: 0;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
   background-color: #FFFFFF; /* Light Blue */
   color: #273B5A; /* Navy Blue */
 }
 
-.header, .footer {
+.footer {
   background-color: #FFFFFF; /* Light Blue */
   color: #273B5A; /* Navy Blue */
   width: 100%;
-  box-sizing: border-box;
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
   padding: 0px 0; /* Add padding for better spacing */
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .logo img {
-  height: 80px;
+  height: 70px;
 }
 
 .nav-links {
@@ -46,7 +46,7 @@ body {
   padding: 0;
   font-size: 15px;
   text-transform: uppercase;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
 }
 
 .nav-links li {
@@ -96,13 +96,13 @@ body {
   color: #557373; /* Gray Blue */
 }
 
-.footer-social {
+.social {
   display: flex;
   gap: 15px;
 }
 
 .social-icon {
-  background-color: #1E3A5F; /* Dark Blue */
+  background-color: #6aade5; /* Dark Blue */
   color: #FFFFFF; /* White */
   padding: 10px;
   border-radius: 50%;
@@ -117,10 +117,10 @@ body {
 
 .footer-bottom {
   text-align: center;
-  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .footer-bottom p {
-  margin: 0;
+
   font-size: 15px;
 }

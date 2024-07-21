@@ -23,7 +23,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <Header />
+      <Menu />
       <main className="main-content">
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -40,16 +40,24 @@ const App = () => {
           <Route path="/services/hangover" element={<Hangover />} />
         </Routes>
       </main>
-      <Footer />
+      <Menu />
+      <div className="footer-bottom">
+      <p>&copy; 2024 Restart Drip. All rights reserved.</p>
+    </div>
     </div>
   );
 };
 
-const Header = () => (
-  <header className="header">
+
+
+const Menu = () => (
+  <footer className="footer">
     <div className="nav-bar">
       <div className="logo">
-        <img src="../images/logo.png" alt="Company Logo" />
+
+        <Link to="/">
+          <img src="../images/logo.png" alt="Company Logo" />
+        </Link>
       </div>
       <nav>
         <ul className="nav-links">
@@ -71,40 +79,12 @@ const Header = () => (
           <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
-      <div className="nav-actions"></div>
-    </div>
-  </header>
-);
-
-const Footer = () => (
-  <footer className="footer">
-    <div className="nav-bar">
-      <div className="logo">
-        <img src="../images/logo.png" alt="Company Logo" />
-      </div>
-      <nav>
-        <ul className="nav-links">
-          <li>
-            <Link to="/">Book Now</Link>
-          </li>
-          <li>
-            <Link to="/services">Services</Link>
-          </li>
-          <li><Link to="/pricing">Pricing</Link></li>
-          <li>
-            <Link to="/about-us">About Us</Link>
-          </li>
-          <li><Link to="/contact">Contact</Link></li>
-        </ul>
-      </nav>
-      <div className="footer-social">
+      <div className="social">
         <a href="#facebook" className="social-icon">FB</a>
         <a href="https://www.instagram.com/restartdrip/" className="social-icon">IN</a>
       </div>
     </div>
-    <div className="footer-bottom">
-      <p>&copy; 2024 Restart Drip. All rights reserved.</p>
-    </div>
+    
   </footer>
 );
 
