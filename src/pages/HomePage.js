@@ -51,7 +51,12 @@ const HomePage = () => {
         <p>There are Hydrate IV Bar locations throughout several states, making it easy to get luxurious and revitalizing IV therapy wherever you are.</p>
 
         <p>We invite you to step out of the hustle and into Hydrate IV Bar.</p>
+        
       </div>
+        <div className="droplet">
+        <img src="/images/homepage/droplet.png" alt="droplet" />
+      </div>
+    
       <IVTherapy />
       
       <TreatmentsCarousel />

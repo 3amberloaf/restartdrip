@@ -72,6 +72,18 @@
   display: none; /* Hide the background image container */
 }
 
+.droplet {
+  position: relative;
+
+}
+
+.droplet img{
+  height: 176px;
+  width: auto;
+
+
+}
+
 
 .additional-text {
   padding: 40px;
