@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Steps from '../components/steps';
 import Reviews from '../components/reviews';
 import TreatmentsCarousel from '../components/carousel';
-import IVTherapy from '../components/Infographics';
+import IVTherapy from '../components/IVTherapy';
 import '../css/homepage.css';
 
 const HomePage = () => {

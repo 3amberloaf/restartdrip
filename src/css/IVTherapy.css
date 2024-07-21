@@ -1,0 +1,111 @@
+.iv-therapy-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #FAF9F6;
+    border-radius: 10px;
+    
+    max-width: 1200px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    color: #272401;
+}
+
+.iv-therapy-image-text {
+    max-width: 45%;
+    margin-right: 20px;
+}
+
+.iv-therapy-image-text h3 {
+    color: #273B5A;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-family: 'Montserrat';
+}
+
+.iv-therapy-image-text p {
+    color: #272401;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+.iv-therapy-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.iv-therapy-section {
+    max-width: 45%;
+    flex: 1;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-button {
+    background-color: #dfe5f3;
+    font-family: 'Montserrat';
+    color: #273B5A;
+    border: none;
+    padding: 15px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+    position: relative;
+    font-size: 1.2em;
+    transition: background-color 0.3s, transform 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-button:hover {
+    background-color: #5CB8E6;
+    transform: translateY(-2px);
+}
+
+.icon {
+    font-size: 1.5em;
+    transition: transform 0.3s;
+}
+
+.icon.open {
+    transform: rotate(180deg);
+}
+
+.service-content {
+    background-color: #f2efea;
+    color: #272401;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    animation: fadeIn 0.5s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+    line-height: 1.6;
+    
+}
+.service-content ul {
+  list-style-position: inside; /* Ensures bullets align with text */
+  padding: 0; /* Removes default padding */
+  margin-left: 20px; /* Adjust this value as needed for alignment */
+}
+
+.service-content li {
+  margin-bottom: 10px; /* Adds space between list items */
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

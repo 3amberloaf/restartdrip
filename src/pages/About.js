@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/about.css';
-import IVTherapy from '../components/Infographics';
+
 
 const About = () => {
   return (
