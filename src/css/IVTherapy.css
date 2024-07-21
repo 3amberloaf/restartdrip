@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 50px;
-    background-color: #FAF9F6;
+
     border-radius: 10px;
     
     max-width: 1200px;
@@ -10,6 +10,16 @@
     font-family: Arial, sans-serif;
     color: #272401;
 }
+
+.header {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    font-family: 'Monstserrant';
+    color: #5CB8E6;
+    background-color: #ffffff4c;
+}
+
+
 
 .iv-therapy-image-text {
     max-width: 45%;
@@ -45,12 +55,11 @@
     display: flex;
     flex-direction: column;
 }
-
 .service-button {
-    background-color: #dfe5f3;
+    background-color: #ffffff; /* Match the background color */
     font-family: 'Montserrat';
-    color: #273B5A;
-    border: none;
+    color: #273B5A; /* Adjust the text color */
+    border: 1px solid #5CB8E6; /* Add a border to match */
     padding: 15px 20px;
     margin: 10px 0;
     cursor: pointer;
@@ -64,24 +73,34 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
 
 .service-button:hover {
-    background-color: #5CB8E6;
+    background-color: #5CB8E6; /* Match hover background color */
     transform: translateY(-2px);
+    color: #ffffff; /* Change text color on hover */
 }
 
 .icon {
     font-size: 1.5em;
     transition: transform 0.3s;
+    color: #5CB8E6; /* Icon color to match border and text */
 }
 
 .icon.open {
     transform: rotate(180deg);
 }
 
+.service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Add spacing between items */
+    align-items: center; /* Center align items */
+}
+
 .service-content {
-    background-color: #f2efea;
+    background-color: #f2efea; /* Match background color */
     color: #272401;
     padding: 15px 20px;
     margin: 10px 0;
@@ -92,17 +111,17 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 1.1em;
     line-height: 1.6;
-    
 }
 .service-content ul {
-  list-style-position: inside; /* Ensures bullets align with text */
-  padding: 0; /* Removes default padding */
-  margin-left: 20px; /* Adjust this value as needed for alignment */
+    list-style-position: inside; /* Ensures bullets align with text */
+    padding: 0; /* Removes default padding */
+    margin-left: 20px; /* Adjust this value as needed for alignment */
 }
 
 .service-content li {
-  margin-bottom: 10px; /* Adds space between list items */
+    margin-bottom: 10px; /* Adds space between list items */
 }
+
 
 
 @keyframes fadeIn {

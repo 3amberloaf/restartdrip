@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../css/IVTherapy.css';
+
 const IVTherapy = () => {
     const [activeSection, setActiveSection] = useState(null);
 
@@ -9,8 +10,11 @@ const IVTherapy = () => {
 
     return (
   
+        <div className="iv-therapy">
+            <div className='header'>
+                <h1>IV THERAPY & INJECTION SERVICES</h1>
+            </div>
         <div className="iv-therapy-container">
-            
             <div className="iv-therapy-image-text">
                 <h3>RELAX - RECHARGE - REHYDRATE</h3>
                 <p>
@@ -75,6 +79,7 @@ const IVTherapy = () => {
                     ))}
                 </div>
             </div>
+        </div>
         </div>
     );
 };
