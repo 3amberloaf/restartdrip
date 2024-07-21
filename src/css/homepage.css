@@ -1,7 +1,7 @@
 .main-content {
   text-align: center;
   position: relative;
-  font-family: 'Barlow';
+  font-family: 'Montserrant';
 }
 
 .homepage-section {
@@ -11,7 +11,7 @@
 }
 
 .homepage-logo {
-  max-width: 200px;
+  width: 400px;
   margin-bottom: 20px;
 }
 
@@ -38,8 +38,8 @@
 }
 
 .homepage-buttons button {
-  color: #FFFFFF; /* White text */
-  background: linear-gradient(135deg, #74BBDF 0%, #1089B8 100%); /* Tealish Blue to Darker Navy Blue */
+  color: #00AFEF; /* White text */
+  background: white; /* Tealish Blue to Darker Navy Blue */
   border: none;
   padding: 15px 30px;
   margin: 0 20px;
@@ -51,11 +51,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.homepage-buttons button:hover {
-  background: linear-gradient(135deg, #00AFEF 0%, #0097B2 100%); /* Bright blue to green/blue */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  transform: scale(1.05);
-}
+
 
 .homepage-image-container {
   display: none; /* Hide the background image container */

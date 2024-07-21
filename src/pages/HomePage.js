@@ -13,23 +13,24 @@ const HomePage = () => {
         style={{
           backgroundImage: 'url(/images/homepage/homepage_background.png)',
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          height: '90vh', // Full viewport height
+          backgroundPosition: 'center top', // Adjust background position
+          height: '100vh', // Full viewport height
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          justifyContent: 'center'
+          justifyContent: 'center',
+          position: 'relative',
         }}
       >
         <div className="homepage-logo">
           <img src="/images/logo.png" alt="logo" />
         </div>
-        <div className="homepage-text">
+        <div className="homepage-text" style={{ position: 'relative', top: '-50px' }}>
           <h3>IV therapy + vitamin injections + NAD+</h3>
           <h3>wellness • illness • recovery • beauty</h3>
           <div className="homepage-buttons">
             <Link to="/services">
-              <button className="view-services">Book Now</button>
+              <button className="view-services">BOOK NOW</button>
             </Link>
           </div>
         </div>
