@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Steps from '../components/steps';
 import Reviews from '../components/reviews';
 import TreatmentsCarousel from '../components/carousel';
+import IVTherapy from '../components/Infographics';
 import '../css/homepage.css';
 
 const HomePage = () => {
@@ -51,6 +52,7 @@ const HomePage = () => {
 
         <p>We invite you to step out of the hustle and into Hydrate IV Bar.</p>
       </div>
+      <IVTherapy />
       <Steps />
       <TreatmentsCarousel />
       <Reviews />
