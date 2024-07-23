@@ -60,7 +60,7 @@ const treatments = [
     {
     name: 'ATHLETE RECOVERY',
     price: '$250',
-    description: 'Workout & Recover!',
+    description: 'Workout & Recover !',
     imageUrl: 'images/services/athlete.png', // Update with actual path
     servicePath: '/services/athlete'
   }

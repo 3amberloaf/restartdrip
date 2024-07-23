@@ -5,7 +5,7 @@
     overflow: hidden;
     position: relative; /* For positioning arrows */
     width: 100%;
-    max-width: 900px; /* Adjust based on desired container size */
+    max-width: 950px; /* Adjust based on desired container size */
     box-sizing: border-box;
 }
 
@@ -24,8 +24,8 @@
 }
 
 .treatment-slide {
-    height: auto;
-    max-width: 330px; /* Adjust based on your design */
+    height:max-content;
+    max-width: 350px; /* Adjust based on your design */
     margin: 15px;
     background-color: #f2f7fc;
     padding: 20px;
@@ -48,14 +48,14 @@
 }
 
 .treatment-slide h3 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #1E3A5F;
     margin-top: 10px;
     margin-bottom: 0px;
 }
 
 .treatment-slide p {
-    font-size: 20px;
+    font-size: 22px;
     color: #333;
     margin: 5px;
 }

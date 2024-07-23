@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+
+@font-face {
+  font-family: 'Allura';
+  src: url('../fonts/Allura-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
 .main-content {
   text-align: center;
   position: relative;
@@ -128,19 +135,19 @@
 }
 
 .waves h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Allura';
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 60px;
+  font-size: 90px;
   color: #6f9dcb; /* Adjust the color as needed */
   font-weight: 100;
 }
 
 .waves-buttons {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 }

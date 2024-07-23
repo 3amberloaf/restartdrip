@@ -60,7 +60,7 @@ const HomePage = () => {
       <IVTherapy />
       
       <TreatmentsCarousel />
-      <Reviews />
+
       <div className="homepage">
       <div className="waves">
         <h1>Thirsty?</h1>
