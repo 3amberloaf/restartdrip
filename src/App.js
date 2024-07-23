@@ -59,18 +59,17 @@ const Header = () => (
           <li>
             <Link to="/">Book Now</Link>
           </li>
-          <li>
-            <Link to="/services">Services</Link>
+          <li className="dropdown-container">
+            <Link to="/services">Services <i className="fas fa-chevron-down"></i></Link>
             <ul className="dropdown">
               <li>
                 <Link to="/services/vitamin">Vitamin IV Therapy</Link>
-                
               </li>
               <li><Link to="/services/injections">Injections</Link></li>
               <li><Link to="/services/specialty">Specialty IV Treatment</Link></li>
             </ul>
           </li>
-          <li><Link to="/pricing">Pricing</Link></li>
+          <li><Link to="/pricing">Pricing <i className="fas fa-chevron-down"></i> </Link></li>
           <li><Link to="/about-us">About Us</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
@@ -83,8 +82,9 @@ const Header = () => (
   </footer>
 );
 
+
 const Footer = () => (
-  <footer className="footer">
+  <footer className="bottom">
     <div className="footer-sections">
       <div className="footer-column">
         <h3>ABOUT</h3>

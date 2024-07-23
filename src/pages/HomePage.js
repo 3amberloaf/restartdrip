@@ -31,7 +31,7 @@ const HomePage = () => {
           <h4>wellness • illness • recovery • beauty</h4>
           <div className="homepage-buttons">
             <Link to="/services">
-              <button className="view-services">Book Now</button>
+              <button className="view-services">BOOK NOW</button>
             </Link>
           </div>
         </div>
