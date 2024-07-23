@@ -15,6 +15,7 @@ import Immune from './pages/treatments/immune';
 import Hangover from './pages/treatments/hangover';
 import IVTherapy from './components/IVTherapy';
 import Injections from './pages/injections';
+import Specialty from './pages/specialty';
 
 const App = () => {
   const location = useLocation();
@@ -32,6 +33,7 @@ const App = () => {
           <Route path="/services" element={<IVTherapy />} />
           <Route path="/vitaminivtherapy" element={<VitaminTherapy />} />
           <Route path="/injections" element={<Injections />} />
+          <Route path="/specialty" element={<Specialty />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/services/dehydration" element={<Dehydration />} />
           <Route path="/services/energy-boost" element={<Energy />} />
@@ -70,7 +72,7 @@ const Header = () => (
                 <Link to="/vitaminivtherapy">Vitamin IV Therapy</Link>
               </li>
               <li><Link to="/injections">Injections</Link></li>
-              <li><Link to="/services/specialty">Specialty IV Treatment</Link></li>
+              <li><Link to="/specialty">Specialty IV Treatment</Link></li>
             </ul>
           </li>
           <li><Link to="/pricing">Pricing <i className="fas fa-chevron-down"></i> </Link></li>
