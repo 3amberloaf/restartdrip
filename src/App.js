@@ -23,7 +23,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <Menu />
+      <Header />
       <main className="main-content">
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -40,15 +40,13 @@ const App = () => {
           <Route path="/services/hangover" element={<Hangover />} />
         </Routes>
       </main>
-      <Menu />
-      <div className="footer-bottom">
-        <p>&copy; 2024 Restart Drip. All rights reserved.</p>
-      </div>
+      <Footer />
+      
     </div>
   );
 };
 
-const Menu = () => (
+const Header = () => (
   <footer className="footer">
     <div className="nav-bar">
       <div className="logo">
@@ -85,5 +83,48 @@ const Menu = () => (
   </footer>
 );
 
+const Footer = () => (
+  <footer className="footer">
+    <div className="footer-sections">
+      <div className="footer-column">
+        <h3>ABOUT</h3>
+        <ul>
+          <li><Link to="/locations">Locations</Link></li>
+          <li><Link to="/pricing">Pricing</Link></li>
+          <li><Link to="/iv-therapy">IV Therapy</Link></li>
+          <li><Link to="/nad-therapy">NAD+ Therapy</Link></li>
+          <li><Link to="/injections">Injections</Link></li>
+          <li><Link to="/blog">Blog</Link></li>
+        </ul>
+      </div>
+      <div className="footer-column">
+        <h3>RESOURCES</h3>
+        <ul>
+          <li><Link to="/membership">Membership</Link></li>
+          <li><Link to="/shot-pass">Shot Pass</Link></li>
+          <li><Link to="/medical-clearance-form">Medical Clearance Form</Link></li>
+          <li><Link to="/intro-offers">Intro Offers</Link></li>
+          <li><Link to="/contact-us">Contact Us</Link></li>
+          <li><Link to="/events">Events</Link></li>
+          <li><Link to="/careers">Careers</Link></li>
+        </ul>
+      </div>
+      <div className="footer-column">
+        <h3>FRANCHISE</h3>
+        <ul>
+          <li><Link to="/own-hydrate-iv-bar">Own a Hydrate IV Bar</Link></li>
+          <li><Link to="/about-us">About Us</Link></li>
+        </ul>
+      </div>
+      <div className="footer-buttons">
+        <button className="footer-button">BOOK NOW</button>
+        <button className="footer-button">DOWNLOAD APP</button>
+      </div>
+    </div>
+    <div className="footer-bottom">
+      <p>&copy; 2024 Restart Drip. All rights reserved.</p>
+    </div>
+  </footer>
+);
 
 export default App;
