@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './App.css'; // Import your CSS file for styling
 import { Link, Routes, Route, useLocation } from 'react-router-dom';
-import AllServices from './pages/AllServices';
+import VitaminTherapy from './pages/vitaminivtherapy';
 import HomePage from './pages/HomePage'; // Ensure you have this component
 import About from './pages/About';
 import Dehydration from './pages/treatments/dehydration';
@@ -13,6 +13,7 @@ import Fat from './pages/treatments/fat';
 import Myers from './pages/treatments/myers';
 import Immune from './pages/treatments/immune';
 import Hangover from './pages/treatments/hangover';
+import IVTherapy from './components/IVTherapy';
 
 const App = () => {
   const location = useLocation();
@@ -27,7 +28,8 @@ const App = () => {
       <main className="main-content">
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/services" element={<AllServices />} />
+          <Route path="/services" element={<IVTherapy />} />
+          <Route path="/vitaminivtherapy" element={<VitaminTherapy />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/services/dehydration" element={<Dehydration />} />
           <Route path="/services/energy-boost" element={<Energy />} />
@@ -57,13 +59,13 @@ const Header = () => (
       <nav>
         <ul className="nav-links">
           <li>
-            <Link to="/">Book Now</Link>
+            <Link to="/">BOOK NOW</Link>
           </li>
           <li className="dropdown-container">
             <Link to="/services">Services <i className="fas fa-chevron-down"></i></Link>
             <ul className="dropdown">
               <li>
-                <Link to="/services/vitamin">Vitamin IV Therapy</Link>
+                <Link to="/vitaminivtherapy">Vitamin IV Therapy</Link>
               </li>
               <li><Link to="/services/injections">Injections</Link></li>
               <li><Link to="/services/specialty">Specialty IV Treatment</Link></li>
@@ -89,12 +91,10 @@ const Footer = () => (
       <div className="footer-column">
         <h3>ABOUT</h3>
         <ul>
-          <li><Link to="/locations">Locations</Link></li>
           <li><Link to="/pricing">Pricing</Link></li>
           <li><Link to="/iv-therapy">IV Therapy</Link></li>
           <li><Link to="/nad-therapy">NAD+ Therapy</Link></li>
           <li><Link to="/injections">Injections</Link></li>
-          <li><Link to="/blog">Blog</Link></li>
         </ul>
       </div>
       <div className="footer-column">
@@ -112,7 +112,6 @@ const Footer = () => (
       <div className="footer-column">
         <h3>FRANCHISE</h3>
         <ul>
-          <li><Link to="/own-hydrate-iv-bar">Own a Hydrate IV Bar</Link></li>
           <li><Link to="/about-us">About Us</Link></li>
         </ul>
       </div>

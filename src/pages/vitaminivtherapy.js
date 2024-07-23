@@ -1,6 +1,6 @@
-// src/pages/AllServices.js
+
 import React from 'react';
-import '../css/services.css';
+import '../css/vitaminivtherapy.css';
 import { Link } from 'react-router-dom';
 import treatments from './treatments/treatments';
 
@@ -10,17 +10,17 @@ const TreatmentCard = ({ name, price, description, imageUrl, servicePath }) => (
     <img src={imageUrl} alt={name} />
     <h3>{name} - {price}</h3>
     <p>{description}</p>
-    <Link to={servicePath} className="learn-more-button">Book Now</Link>
+    <Link to={servicePath} className="learn-more-button">BOOK NOW</Link>
   </div>
 );
 
-const AllServices = () => {
+const VitaminTherapy = () => {
   return (
     <div>
       <div className="IV-services">
         <div className="services-text">
           <h1>Vitamin IV Therapy</h1>
-          <h2>~ Experience all the benefits of IV therapy in the comfort of your own home ~ </h2>
+          <h2> Experience all the benefits of IV therapy in the comfort of your own home </h2>
         </div>
         
         
@@ -34,5 +34,5 @@ const AllServices = () => {
   );
 };
 
-export default AllServices;
+export default VitaminTherapy;
 

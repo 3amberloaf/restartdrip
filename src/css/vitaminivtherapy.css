@@ -11,17 +11,17 @@
   }
   
   .IV-services h1 {
-    font-family: 'Barlow';
+    font-family: 'Montserrant';
     font-size: 50px;
     margin-bottom: 0.2em;
-    letter-spacing: 1ch;
-    color: #244a7c;
+    text-transform: uppercase;
+    color: #6aade5;
   }
   
   .IV-services h2 {
     font-size: 25px;
-    color: #585d61;
-    text-transform: lowercase;
+    color: rgb(157, 169, 179);
+    text-transform: none;
     margin-bottom: 1em;
   }
   
@@ -67,19 +67,15 @@
   
 
   .learn-more-button {
-    display: inline-block;
-    padding: 12px 20px;
-    color: #ffffff;
-    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
-    border: none;
-    border-radius: 30px;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 5px;
-    transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
-    cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #6aade5; /* Blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .learn-more-button:hover {
