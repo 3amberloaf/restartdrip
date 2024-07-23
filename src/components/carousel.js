@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import treatments from '../pages/treatments/treatments';
-import './carousel.css';
+import '../css/carousel.css';
 
 const TreatmentsCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

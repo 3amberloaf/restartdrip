@@ -15,15 +15,17 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+
 }
 
 .carousel-container h2 {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    color: #6aade5;
 }
 
 .treatment-slide {
-    
-    max-width: 300px; /* Adjust based on your design */
+    height: auto;
+    max-width: 330px; /* Adjust based on your design */
     margin: 15px;
     background-color: #f2f7fc;
     padding: 20px;
@@ -62,9 +64,9 @@
     display: inline-block;
     padding: 12px 20px;
     color: #ffffff;
-    background: linear-gradient(135deg, #74BBDF 0%, #1089B8 100%);
+    background: #6aade5;
     border: none;
-    border-radius: 30px;
+    border-radius: 10px;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
