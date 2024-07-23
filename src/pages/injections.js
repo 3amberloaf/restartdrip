@@ -1,9 +1,16 @@
-import React from 'react';
+
+import React, { useState } from 'react';
 import '../css/injections.css';
 import treatments from './treatments/treatments';
 import TreatmentCard from './treatments/treatment_card';
 
 const Injections = () => {
+
+    const [activeSection, setActiveSection] = useState(null);
+
+    const toggleSection = (section) => {
+        setActiveSection(activeSection === section ? null : section);
+    };
   return (
     <div>
       <div className="IV-services">
@@ -46,10 +53,45 @@ const Injections = () => {
           
           <h4>THEY ARE SUPERVISED BY EXPERIENCED STAFF</h4>
           <p>While we operate a spa, all injections are done by registered nurses. The nurses ensure safe administration and advise you on the best injection for targeted benefit.</p>
+          <img src="../images/homepage/droplet.png" alt="Company Logo" />
         </div>
+       
     <div className='FAQ'>
         <h1>VITAMIN INJECTION FAQS</h1>
         <p>Hydrate IV Bar has provided vitamin injections for years. Our interaction with various clients has helped us compile a list of frequently asked questions and their answers to help you make an informed decision. Take a look;</p>
+        <div className="FAQ-section">
+                <div className="faq-list">
+                    {['howOftenShouldIGetVitaminInjections?', 'howDoIFeelAfterAVitaminInfusion?', 'howLongDoesItLast?'].map(section => (
+                        <div key={section}>
+                            <button className="faq-button" onClick={() => toggleSection(section)}>
+                                {section.split(/(?=[A-Z])/).join(" ").toUpperCase()}
+                                <span className={`icon ${activeSection === section ? 'open' : ''}`}>&#9660;</span>
+                            </button>
+                            {activeSection === section && (
+                                <div className="faq-content">
+                                    {section === 'howOftenShouldIGetVitaminInjections?' && (
+                                        <p>
+                                           The frequency of your vitamin shots depends on your therapy plan. However, regular injections are recommended.
+                                        </p>
+                                    )}
+                                    {section === 'howDoIFeelAftera=AVitaminInfusion?' && (
+                                        <p>
+                                           Vitamin injections are virtually painless, meaning you experience zero downtimes. You can schedule your session over a lunch break and resume work like nothing happened. Moreover, you feel rejuvenated and focused after a vitamin shot.
+                                         
+                                        </p>
+                                    )}
+                                    {section === 'howLongDoesItLast?' && (
+                                        <p>
+                                            Are you worried about spending the whole day in our spa? Discard your worries. Our sessions, including consultation and injection, take minutes.
+                                        </p>
+                                    )}
+                                    
+                                </div>
+                            )}
+                        </div>
+                    ))}
+                </div>
+            </div>
     </div>
     </div>
   );
