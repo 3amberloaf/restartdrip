@@ -7,9 +7,9 @@ const treatments = [
       servicePath: '/services/dehydration'
     },
     {
-      name: 'BEAUTY/YOUTH',
+      name: 'BEAUTY & YOUTH',
       price: '$195',
-      description: 'Become the Best Version of YOU!',
+      description: 'Become the Best Version of YOU today!',
       imageUrl: 'images/services/beauty.png', // Update with actual path
       servicePath: '/services/beauty'
     },
@@ -37,7 +37,7 @@ const treatments = [
     {
       name: 'IMMUNE BOOSTER',
       price: '$200',
-      description: 'Boost Your Immune System!',
+      description: 'Boost your Immune System fast and naturally!',
       imageUrl: 'images/services/immune.png', // Update with actual path
       servicePath: '/services/immune-boost'
     },
@@ -60,7 +60,7 @@ const treatments = [
     {
     name: 'ATHLETE RECOVERY',
     price: '$250',
-    description: 'Workout & Recover !',
+    description: 'Workout & Recover like a professional!',
     imageUrl: 'images/services/athlete.png', // Update with actual path
     servicePath: '/services/athlete'
   }

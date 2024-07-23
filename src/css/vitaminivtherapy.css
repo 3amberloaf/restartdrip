@@ -1,4 +1,10 @@
 
+@font-face {
+  font-family: 'Allura';
+  src: url('../fonts/Allura-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
 
 .IV-services {
     padding: 30px;
@@ -13,23 +19,48 @@
   .IV-services h1 {
     font-family: 'Montserrant';
     font-size: 50px;
-    margin-bottom: 0.2em;
     text-transform: uppercase;
-    color: #6aade5;
+    color: #45494c;
+    font-weight: 400;
+    margin: 0;
   }
   
-  .IV-services h2 {
-    font-size: 25px;
-    color: rgb(157, 169, 179);
+  .IV-services h3 {
+    font-size: 50px;
+    color: rgb(144, 193, 233);
     text-transform: none;
-    margin-bottom: 1em;
+    font-family: 'Allura';
+    font-weight: 100;
+    margin: 10px;
+  }
+
+  .services h1 {
+    font-size: 100px;
+    color: rgb(144, 193, 233);
+    text-transform: none;
+    font-family: 'Allura';
+    font-weight: 100;
+    margin: 10px;
+  }
+
+  .IV-services p {
+    font-family: 'Montserrant';
+    font-size: 20px;
+
+    color: #45494c;
+    font-weight: 200;
+
+    padding-left: 80px;
+    padding-right: 80px;
   }
   
   .treatment-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 100%; /* Ensure the container spans the full width */
+    padding-left: 80px;
+    padding-right: 80px;
+
   }
   
   .treatment-card {
@@ -37,8 +68,8 @@
     border: 1px solid #ddd;
     border-radius: 20px;
     padding: 20px;
-    margin: 10px;
-    width: 350px;
+    margin: 20px;
+    width: 250px;
     text-align: center;
     transition: transform 0.3s ease;
   }
