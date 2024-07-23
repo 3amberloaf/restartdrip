@@ -1,0 +1,105 @@
+
+@font-face {
+    font-family: 'Allura';
+    src: url('../fonts/Allura-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .IV-services {
+      padding: 30px;
+      background-color: #ffffff; /* Light Cream */
+      border-radius: 10px;
+      text-align: center;
+      width: 100%; /* Ensure the section spans the full width */
+      box-sizing: border-box; /* Include padding in the width calculation */
+      margin: 0 auto; /* Center the section */
+    }
+    
+    .IV-services h1 {
+      font-family: 'Montserrant';
+      font-size: 50px;
+      text-transform: uppercase;
+      color: #45494c;
+      font-weight: 400;
+      margin: 0;
+    }
+    
+    .IV-services h3 {
+      font-size: 50px;
+      color: rgb(144, 193, 233);
+      text-transform: none;
+      font-family: 'Allura';
+      font-weight: 100;
+      margin: 10px;
+    }
+  
+    .services h1 {
+      font-size: 100px;
+      color: rgb(144, 193, 233);
+      text-transform: none;
+      font-family: 'Allura';
+      font-weight: 100;
+      margin: 10px;
+    }
+  
+    .IV-services p {
+      font-family: 'Montserrant';
+      font-size: 20px;
+  
+      color: #45494c;
+      font-weight: 200;
+  
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+    
+    .benefits-section {
+        padding: 30px;
+        background-color: #ffffff; /* Light Cream */
+        border-radius: 10px;
+        text-align: center;
+        width: 100%; /* Ensure the section spans the full width */
+        box-sizing: border-box; /* Include padding in the width calculation */
+        margin: 0 auto; /* Center the section */
+    }
+    
+    .benefits-section h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 35px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #45494c;
+
+        margin: 0;
+    }
+    
+
+    
+    .benefits-section p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #45494c;
+        font-weight: 200;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    
+    .benefits-section h4 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        color: #45494c;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    
+    .benefits-section ul {
+        list-style-type: disc;
+        margin-left: 80px;
+        margin-right: 80px;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #45494c;
+        font-weight: 600;
+    }
