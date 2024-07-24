@@ -18,10 +18,10 @@ const Injections = () => {
           <h1>Restart Drip IV Bar</h1>
           <h3>Vitamin Injections</h3>
         </div>
-        <p>Don’t be fooled by the name, it’s not only about the IVs at Hydrate IV Bar! Many clients come to us for our vitamin injections, whether they add them to an IV service or simply pop-in for a quick shot. Hydrate IV Bar offers vitamin IV therapies for everything from B12 injections to vitamin D3 injections and more! Learn more about our vitamin injections and schedule an appointment near you at any of our locations. You can also call today to book an appointment near you.</p>
+        <p>Don’t be fooled by the name, it’s not only about the IVs at Restart Drip! Many clients come to us for our vitamin injections, whether they add them to an IV service or simply pop-in for a quick shot. Restart Drip offers vitamin IV therapies for everything from B12 injections to vitamin D3 injections and more! Learn more about our vitamin injections and schedule an appointment near you at any of our locations. You can also call today to book an appointment near you.</p>
         <h3>Find the perfect vitamin injection for you</h3>
-        <p>We have seven shots to choose from at our Hydrate IV Bar spas — B12 injections, MIC injections, D3 injections, Tri-Immune injections, and our newest additions, the NAD+ injection, L-lysine injection, and the Amino Acid injection! Our staff can consult with you on which injection(s) may be best for you. Injection packages and our Shot Pass are available for those who want to add routine injections to their health and wellness regime.</p>
-        <p>Hydrate IV Bar’s relaxing atmosphere may feel like your favorite spa, but we take IV safety very seriously! All of our services — from IVs to injections — are administered by experienced, registered nurses. The only thing more comforting than kicking back in our big recliners is the reassurance of knowing that you’re in good hands with our incredible staff.</p>
+        <p>We have seven shots to choose from at our Restart Drip spas — B12 injections, MIC injections, D3 injections, Tri-Immune injections, and our newest additions, the NAD+ injection, L-lysine injection, and the Amino Acid injection! Our staff can consult with you on which injection(s) may be best for you. Injection packages and our Shot Pass are available for those who want to add routine injections to their health and wellness regime.</p>
+        <p>Restart Drip’s relaxing atmosphere may feel like your favorite spa, but we take IV safety very seriously! All of our services — from IVs to injections — are administered by experienced, registered nurses. The only thing more comforting than kicking back in our big recliners is the reassurance of knowing that you’re in good hands with our incredible staff.</p>
         <h3>Book your appointment today</h3>
         <p>While walk-in IV and injection appointments are always welcome, we encourage you to book your appointment ahead of time. Appointments will help our team to accommodate all clients, and ensure that we have a recliner ready for you to relax and rehydrate in!</p>
         
@@ -58,7 +58,7 @@ const Injections = () => {
        
     <div className='FAQ'>
         <h1>VITAMIN INJECTION FAQS</h1>
-        <p>Hydrate IV Bar has provided vitamin injections for years. Our interaction with various clients has helped us compile a list of frequently asked questions and their answers to help you make an informed decision. Take a look;</p>
+        <p>Restart Drip has provided vitamin injections for years. Our interaction with various clients has helped us compile a list of frequently asked questions and their answers to help you make an informed decision. Take a look;</p>
         <div className="FAQ-section">
                 <div className="faq-list">
                     {['howOftenShouldIGetVitaminInjections?', 'howDoIFeelAfterAVitaminInfusion?', 'howLongDoesItLast?'].map(section => (

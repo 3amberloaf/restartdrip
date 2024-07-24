@@ -57,19 +57,19 @@ const HomePage = () => {
       </div>
       <div className="additional-text">
         <h1>EXPERIENCE IV THERAPY AT RESTART DRIP</h1>
-        <p>Hydrate IV Bar is a collection of IV therapy spas promoting wellness from within by delivering high-quality products and services administered by experienced and trustworthy medical and wellness professionals in a relaxing, spa-like atmosphere.</p>
+        <p>Restart Drip is a collection of IV therapy spas promoting wellness from within by delivering high-quality products and services administered by experienced and trustworthy medical and wellness professionals in a relaxing, spa-like atmosphere.</p>
 
-        <h1>STEP OUT OF THE HUSTLE AND INTO HYDRATE IV BAR</h1>
-        <p>Clients come to us for our vitamin injections, signature IV therapy cocktails, NAD+ injections, and vitamin infusions, but they stay for the atmosphere. With comfortable chairs, soothing music, and a team of unbeatable staff, Hydrate IV Bar spas are a place for everyone to relax, recharge and refresh their routine.</p>
+        <h1>STEP OUT OF THE HUSTLE AND INTO Restart Drip</h1>
+        <p>Clients come to us for our vitamin injections, signature IV therapy cocktails, NAD+ injections, and vitamin infusions, but they stay for the atmosphere. With comfortable chairs, soothing music, and a team of unbeatable staff, Restart Drip spas are a place for everyone to relax, recharge and refresh their routine.</p>
 
-        <p>At any of our IV therapy spas, you can rest easy knowing you’re in good hands. At Hydrate IV Bar, our spas are overseen by a medical team consisting of award-winning doctors, nurse practitioners, and medical professionals, and all of our services are administered by some of the best registered nurses in the industry. Additionally, we pride ourselves on sourcing only high-quality, pharmaceutical-grade vitamins from trusted and reputable pharmacies.</p>
+        <p>At any of our IV therapy spas, you can rest easy knowing you’re in good hands. At Restart Drip, our spas are overseen by a medical team consisting of award-winning doctors, nurse practitioners, and medical professionals, and all of our services are administered by some of the best registered nurses in the industry. Additionally, we pride ourselves on sourcing only high-quality, pharmaceutical-grade vitamins from trusted and reputable pharmacies.</p>
 
         <h1>ABOUT OUR IV THERAPY OFFERINGS</h1>
         <p>We offer monthly memberships for clients who want to maintain a healthy lifestyle, Shot Passes for clients looking for a quick pick-me-up, and a build-your-own IV (BYOIV) option for clients looking to meet specific needs. Appointments are highly encouraged, but walk-in IV and injection appointments are always welcome for those who need to feel better fast.</p>
 
-        <p>There are Hydrate IV Bar locations throughout several states, making it easy to get luxurious and revitalizing IV therapy wherever you are.</p>
+        <p>There are Restart Drip locations throughout several states, making it easy to get luxurious and revitalizing IV therapy wherever you are.</p>
 
-        <p>We invite you to step out of the hustle and into Hydrate IV Bar.</p>
+        <p>We invite you to step out of the hustle and into Restart Drip.</p>
         
       </div>
         <div className="droplet">

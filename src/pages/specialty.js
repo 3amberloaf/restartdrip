@@ -12,7 +12,7 @@ const Specialty = () => {
           <h1>Restart Drip IV Bar</h1>
           <h4>NAD+ IV Therapy</h4>
         </div>
-        <p>NAD+ IV therapy is becoming the therapy of choice for people seeking to improve their energy levels, enhance mental and physical fitness or slow the aging process. Hydrate IV Bar offers the NAD+ IV therapy regimen in comfortable facilities under the care of registered nurses. Contact us today to learn more about NAD+ IV therapy services in the Denver area.</p>
+        <p>NAD+ IV therapy is becoming the therapy of choice for people seeking to improve their energy levels, enhance mental and physical fitness or slow the aging process. Restart Drip offers the NAD+ IV therapy regimen in comfortable facilities under the care of registered nurses. Contact us today to learn more about NAD+ IV therapy services in the Denver area.</p>
         
         <h3>WHAT IS NAD+</h3>
         <p>Nicotinamide adenine dinucleotide (NAD+) is a coenzyme found in all living cells. It is essentially vitamin B3 broken down into its most usable form, and when infused, it goes directly to your cells, creating energy at the cellular level. Between the ages of 40 – 60, we have 50% less NAD+ in our bodies. This means that when your cells break down, your body cannot repair them like it used to.</p>
@@ -21,7 +21,7 @@ const Specialty = () => {
         <p>NAD+ helps your body rebuild and repair cells. NAD+ promotes cell regeneration, and can be beneficial for: clients experiencing joint and muscle pain, stimulating sirtuins (proteins), which have anti-inflammatory properties, stabilizing hormones, improving mood, and increasing metabolism. NAD+ IV therapy can also be beneficial for better sleep, mental clarity, focus, energy, and the regulation of dopamine and serotonin levels.</p>
         
         <h3>UNDERSTANDING NAD+ IV THERAPY</h3>
-        <p>Intravenous (IV) therapy is a method of administering vitamin and supplement infusions directly into a vein. IV infusions can be done in a healthcare facility or spas such as Hydrate IV Bar. At our spas, infusions and injections are overseen by an experienced, registered nurse. But why choose NAD IV therapy over other forms of introducing this powerful coenzyme into your body?</p>
+        <p>Intravenous (IV) therapy is a method of administering vitamin and supplement infusions directly into a vein. IV infusions can be done in a healthcare facility or spas such as Restart Drip. At our spas, infusions and injections are overseen by an experienced, registered nurse. But why choose NAD IV therapy over other forms of introducing this powerful coenzyme into your body?</p>
         <p>While several NAD+ administration methods exist, IV infusing is the only guarantee of getting 100% bioavailability from the molecule. IV therapy ensures your body absorbs the highest possible amounts of the coenzyme, giving you maximum benefits.</p>
         <p>Other administration methods, such as oral supplements, take longer to produce visible results. It is also harder to guarantee results since NAD+ is poorly absorbed through the digestive system. Moreover, oral supplements may cause undesired side effects such as diarrhea, cramping, and nausea. IV therapy is, therefore, the safest and most effective method of boosting NAD+ levels in your body. Its effectiveness has led to an exponential growth of NAD+ uses in the cosmetic and medical fields.</p>
         
@@ -49,7 +49,7 @@ const Specialty = () => {
         <h1>WHAT TO EXPECT FROM YOUR NAD+ IV THERAPY</h1>
         <p>NAD+ IV therapy depends on your condition and the plan developed by your therapists. Appointments may consist of two to four-hour sessions of IV infusions over the course of two to three days. Throughout the session, you can still engage in light activities. Our comfortable and spacious spas allow you to work on your laptop, relax as you read a book, or play a game on your phone. If you simply want to relax, the comfort in our spa makes it possible to sleep during the sessions.</p>
         
-        <h4>RELAX, RECHARGE, & REHYDRATE WITH HYDRATE IV BAR</h4>
+        <h4>RELAX, RECHARGE, & REHYDRATE WITH Restart Drip</h4>
         <p>Join us at any of our spas for the ultimate NAD+ IV or injection to help you relax, refresh, and recharge your routine. As with all of our spas, IV therapy and vitamin injection services, our NAD+ infusions + injections are administered by experienced, registered nurses. The only thing more comforting than the big recliners you get to kick back in is the assurance of knowing that you are always in good hands with our incredible staff.</p>
         <p>Please note that NAD+ IV therapy can take anywhere between two to four hours, depending on your unique needs. Due to this longer service, NAD+ infusion appointments must be booked three hours prior to close. Last call for NAD+ IV therapy is at 3:00 p.m. Monday through Thursday, and 1:00 p.m. Friday through Sunday.</p>
         <p><strong>*Appointments Are Highly Encouraged!*</strong></p>
