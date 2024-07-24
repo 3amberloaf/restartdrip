@@ -1,14 +1,33 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import PopUpDiscount from '../components/popUpDiscount';
 
 import TreatmentsCarousel from '../components/carousel';
 import IVTherapy from '../components/IVTherapy';
 import '../css/homepage.css';
 
+
+
+
 const HomePage = () => {
+  const [showPopUpDiscount, setShowPopUpDiscount] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+
+    // Show the pop-up discount when the component mounts
+    setShowPopUpDiscount(true);
+  }, [location]);
+
+  const handleClose = () => {
+    setShowPopUpDiscount(false);
+  };
+
+
   return (
     <main className="main-content">
+       <PopUpDiscount show={showPopUpDiscount} handleClose={handleClose} />
       <div
         className="homepage-section"
         style={{

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import './App.css'; // Import your CSS file for styling
 import { Link, Routes, Route, useLocation } from 'react-router-dom';
 import VitaminTherapy from './pages/vitaminivtherapy';
@@ -16,27 +16,25 @@ import Hangover from './pages/treatments/hangover';
 import IVTherapy from './components/IVTherapy';
 import Injections from './pages/injections';
 import Specialty from './pages/specialty';
-import PopUpDiscount from './components/popUpDiscount';
+
 
 const App = () => {
-  const [showPopUpDiscount, setShowPopUpDiscount] = useState(false);
+ 
   const location = useLocation();
 
   useEffect(() => {
     window.scrollTo(0, 0);
 
     // Show the pop-up discount when the component mounts
-    setShowPopUpDiscount(true);
+   
   }, [location]);
 
-  const handleClose = () => {
-    setShowPopUpDiscount(false);
-  };
+ 
 
 
   return (
     <div className="App">
-       <PopUpDiscount show={showPopUpDiscount} handleClose={handleClose} />
+     
       <Header />
       <main className="main-content">
         <Routes>
