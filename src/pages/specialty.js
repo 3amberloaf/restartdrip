@@ -2,11 +2,8 @@ import React, { useState } from 'react';
 import '../css/specialty.css';
 
 const Specialty = () => {
-  const [activeSection, setActiveSection] = useState(null);
+  const [] = useState(null);
 
-  const toggleSection = (section) => {
-    setActiveSection(activeSection === section ? null : section);
-  };
 
   return (
     <div>
