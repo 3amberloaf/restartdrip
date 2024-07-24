@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../css/specialty.css';
 
 const Specialty = () => {
-  const [] = useState(null);
+  const [, ] = useState(null);
 
 
   return (
