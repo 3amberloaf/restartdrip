@@ -14,7 +14,7 @@ const Specialty = () => {
         </div>
         <p>NAD+ IV therapy is becoming the therapy of choice for people seeking to improve their energy levels, enhance mental and physical fitness or slow the aging process. Restart Drip offers the NAD+ IV therapy regimen in comfortable facilities under the care of registered nurses. Contact us today to learn more about NAD+ IV therapy services in the Denver area.</p>
         
-        <h3>WHAT IS NAD+</h3>
+        <h3>WHAT IS NAD+?</h3>
         <p>Nicotinamide adenine dinucleotide (NAD+) is a coenzyme found in all living cells. It is essentially vitamin B3 broken down into its most usable form, and when infused, it goes directly to your cells, creating energy at the cellular level. Between the ages of 40 – 60, we have 50% less NAD+ in our bodies. This means that when your cells break down, your body cannot repair them like it used to.</p>
     
         <h3>WHAT BODILY FUNCTIONS DOES NAD+ HELP?</h3>
@@ -25,7 +25,7 @@ const Specialty = () => {
         <p>While several NAD+ administration methods exist, IV infusing is the only guarantee of getting 100% bioavailability from the molecule. IV therapy ensures your body absorbs the highest possible amounts of the coenzyme, giving you maximum benefits.</p>
         <p>Other administration methods, such as oral supplements, take longer to produce visible results. It is also harder to guarantee results since NAD+ is poorly absorbed through the digestive system. Moreover, oral supplements may cause undesired side effects such as diarrhea, cramping, and nausea. IV therapy is, therefore, the safest and most effective method of boosting NAD+ levels in your body. Its effectiveness has led to an exponential growth of NAD+ uses in the cosmetic and medical fields.</p>
         
-        <h3>WHY SO MANY ARE CHOOSING NAD+ THERAPY</h3>
+        <h3>BENEFITS OF NAD+ THERAPY</h3>
         <p>More and more people are choosing NAD+ therapy to improve their physical and mental well-being. The increased popularity shows that people are now open to alternative ways of improving their wellness from within. Your NAD+ IV therapy at Hydrate can help in the following ways:</p>
         <div className='options'>
             <h3>CELL REGENERATION</h3>
@@ -52,7 +52,7 @@ const Specialty = () => {
         <h4>RELAX, RECHARGE, & REHYDRATE WITH Restart Drip</h4>
         <p>Join us at any of our spas for the ultimate NAD+ IV or injection to help you relax, refresh, and recharge your routine. As with all of our spas, IV therapy and vitamin injection services, our NAD+ infusions + injections are administered by experienced, registered nurses. The only thing more comforting than the big recliners you get to kick back in is the assurance of knowing that you are always in good hands with our incredible staff.</p>
         <p>Please note that NAD+ IV therapy can take anywhere between two to four hours, depending on your unique needs. Due to this longer service, NAD+ infusion appointments must be booked three hours prior to close. Last call for NAD+ IV therapy is at 3:00 p.m. Monday through Thursday, and 1:00 p.m. Friday through Sunday.</p>
-        <p><strong>*Appointments Are Highly Encouraged!*</strong></p>
+        
       </div>
 
       <div className="benefits-section">
@@ -70,9 +70,48 @@ const Specialty = () => {
           <li>Enhanced immune system and gastrointestinal support</li>
           <li>Reduce inflammation</li>
         </ul>
+        <div className="pricing">
+            <div className="header">
+                <h1>NAD+ IV THERAPY</h1>
+                <h3>DOSAGE AND PRICING</h3>
+            </div>
+            <div className="pricing-info">
+                <h3>– 500MG NAD IV Therapy: $400 for Hydrate members / $450 for non-members</h3>
+                <h3>– 750MG NAD IV Therapy: $500 for Hydrate members / $550 for non-members</h3>
+                <h3>– 1000MG NAD IV Therapy: $750 for Hydrate members / $850 for non-members</h3>
+                <h4>Please email info@restartdrip.com to speak with our staff about NAD+ loading dose packages and pricing.</h4>
+            </div>
+        </div>
+        <div className="images-container">
+          <div className="images">
+
+   
+          <div className="cell">
+              <img src="/images/services/cell.png" alt="cell" />
+              <p> Cell Regeneration</p>
+          </div>
+          <div className="metabolism">
+            <img src="/images/services/metabolism.png" alt="metabolism" />
+            <p> Increased Metabolism</p>
+          </div>
+          
+          <div className="joint">
+          <img src="/images/services/joint.png" alt="joint" />
+          <p> Reduced Joint/Muscle Pain</p>
+          </div>
+          <div className="sleep">
+          <img src="/images/services/sleep.png" alt="sleep" />
+          <p> Improved Sleep</p>
+          </div>
+          <div className="clarity">
+          <img src="/images/services/clarity.png" alt="clarity" />
+          <p> Mental Clarity</p>
+          </div>
+          </div>
+          
+        </div>
+
         
-        <h4>THEY ARE SUPERVISED BY EXPERIENCED STAFF</h4>
-        <p>While we operate a spa, all injections are done by registered nurses. The nurses ensure safe administration and advise you on the best injection for targeted benefit.</p>
       </div>
 
 

@@ -28,8 +28,9 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     color: #45494c;
-    font-weight: 200;
+    font-weight: 600;
     padding-left: 80px;
+    text-transform: capitalize;
     padding-right: 80px;
 }
 
@@ -37,7 +38,7 @@
     font-size: 50px;
     color: rgb(144, 193, 233);
     text-transform: none;
-    font-family: 'Allura', cursive;
+    font-family: 'Allura';
     font-weight: 100;
     margin: 10px;
 }
@@ -46,7 +47,7 @@
     font-size: 100px;
     color: rgb(144, 193, 233);
     text-transform: none;
-    font-family: 'Allura', cursive;
+    font-family: 'Allura';
     font-weight: 100;
     margin: 10px;
 }
@@ -67,6 +68,15 @@
     font-weight: 200;
     padding-left: 80px;
     padding-right: 80px;
+}
+
+.options h3 {
+    font-size: 50px;
+    color: rgb(144, 193, 233);
+    text-transform: lowercase;
+    font-family: 'Allura';
+    font-weight: 100;
+    margin: 10px;
 }
 
 .benefits-section {
@@ -112,7 +122,8 @@
     text-align: left;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    color: #45494c;
+    font-weight: 600;
+    color: rgb(144, 193, 233);
 }
 
 .FAQ {
@@ -180,4 +191,50 @@
 .benefits-section img {
     max-width: 300px;
     height: auto;
+}
+
+.header {
+    border: 2px solid black;
+    margin: 80px;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #45494c;
+    font-weight: 400;
+    margin: 0;
+}
+
+.header h3 {
+    font-size: 40px;
+    color: rgb(144, 193, 233);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin: 10px;
+}
+
+.pricing-info {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+
+    color: #45494c;
+
+    margin: 5px;
+    margin-bottom: 30px;
+
+}
+
+.images-container {
+    flex-direction: row;
+    row-gap: 10px;
+    display: flex;
+}
+
+.images {
+    flex-direction: row;
+    row-gap: 10px;
+    display: flex;
 }
