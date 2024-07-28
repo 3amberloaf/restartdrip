@@ -19,14 +19,14 @@ const ContactForm = () => {
         <label>Name* <input type="text" name="name" required /></label>
       </p>
       <p>
-        <label>Email <input type="email" name="email" /></label>
+        <label>Email <input type="email" name="email" required/></label>
       </p>
       <p>
         <label>Phone <input type="tel" name="phone" /></label>
       </p>
       <p>
           
-          <label>Location <textarea name="location" required></textarea></label>
+          <label>Location <textarea name="location" ></textarea></label>
     
       </p>
       <p>
