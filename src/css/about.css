@@ -1,15 +1,15 @@
 .about-us-container {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
     color: #0d0d0d;
-    padding: 30px;
+    padding: 40px;
 }
 
 
 .hero-content h1 {
     font-size: 40px;
     margin-bottom: 10px;
-    letter-spacing: 1ch;
-    color: #5CB8E6;
+
+    color: rgb(144, 193, 233);
     text-transform: uppercase;
 }
 
@@ -24,7 +24,7 @@
 h2 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #273B5A; /* Dark Green */
+    color: #070b12; /* Dark Green */
     text-transform: uppercase;
     position: relative;
     display: inline-block;
@@ -46,6 +46,8 @@ p {
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 

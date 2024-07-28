@@ -7,7 +7,7 @@ const About = () => {
     <div className="about-us-container">
       <section className="hero-section">
         <div className="hero-content">
-          <h1>Restart Drip</h1>
+          <h1>About Restart Drip</h1>
           <p>Dedicated to delivering exceptional in-home IV therapy and medical services.</p>
         </div>
       </section>

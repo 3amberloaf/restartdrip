@@ -102,7 +102,7 @@ const Footer = () => (
   <footer className="bottom">
     <div className="footer-sections">
       <div className="footer-column">
-        <h3>ABOUT</h3>
+        <h3>SERVICES</h3>
         <ul>
           <li><Link to="/pricing">Pricing</Link></li>
           <li><Link to="/iv-therapy">IV Therapy</Link></li>
@@ -115,17 +115,16 @@ const Footer = () => (
         <ul>
           <li><Link to="/membership">Membership</Link></li>
           <li><Link to="/shot-pass">Shot Pass</Link></li>
-          <li><Link to="/medical-clearance-form">Medical Clearance Form</Link></li>
+         
           <li><Link to="/intro-offers">Intro Offers</Link></li>
           <li><Link to="/contact-us">Contact Us</Link></li>
-          <li><Link to="/events">Events</Link></li>
-          <li><Link to="/careers">Careers</Link></li>
+
         </ul>
       </div>
       <div className="footer-column">
-        <h3>FRANCHISE</h3>
+        <h3>ABOUT US</h3>
         <ul>
-          <li><Link to="/about-us">About Us</Link></li>
+          <li><Link to="/about-us">Mission</Link></li>
         </ul>
       </div>
       <div className="footer-buttons">
