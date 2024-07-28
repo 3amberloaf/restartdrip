@@ -1,44 +1,94 @@
+.contact-us img {
+    max-width: 60%;
+    padding: 0 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.smaller-contact img {
+    max-width: 10%;
+    padding: 0 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-us h1 {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 40px;
+    margin: 30px 0;
+    color: #9bbae7; /* Primary color */
+    text-align: center;
+}
+
+.smaller-contact h1 {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 30px;
+    margin: 30px 0;
+    color: #5890e4; /* Primary color */
+    text-align: center;
+}
+
 form {
     max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 20px auto;
+    padding: 40px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
-  }
-  
-  p {
+}
+
+p {
     font-size: 14px;
     color: #333;
-  }
-  
-  label {
+    margin: 0 0 20px 0;
+}
+
+label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
     color: #333;
-  }
-  
-  input, textarea, select {
-    width: 100%;
+}
+
+input, textarea, select {
+    width: calc(100% - 22px);
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
-  }
-  
-  button {
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #9bbae7; /* Primary color focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(155, 186, 231, 0.5);
+}
+
+button {
     padding: 10px 20px;
-    background-color: #9bbae7;
+    background-color: #9bbae7; /* Primary color */
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #557373;
-  }
-  
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #557373; /* Dark hover color */
+}
+
+@media (max-width: 768px) {
+    .contact-us img {
+        padding: 0 20px;
+    }
+
+    form {
+        padding: 20px;
+    }
+}
