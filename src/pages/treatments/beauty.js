@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../css/treatments.css';
+import { Link } from 'react-router-dom';
 
 const Beauty = () => {
   return (
@@ -14,7 +15,9 @@ const Beauty = () => {
         This beauty/youth IV infusion provides essential nutrients, antioxidants and vitamins that support our hormone pathways, reduce oxidative stress, and nourish the body to produce fatty acids preventing premature and visible skin aging.</p>
   
         <div className="button-container">
-          <button className="book-now">Book Here</button>
+          <Link to="https://booking.hydreight.com/widget">
+              <button className="book-now">Book Now</button>
+            </Link>
         </div>
       </div>
 

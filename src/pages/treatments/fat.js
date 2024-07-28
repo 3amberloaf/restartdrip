@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../css/treatments.css';
 
 const Fat = () => {
@@ -14,7 +15,9 @@ const Fat = () => {
         These essential amino acids, vitamins and B12, are the perfect blend to transport fatty acids into mitochondria where they can be burned for energy. An extra benefit is mood improvement and additional appetite control.</p>
   
         <div className="button-container">
-          <button className="book-now">Book Here</button>
+          <Link to="https://booking.hydreight.com/widget">
+              <button className="book-now">Book Now</button>
+            </Link>
         </div>
       </div>
 

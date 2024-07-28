@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../css/treatments.css';
 
 const Energy = () => {
@@ -14,7 +15,9 @@ const Energy = () => {
         Rehydrate and replenish your body with IV fluids. This IV therapy cocktail is great for recovery from dehydration due to illness, travel, or strenuous activity.
         </p>
         <div className="button-container">
-          <button className="book-now">Book Here</button>
+          <Link to="https://booking.hydreight.com/widget">
+              <button className="book-now">Book Now</button>
+            </Link>
         </div>
       </div>
       <div className="main-container">

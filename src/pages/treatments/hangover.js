@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../css/treatments.css';
 
 const Hangover = () => {
@@ -17,7 +18,9 @@ const Hangover = () => {
         </p>
   
         <div className="button-container">
-          <button className="book-now">Book Here</button>
+          <Link to="https://booking.hydreight.com/widget">
+              <button className="book-now">Book Now</button>
+            </Link>
         </div>
       </div>
 

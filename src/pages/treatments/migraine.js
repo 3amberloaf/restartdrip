@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../css/treatments.css';
 
 const Migraine = () => {
@@ -14,7 +15,9 @@ const Migraine = () => {
         This multifaceted infusion will improve vascular function linked to migraine attacks and reduces nausea.</p>
   
         <div className="button-container">
-          <button className="book-now">Book Here</button>
+          <Link to="https://booking.hydreight.com/widget">
+              <button className="book-now">Book Now</button>
+            </Link>
         </div>
       </div>
 
