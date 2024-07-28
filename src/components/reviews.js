@@ -43,7 +43,7 @@ const Reviews = () => {
       <div className="review">
         <div className="review-content">
           <h3>{reviews[currentIndex].name}</h3>
-          <p>{reviews[currentIndex].time}</p>
+
           <div className="rating">
             {Array(reviews[currentIndex].rating)
               .fill()
