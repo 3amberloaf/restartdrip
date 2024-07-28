@@ -42,6 +42,13 @@
       font-weight: 100;
       margin: 10px;
     }
+
+    .treatment-container {
+        padding: 30px;
+        margin: 0px;
+
+
+      }
   
     .IV-services p {
       font-family: 'Montserrant';

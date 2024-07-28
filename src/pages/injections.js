@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import '../css/injections.css';
-import treatments from './treatments/treatments';
+import injections from './injections/injections_card';
 import TreatmentCard from './treatments/treatment_card';
 
 const Injections = () => {
@@ -31,7 +31,7 @@ const Injections = () => {
         <h1>Signature Shots</h1>
       </div>
       <div className="treatment-container">
-        {treatments.map((treatment, index) => (
+        {injections.map((treatment, index) => (
           <TreatmentCard key={index} {...treatment} />
         ))}
       </div>
@@ -51,8 +51,7 @@ const Injections = () => {
             <li>Reduce inflammation</li>
           </ul>
           
-          <h4>THEY ARE SUPERVISED BY EXPERIENCED STAFF</h4>
-          <p>While we operate a spa, all injections are done by registered nurses. The nurses ensure safe administration and advise you on the best injection for targeted benefit.</p>
+         
           <img src="../images/homepage/droplet.png" alt="Company Logo" />
         </div>
        
@@ -74,7 +73,7 @@ const Injections = () => {
                                            The frequency of your vitamin shots depends on your therapy plan. However, regular injections are recommended.
                                         </p>
                                     )}
-                                    {section === 'howDoIFeelAftera=AVitaminInfusion?' && (
+                                    {section === 'howDoIFeelAfterAVitaminInfusion?' && (
                                         <p>
                                            Vitamin injections are virtually painless, meaning you experience zero downtimes. You can schedule your session over a lunch break and resume work like nothing happened. Moreover, you feel rejuvenated and focused after a vitamin shot.
                                          
