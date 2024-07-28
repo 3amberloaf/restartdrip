@@ -57,8 +57,18 @@ h2 {
     transform: scaleX(1.7); /* Adjust the scale to make the underline extend beyond the text */
   }
 
+  .our-mission p {
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight:500;
+    margin-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
 p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.6;
     margin-bottom: 15px;
     padding-left: 50px;
@@ -92,8 +102,12 @@ p {
 .our-founder .founder-info h3 {
     font-size: 24px;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
+.our-founder p {
+    font-size: 20px;
+}
 
 
 .hashtag {
