@@ -1,7 +1,11 @@
+.iv-therapy {
+    margin-bottom: 50px;;
+}
+
 .iv-therapy-container {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding-left: 50px;
 
     border-radius: 10px;
     
@@ -11,13 +15,14 @@
     color: #272401;
 }
 
-.header {
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+.iv-therapy-header {
+    margin: 20px;
     font-family: 'Monstserrant';
     color: #6aade5;
     background-color: #ffffff4c;
     font-weight: bolder;
+    border-bottom: 1px solid #6aade5;
+    border-top: 1px solid #6aade5;
 }
 
 
@@ -59,6 +64,7 @@
 .service-list {
     display: flex;
     flex-direction: column;
+
 }
 .service-button {
     background-color: #ffffff; /* Match the background color */
@@ -116,6 +122,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 1.1em;
     line-height: 1.6;
+    align-items: center;
 }
 .service-content ul {
     list-style-position: inside; /* Ensures bullets align with text */
