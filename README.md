@@ -6,6 +6,12 @@ Create a website for Woodline's IV Drip business
 
 Here I will track what I learned each day I worked on the website and what I accomplished.
 
+## July 28th, 2024
+
+**How to center a section**
+
+``   margin: 0 auto; /* Center the section */``
+
 ## July 21st, 2024
 
 **How to embed a link in an image**

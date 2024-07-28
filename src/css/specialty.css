@@ -5,6 +5,22 @@
     font-style: normal;
 }
 
+.services-text {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    justify-content: center; /* Center items horizontally */
+    text-align: left; /* Ensure text is left-aligned */
+}
+
+.services-text img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px; /* Add some space between the image and the text */
+}
+
+
+
+
 .IV-services {
     padding: 30px;
     background-color: #ffffff; /* Light Cream */
@@ -15,13 +31,14 @@
     margin: 0 auto; /* Center the section */
 }
 
-.IV-services h1 {
+.IV-services h4 {
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     text-transform: uppercase;
     color: #45494c;
-    font-weight: 400;
-    margin: 0;
+    font-weight: 200;
+    margin-top: 10px;
+
 }
 
 .IV-services h3 {
@@ -32,10 +49,11 @@
     padding-left: 80px;
     text-transform: capitalize;
     padding-right: 80px;
+    margin-top: 30px;
 }
 
-.IV-services h4 {
-    font-size: 50px;
+.IV-services h1 {
+    font-size: 70px;
     color: rgb(144, 193, 233);
     text-transform: none;
     font-family: 'Allura';
@@ -68,15 +86,17 @@
     font-weight: 200;
     padding-left: 80px;
     padding-right: 80px;
+    text-transform: none;
+
 }
 
 .options h3 {
-    font-size: 50px;
+    font-size: 30px;
     color: rgb(144, 193, 233);
-    text-transform: lowercase;
-    font-family: 'Allura';
+
+    font-family: 'Montserrant';
     font-weight: 100;
-    margin: 10px;
+    margin-top: 30px;
 }
 
 .benefits-section {
@@ -219,12 +239,18 @@
 .pricing-info {
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
-
+    font-weight: 100;
     color: #45494c;
 
     margin: 5px;
     margin-bottom: 30px;
 
+}
+
+.pricing-info h4{
+    font-style: italic;
+    margin-top: 30px;
+    font-size: 20px;
 }
 
 .images-container {

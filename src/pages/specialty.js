@@ -9,8 +9,11 @@ const Specialty = () => {
     <div>
       <div className="IV-services">
         <div className="services-text">
+        <img src='/images/random/ivbag.png' alt='iv-bag' />
+          <div className="text-content" >
           <h1>Restart Drip IV Bar</h1>
           <h4>NAD+ IV Therapy</h4>
+          </div>
         </div>
         <p>NAD+ IV therapy is becoming the therapy of choice for people seeking to improve their energy levels, enhance mental and physical fitness or slow the aging process. Restart Drip offers the NAD+ IV therapy regimen in comfortable facilities under the care of registered nurses. Contact us today to learn more about NAD+ IV therapy services in the Denver area.</p>
         
@@ -49,27 +52,14 @@ const Specialty = () => {
         <h1>WHAT TO EXPECT FROM YOUR NAD+ IV THERAPY</h1>
         <p>NAD+ IV therapy depends on your condition and the plan developed by your therapists. Appointments may consist of two to four-hour sessions of IV infusions over the course of two to three days. Throughout the session, you can still engage in light activities. Our comfortable and spacious spas allow you to work on your laptop, relax as you read a book, or play a game on your phone. If you simply want to relax, the comfort in our spa makes it possible to sleep during the sessions.</p>
         
-        <h4>RELAX, RECHARGE, & REHYDRATE WITH Restart Drip</h4>
+        <h4>RELAX, RECHARGE, & REHYDRATE WITH RESTART DRIP</h4>
         <p>Join us at any of our spas for the ultimate NAD+ IV or injection to help you relax, refresh, and recharge your routine. As with all of our spas, IV therapy and vitamin injection services, our NAD+ infusions + injections are administered by experienced, registered nurses. The only thing more comforting than the big recliners you get to kick back in is the assurance of knowing that you are always in good hands with our incredible staff.</p>
         <p>Please note that NAD+ IV therapy can take anywhere between two to four hours, depending on your unique needs. Due to this longer service, NAD+ infusion appointments must be booked three hours prior to close. Last call for NAD+ IV therapy is at 3:00 p.m. Monday through Thursday, and 1:00 p.m. Friday through Sunday.</p>
         
       </div>
-
+      
       <div className="benefits-section">
-        <h1>WHAT ARE THE BENEFITS OF GETTING VITAMIN INJECTIONS?</h1>
-        <p>Vitamins are essential for overall health. You can get your vitamins from food, oral supplements, or injections. However, food and oral supplements pass through the digestive system, slowing the absorption process. For the following reasons, we recommend vitamin injections.</p>
-        
-        <h4>HIGHER ABSORPTION EFFICIENCY</h4>
-        <p>Vitamin shots bypass the digestive system to deliver essential nutrients directly into the bloodstream. This direct delivery enhances absorption efficiency, providing immediate benefits. The health benefits of vitamins are only realized when a specific amount is absorbed. While you may not know the amount of vitamins in food, an injection provides the right amount. Moreover, you only stop by our spa for a quick shot instead of ingesting supplementary pills daily.</p>
-        
-        <h4>CAN BE TAILORED TO MEET SPECIFIC NEEDS</h4>
-        <p>Most vitamin injections are pre-formulated, meaning they have specific benefits for the body. While we have our signature shots, we can customize an injection session to address particular needs. You can book a vitamin injection for:</p>
-        <ul>
-          <li>Anxiety and stress relief</li>
-          <li>Enhance energy and stamina</li>
-          <li>Enhanced immune system and gastrointestinal support</li>
-          <li>Reduce inflammation</li>
-        </ul>
+      <img src='/images/homepage/droplet.png' alt='logo' />
         <div className="pricing">
             <div className="header">
                 <h1>NAD+ IV THERAPY</h1>
