@@ -19,7 +19,7 @@ const ContactForm = () => {
         <label>Name* <input type="text" name="name" required /></label>
       </p>
       <p>
-        <label>Email <input type="email" name="email" required/></label>
+        <label>Email* <input type="email" name="email" required/></label>
       </p>
       <p>
         <label>Phone <input type="tel" name="phone" /></label>
@@ -30,11 +30,9 @@ const ContactForm = () => {
     
       </p>
       <p>
-        <label>Message* <textarea name="message" ></textarea></label>
+        <label>Message <textarea name="message" ></textarea></label>
       </p>
-      <p>
-        <label><input type="checkbox" name="newsletter" /> Sign Up For Newsletter</label>
-      </p>
+     
       <p>
         <button type="submit">Send</button>
       </p>

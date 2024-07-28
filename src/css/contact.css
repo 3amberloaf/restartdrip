@@ -7,7 +7,7 @@
 }
 
 .smaller-contact img {
-    max-width: 10%;
+    max-width: 15%;
     padding: 0 80px;
     height: auto;
     display: block;
@@ -15,11 +15,12 @@
 }
 
 .contact-us h1 {
-    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-    font-size: 40px;
-    margin: 30px 0;
-    color: #9bbae7; /* Primary color */
-    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #45494c;
+    font-weight: 400;
+    margin: 20px;
 }
 
 .smaller-contact h1 {
@@ -28,6 +29,9 @@
     margin: 30px 0;
     color: #5890e4; /* Primary color */
     text-align: center;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding: 20px;
 }
 
 form {
@@ -41,7 +45,7 @@ form {
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     color: #333;
     margin: 0 0 20px 0;
 }
