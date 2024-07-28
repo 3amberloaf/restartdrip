@@ -4,8 +4,8 @@
     text-align: center;
     overflow: hidden;
     position: relative; /* For positioning arrows */
-    width: 100%;
     max-width: 950px; /* Adjust based on desired container size */
+    height: max-content;
     box-sizing: border-box;
 }
 
@@ -13,19 +13,18 @@
     display: flex;
     transition: transform 0.8s ease-in-out; /* Smoother transition */
     align-items: center;
-    justify-content: center;
+    flex-direction: row;
     width: 100%;
-
 }
 
 .carousel-container h2 {
     font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-    color: #6aade5;
+    color: #288bdc;
 }
 
 .treatment-slide {
-    height:max-content;
-    max-width: 350px; /* Adjust based on your design */
+    width: 300px; /* Fixed width */
+    height: 600px; /* Fixed height */
     margin: 15px;
     background-color: #f2f7fc;
     padding: 20px;
@@ -33,6 +32,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition */
+    display: flex;
+    flex-direction: column;
 }
 
 .treatment-slide:hover {
@@ -55,8 +56,9 @@
 }
 
 .treatment-slide p {
-    font-size: 22px;
-    color: #333;
+    font-size: 18px;
+    color: #273B5A; /* Navy Blue */
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
     margin: 5px;
 }
 
@@ -74,6 +76,7 @@
     transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: auto; /* Push button to the bottom */
 }
 
 .learn-more-button:hover {
