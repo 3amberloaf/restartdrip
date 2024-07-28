@@ -16,6 +16,7 @@ import Hangover from './pages/treatments/hangover';
 import IVTherapy from './components/IVTherapy';
 import Injections from './pages/injections';
 import Specialty from './pages/specialty';
+import ContactForm from './pages/contact';
 
 
 const App = () => {
@@ -38,6 +39,7 @@ const App = () => {
       <Header />
       <main className="main-content">
         <Routes>
+          <Route path="/contact" element= {<ContactForm />} /> 
           <Route path="/" element={<HomePage />} />
           <Route path="/services" element={<IVTherapy />} />
           <Route path="/vitaminivtherapy" element={<VitaminTherapy />} />
