@@ -55,9 +55,9 @@
 .IV-services h1 {
     font-size: 70px;
     color: rgb(144, 193, 233);
-    text-transform: none;
-    font-family: 'Allura';
-    font-weight: 100;
+    text-transform: capitalize;
+    font-family: 'Montserrant';
+    font-weight: 400;
     margin: 10px;
 }
 

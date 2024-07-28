@@ -6,7 +6,7 @@
   font-style: normal;
 }
 
-.IV-services {
+.vitamin-IV-services {
     padding: 30px;
     background-color: #ffffff; /* Light Cream */
     border-radius: 10px;
@@ -16,7 +16,7 @@
     margin: 0 auto; /* Center the section */
   }
   
-  .IV-services h1 {
+  .vitamin-IV-services h1 {
     font-family: 'Montserrant';
     font-size: 50px;
     text-transform: uppercase;
@@ -25,7 +25,7 @@
     margin: 0;
   }
   
-  .IV-services h3 {
+  .vitamin-IV-services h3 {
     font-size: 50px;
     color: rgb(144, 193, 233);
     text-transform: none;
@@ -45,7 +45,7 @@
     margin: 10px;
   }
 
-  .IV-services p {
+  .vitamin-IV-services p {
     font-family: 'Montserrant';
     font-size: 20px;
 

@@ -6,7 +6,7 @@
     font-style: normal;
   }
   
-  .IV-services {
+  .injections-IV-services {
       padding: 30px;
       background-color: #ffffff; /* Light Cream */
       border-radius: 10px;
@@ -16,7 +16,7 @@
       margin: 0 auto; /* Center the section */
     }
     
-    .IV-services h1 {
+    .injections-IV-services h1 {
       font-family: 'Montserrant';
       font-size: 50px;
       text-transform: uppercase;
@@ -25,13 +25,35 @@
       margin: 0;
     }
     
-    .IV-services h3 {
-      font-size: 50px;
-      color: rgb(144, 193, 233);
-      text-transform: none;
-      font-family: 'Allura';
-      font-weight: 100;
-      margin: 10px;
+    .injections-IV-services h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        color: #45494c;
+        font-weight: 600;
+        padding-left: 80px;
+        text-transform: capitalize;
+        padding-right: 80px;
+        margin-top: 30px;
+
+      
+    }
+
+    .text-content h1 {
+        font-size: 70px;
+        color: rgb(144, 193, 233);
+        text-transform: capitalize;
+        font-family: 'Montserrant';
+        font-weight: 400;
+        margin: 10px;
+    }
+
+    .text-content h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+        text-transform: uppercase;
+        color: #45494c;
+        font-weight: 200;
+        margin-top: 10px;
     }
   
     .services h1 {

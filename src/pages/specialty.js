@@ -11,7 +11,7 @@ const Specialty = () => {
         <div className="services-text">
         <img src='/images/random/ivbag.png' alt='iv-bag' />
           <div className="text-content" >
-          <h1>Restart Drip IV Bar</h1>
+          <h1>Restart Drip</h1>
           <h4>NAD+ IV Therapy</h4>
           </div>
         </div>

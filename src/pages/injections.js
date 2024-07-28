@@ -13,10 +13,13 @@ const Injections = () => {
     };
   return (
     <div>
-      <div className="IV-services">
+      <div className="injections-IV-services">
         <div className="services-text">
-          <h1>Restart Drip IV Bar</h1>
+        <img src='/images/random/ivbag.png' alt='iv-bag' />
+        <div className="text-content" >
+          <h1>Restart Drip</h1>
           <h3>Vitamin Injections</h3>
+        </div>
         </div>
         <p>Don’t be fooled by the name, it’s not only about the IVs at Restart Drip! Many clients come to us for our vitamin injections, whether they add them to an IV service or simply pop-in for a quick shot. Restart Drip offers vitamin IV therapies for everything from B12 injections to vitamin D3 injections and more! Learn more about our vitamin injections and schedule an appointment near you at any of our locations. You can also call today to book an appointment near you.</p>
         <h3>Find the perfect vitamin injection for you</h3>
