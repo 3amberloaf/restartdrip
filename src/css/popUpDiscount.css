@@ -3,7 +3,7 @@
     top: 20%;
     right: 0;
     width: 300px;
-    height: 100;
+    height: auto;
     background-color: white;
     box-shadow: -2px 0 5px rgba(0,0,0,0.5);
     transition: transform 0.3s ease-in-out;
@@ -21,7 +21,7 @@
   }
   
   .modal-main {
-    padding: 20px;
+    padding: 10px;
  
     position: relative;
     height: 100%;
@@ -47,7 +47,8 @@
   .popup-logo {
     width: 140px;
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 10px;
+    padding: 0px;
   }
   
   .popup-btn {
@@ -58,7 +59,7 @@
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    margin-top: 10px;
+    margin-top: 0px;
     cursor: pointer;
   }
   
@@ -68,6 +69,11 @@
   
   .popup-header {
     text-align: center;
+    margin: 0px;
 
+  }
+
+  .discount-text h1, p {
+    padding: 0px;
   }
   

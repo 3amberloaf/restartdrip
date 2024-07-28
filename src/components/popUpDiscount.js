@@ -9,8 +9,10 @@ const PopUpDiscount = ({ show, handleClose }) => {
         <div className="popup-header">
           <img src="images/logo.png" alt="Logo" className="popup-logo" />
         </div>
+        <div className="discount-text">
         <h1>Unlock 20% Off</h1>
         <p>Sign up to receive marketing texts and emails today to receive 20% off your first visit. Gain access to exclusive deals and be the first to know about upcoming events.</p>
+        </div>
         <button className="popup-btn">Sign Up and Unlock Code</button>
       </section>
     </div>
