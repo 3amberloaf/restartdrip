@@ -12,7 +12,7 @@ const Specialty = () => {
         <img src='/images/random/ivbag.png' alt='iv-bag' />
           <div className="text-content" >
           <h1>Restart Drip</h1>
-          <h4>NAD+ IV Therapy</h4>
+          <h4>Specialty IV Therapy</h4>
           </div>
         </div>
         <p>NAD+ IV therapy is becoming the therapy of choice for people seeking to improve their energy levels, enhance mental and physical fitness or slow the aging process. Restart Drip offers the NAD+ IV therapy regimen in comfortable facilities under the care of registered nurses. Contact us today to learn more about NAD+ IV therapy services in the Denver area.</p>

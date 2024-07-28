@@ -6,6 +6,19 @@
     font-style: normal;
   }
   
+
+  .injections-services-text {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    justify-content: center; /* Center items horizontally */
+    text-align: left; /* Ensure text is left-aligned */
+  }
+  
+  .injections-services-text img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px; /* Add some space between the image and the text */
+  }
   .injections-IV-services {
       padding: 30px;
       background-color: #ffffff; /* Light Cream */
@@ -17,7 +30,7 @@
     }
     
     .injections-IV-services h1 {
-      font-family: 'Montserrant';
+      font-family: 'Montserrat';
       font-size: 50px;
       text-transform: uppercase;
       color: #45494c;
@@ -38,25 +51,32 @@
       
     }
 
-    .text-content h1 {
-        font-size: 70px;
-        color: rgb(144, 193, 233);
-        text-transform: capitalize;
-        font-family: 'Montserrant';
-        font-weight: 400;
-        margin: 10px;
-    }
+.injections-text-content {
+    display: flex;
+    flex-direction: column; /* Stack the text vertically */
+    align-items:center;
+}
 
-    .text-content h3 {
-        font-family: 'Montserrat', sans-serif;
+    .injections-text-content h1 {
+        font-family: 'Montserrat';
         font-size: 50px;
         text-transform: uppercase;
         color: #45494c;
-        font-weight: 200;
-        margin-top: 10px;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .injections-text-content h3 {
+        font-size: 70px;
+        color: rgb(144, 193, 233);
+        text-transform: none;
+        font-family: 'Allura';
+        font-weight: 100;
+        margin: 10px;
+        align-items: flex-start;
     }
   
-    .services h1 {
+    .injections-services h1 {
       font-size: 100px;
       color: rgb(144, 193, 233);
       text-transform: none;
@@ -72,8 +92,8 @@
 
       }
   
-    .IV-services p {
-      font-family: 'Montserrant';
+    .injections-IV-services p {
+      font-family: 'Montserrat';
       font-size: 20px;
   
       color: #45494c;
@@ -83,7 +103,7 @@
       padding-right: 80px;
     }
     
-    .benefits-section {
+    .injections-benefits-section {
         padding: 30px;
         background-color: #ffffff; /* Light Cream */
         border-radius: 10px;
@@ -93,7 +113,7 @@
         margin: 0 auto; /* Center the section */
     }
     
-    .benefits-section h1 {
+    .injections-benefits-section h1 {
         font-family: 'Montserrat', sans-serif;
         font-size: 35px;
         font-weight: bold;
@@ -105,7 +125,7 @@
     
 
     
-    .benefits-section p {
+    .injections-benefits-section p {
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         color: #45494c;
@@ -114,7 +134,7 @@
         padding-right: 80px;
     }
     
-    .benefits-section h4 {
+    .injections-benefits-section h4 {
         font-family: 'Montserrat', sans-serif;
         font-size: 24px;
         color: #45494c;
@@ -122,7 +142,7 @@
         margin-top: 20px;
     }
     
-    .benefits-section ul {
+    .injections-benefits-section ul {
         list-style-type: disc;
         margin-left: 80px;
         margin-right: 80px;
@@ -134,14 +154,14 @@
 
     }
 
-    .FAQ {
+    .injections-FAQ {
 
         padding-left: 40px;
         padding-right: 40px;
     }
 
-    .FAQ h1 {
-        font-family: 'Montserrant';
+    .injections-FAQ h1 {
+        font-family: 'Montserrat';
         font-size: 50px;
         text-transform: uppercase;
         color: #45494c;
@@ -151,8 +171,8 @@
 
 
 
-    .FAQ p {
-        font-family: 'Montserrant';
+    .injections-FAQ p {
+        font-family: 'Montserrat';
         font-size: 20px;
     
         color: #45494c;
@@ -162,18 +182,18 @@
         padding-right: 80px;
     }
 
-    .FAQ-section {
+    .injections-FAQ-section {
         max-width: 70%;
         flex: 1;
         padding-left: 80px;
         padding-right: 80px;
     }
-    .faq-list {
+    .injections-faq-list {
         display: flex;
         flex-direction: column;
     }
 
-    .faq-button {
+    .injections-faq-button {
         background-color: #ffffff; /* Match the background color */
         font-family: 'Montserrat';
         color: #273B5A; /* Adjust the text color */
@@ -194,13 +214,13 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
     }
     
-    .faq-button-button:hover {
+    .injections-faq-button-button:hover {
         background-color: #5CB8E6; /* Match hover background color */
         transform: translateY(-2px);
         color: #ffffff; /* Change text color on hover */
     }
 
-.benefits-section img {
+.injections-benefits-section img {
     max-width: 300px;
     height: auto;
 }

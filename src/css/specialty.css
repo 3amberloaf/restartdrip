@@ -32,12 +32,13 @@
 }
 
 .IV-services h4 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    text-transform: uppercase;
-    color: #45494c;
-    font-weight: 200;
-    margin-top: 10px;
+    font-size: 70px;
+    color: rgb(144, 193, 233);
+    text-transform: none;
+    font-family: 'Allura';
+    font-weight: 100;
+    margin: 10px;
+    align-items: flex-start;
 
 }
 
@@ -53,12 +54,12 @@
 }
 
 .IV-services h1 {
-    font-size: 70px;
-    color: rgb(144, 193, 233);
-    text-transform: capitalize;
-    font-family: 'Montserrant';
+    font-family: 'Montserrat';
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #45494c;
     font-weight: 400;
-    margin: 10px;
+    margin: 0;
 }
 
 .services h1 {
@@ -94,7 +95,7 @@
     font-size: 30px;
     color: rgb(144, 193, 233);
 
-    font-family: 'Montserrant';
+    font-family: 'Montserrat';
     font-weight: 100;
     margin-top: 30px;
 }

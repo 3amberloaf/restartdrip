@@ -14,9 +14,9 @@ const Injections = () => {
   return (
     <div>
       <div className="injections-IV-services">
-        <div className="services-text">
+        <div className="injections-services-text">
         <img src='/images/random/ivbag.png' alt='iv-bag' />
-        <div className="text-content" >
+        <div className="injections-text-content" >
           <h1>Restart Drip</h1>
           <h3>Vitamin Injections</h3>
         </div>
@@ -30,7 +30,7 @@ const Injections = () => {
         
 
       </div>
-      <div className='services'>
+      <div className='injections-services'>
         <h1>Signature Shots</h1>
       </div>
       <div className="treatment-container">
@@ -38,7 +38,7 @@ const Injections = () => {
           <TreatmentCard key={index} {...treatment} />
         ))}
       </div>
-      <div className="benefits-section">
+      <div className="injections-benefits-section">
           <h1>WHAT ARE THE BENEFITS OF GETTING VITAMIN INJECTIONS?</h1>
           <p>Vitamins are essential for overall health. You can get your vitamins from food, oral supplements, or injections. However, food and oral supplements pass through the digestive system, slowing the absorption process. For the following reasons, we recommend vitamin injections.</p>
           
