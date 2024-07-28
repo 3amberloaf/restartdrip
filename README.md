@@ -8,6 +8,11 @@ Here I will track what I learned each day I worked on the website and what I acc
 
 ## July 28th, 2024
 
+**How to space things out in a container or push a button to the bottom**
+
+1. Create a container to hold the elements and use `display: flex` and `flex-direction:column` to create a column
+2. Then use `justify-content: space-between` to evenly space everything out
+
 **How to center a section**
 
 ``   margin: 0 auto; /* Center the section */``

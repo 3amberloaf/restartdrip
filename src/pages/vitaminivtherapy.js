@@ -11,9 +11,9 @@ const VitaminTherapy = () => {
   return (
     <div>
       <div className="vitamin-IV-services">
-        <div className="services-text">
+        <div className="vitamin-services-text">
         <img src='/images/random/ivbag.png' alt='iv-bag' />
-        <div className="text-content" >
+        <div className="vitamin-text-content" >
           <h1>Vitamin IV Therapy</h1>
           <h3> the cocktail your body craves </h3>
         </div>
@@ -23,7 +23,7 @@ const VitaminTherapy = () => {
         <p>While walk-in IV and injection appoinments are always welcome, we encourage you to book your appointment ahead of time. Appointments will help our team to accommodate all clients, and ensure that we have a recliner ready for you to relax and rehydrate in!</p>
         <p>Restart Drip’s relaxing atmosphere may feel like your favorite spa, but we take IV safety very seriously! All of our services — from IVs to injections — are administered by experienced, registered nurses. The only thing more comforting than the big recliners you get to kick back in is the assurance of knowing that you’re in good hands with our incredible staff. </p>
         </div>
-        <div className="services">
+        <div className="vitamin-services">
           <h1> Signature Cocktails</h1>
         </div>
       <div className="treatment-container">

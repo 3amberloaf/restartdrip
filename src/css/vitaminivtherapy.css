@@ -6,6 +6,19 @@
   font-style: normal;
 }
 
+.vitamin-services-text {
+  display: flex;
+  align-items: center; /* Align items vertically centered */
+  justify-content: center; /* Center items horizontally */
+  text-align: left; /* Ensure text is left-aligned */
+}
+
+.vitamin-services-text img {
+  max-width: 200px;
+  height: auto;
+  margin-right: 20px; /* Add some space between the image and the text */
+}
+
 .vitamin-IV-services {
     padding: 30px;
     background-color: #ffffff; /* Light Cream */
@@ -16,7 +29,7 @@
     margin: 0 auto; /* Center the section */
   }
   
-  .vitamin-IV-services h1 {
+  .vitamin-text-content h1 {
     font-family: 'Montserrant';
     font-size: 50px;
     text-transform: uppercase;
@@ -36,7 +49,7 @@
 
 
 
-  .services h1 {
+  .vitamin-services h1 {
     font-size: 100px;
     color: rgb(144, 193, 233);
     text-transform: none;
@@ -72,7 +85,10 @@
     padding: 20px;
     margin: 20px;
     width: 250px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: space-between;
     transition: transform 0.3s ease;
   }
   
