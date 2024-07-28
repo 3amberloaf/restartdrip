@@ -49,7 +49,7 @@ const HomePage = () => {
           <h3>IV therapy + vitamin injections + NAD+</h3>
           <h4>wellness • illness • recovery • beauty</h4>
           <div className="homepage-buttons">
-            <Link to="/services">
+            <Link to="https://booking.hydreight.com/widget">
               <button className="view-services">BOOK NOW</button>
             </Link>
           </div>
@@ -84,9 +84,9 @@ const HomePage = () => {
       <div className="waves">
         <h1>Thirsty?</h1>
         <div className="waves-buttons">
-          <Link to="/services">
-            <button className="view-services">BOOK NOW</button>
-          </Link>
+        <Link to="https://booking.hydreight.com/widget">
+              <button className="view-services">BOOK NOW</button>
+            </Link>
         </div>
         <img src="/images/homepage/waves.png" alt="waves" />
       </div>

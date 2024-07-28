@@ -74,7 +74,7 @@ const Header = () => (
       <nav>
         <ul className="nav-links">
           <li>
-            <Link to="/">BOOK NOW</Link>
+            <Link to="https://booking.hydreight.com/widget">BOOK NOW</Link>
           </li>
           <li className="dropdown-container">
             <Link to="/services">Services <i className="fas fa-chevron-down"></i></Link>
@@ -130,7 +130,9 @@ const Footer = () => (
         </ul>
       </div>
       <div className="footer-buttons">
-        <button className="footer-button">BOOK NOW</button>
+            <Link to="https://booking.hydreight.com/widget">
+              <button className="footer-button">BOOK NOW</button>
+            </Link>
         <button className="footer-button">DOWNLOAD APP</button>
       </div>
     </div>
