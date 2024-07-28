@@ -30,7 +30,7 @@ const ContactForm = () => {
     
       </p>
       <p>
-        <label>Message* <textarea name="message" required></textarea></label>
+        <label>Message* <textarea name="message" ></textarea></label>
       </p>
       <p>
         <label><input type="checkbox" name="newsletter" /> Sign Up For Newsletter</label>
