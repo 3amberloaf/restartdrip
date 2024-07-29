@@ -1,0 +1,48 @@
+.intro-offer{
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.intro-offer-header {
+    font-family: 'Allura'; 
+    font-size: 40px;
+    color: #6aade5;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-offer h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #45494c;
+    font-weight: 600;
+    padding-left: 80px;
+    text-transform: capitalize;
+    padding-right: 80px;
+    margin-top: 30px;
+}
+
+.intro-offer-options {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding-right: 60px;
+    padding-left: 60px;
+   align-content: center;
+}
+
+.offer-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 40px; /* Adjusted the gap here */
+}
+
+.view-services {
+    flex: 1;
+}
+
+.homepage {
+    margin-top: 0px;
+}

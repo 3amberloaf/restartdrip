@@ -8,6 +8,10 @@ Here I will track what I learned each day I worked on the website and what I acc
 
 ## July 29th, 2024
 
+**Text shadow**
+
+`text-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);`
+
 **When adding routes, elements must be capitalized**
 
 `<Route path= "/intro-offers" element={<IntroOffer />} />`
