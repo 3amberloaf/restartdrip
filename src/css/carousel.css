@@ -19,7 +19,7 @@
 
 .carousel-container h2 {
     font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-    color: #288bdc;
+    color: #6f9dcb;
 }
 
 .treatment-slide {
@@ -90,7 +90,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(224, 221, 221, 0.8);
     border: none;
     border-radius: 50%;
     width: 40px;
@@ -104,13 +104,13 @@
 }
 
 .carousel-button:hover {
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(183, 181, 181);
 }
 
 .carousel-button-left {
-    left: 10px; /* Adjust as needed */
+    left: 5px; /* Adjust as needed */
 }
 
 .carousel-button-right {
-    right: 10px; /* Adjust as needed */
+    right: 5px; /* Adjust as needed */
 }
