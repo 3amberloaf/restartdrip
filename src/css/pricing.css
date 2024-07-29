@@ -6,8 +6,8 @@
 
 .pricing-box {
     border: 3px solid rgb(144, 193, 233);
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
     padding: 10px;
 }
 .pricing-header h1 {
@@ -16,8 +16,8 @@
     text-transform: uppercase;
     color: #45494c;
     font-weight: 400;
-    margin: 0;
-    margin: 20px;
+ 
+    margin-top: 30px;
 }
 .pricing-box h1 {
     font-family: 'Montserrat';
@@ -36,6 +36,11 @@
 
 }
 .iv-services {
-    padding: 30px;
-    margin-top: 0px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.vitamin-services {
+    margin-top: 50px;
+
 }

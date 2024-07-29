@@ -86,7 +86,7 @@ const Header = () => (
                 <Link to="/vitaminivtherapy">Vitamin IV Therapy</Link>
               </li>
               <li><Link to="/injections">Injections</Link></li>
-              <li><Link to="/specialty">Specialty IV Treatment</Link></li>
+              <li><Link to="/specialty">Specialty Treatment</Link></li>
             </ul>
           </li>
           <li className="dropdown-container">
@@ -130,7 +130,7 @@ const Footer = () => (
         <ul>
           <li><Link to="/pricing">Pricing</Link></li>
           <li><Link to="/intro-offers">Intro Offers</Link></li>
-          <li><Link to="/contact-us">Contact Us</Link></li>
+          
 
         </ul>
       </div>
@@ -138,6 +138,7 @@ const Footer = () => (
         <h3>ABOUT US</h3>
         <ul>
           <li><Link to="/about-us">Mission</Link></li>
+          <li><Link to="/contact-us">Contact Us</Link></li>
         </ul>
       </div>
       <div className="footer-buttons">

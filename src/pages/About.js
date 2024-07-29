@@ -47,8 +47,8 @@ const About = () => {
           <img src="/images/random/woman.jpg" alt="woman"/>
           <div className="hashtag-text">
           <h3>Under the direction of doctors and medical providers with more than 30 years of experience, all of our services are administered by experienced and friendly registered nurses. When our nurses aren’t serving you in our hydration spas, many of them are working in healthcare across the industry — delivering babies, caring for patients, assisting on major surgeries and more.</h3>
-          <h3>We take great pride in the team we’ve built within the Hydrate IV Bar Collective. While medical skills and professionalism are obvious non-negotiables, we also look for teammates who exemplify our core values — wellness, community, teamwork, kindness, service, and fun. </h3>
-          <h3>When you visit any of our IV therapy spas, you can relax with the assurance that you’re in expert care. At Hydrate IV Bar, our facilities are supervised by a distinguished medical team, including award-winning doctors, nurse practitioners, and healthcare professionals. All our services are delivered by top-tier registered nurses. Moreover, we are committed to using only premium, pharmaceutical-grade vitamins sourced from reliable and well-regarded pharmacies.</h3>
+          <h3>We take great pride in the team we’ve built within the Restart Drip Collective. While medical skills and professionalism are obvious non-negotiables, we also look for teammates who exemplify our core values — wellness, community, teamwork, kindness, service, and fun. </h3>
+          <h3>When you visit any of our IV therapy spas, you can relax with the assurance that you’re in expert care. At Restart Drip, our facilities are supervised by a distinguished medical team, including award-winning doctors, nurse practitioners, and healthcare professionals. All our services are delivered by top-tier registered nurses. Moreover, we are committed to using only premium, pharmaceutical-grade vitamins sourced from reliable and well-regarded pharmacies.</h3>
           </div>
         </div>
         </div>

@@ -2,7 +2,7 @@ const injections = [
     {
       name: 'VITAMIN B12',
       price: '$35',
-      description: 'The B12 shot is our most popular injection with Hydrate IV Bar clients. B12 can regulate metabolism, boost immunity, increase energy levels + assist with mental clarity.!',
+      description: 'The B12 shot is our most popular injection with Restart Drip clients. B12 can regulate metabolism, boost immunity, increase energy levels + assist with mental clarity.!',
       imageUrl: 'images/services/metabolism.png', // Update with actual path
       servicePath: '/services/dehydration'
     },

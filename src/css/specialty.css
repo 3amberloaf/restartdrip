@@ -256,13 +256,15 @@
 
 .images-container {
     flex-direction: row;
-    row-gap: 10px;
+    row-gap: 5px;
     display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .images {
     flex-direction: row;
-    row-gap: 10px;
+    row-gap: 5px;
     display: flex;
 }
 
