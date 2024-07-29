@@ -26,10 +26,12 @@ const VitaminTherapy = () => {
         <div className="vitamin-services">
           <h1> Signature Cocktails</h1>
         </div>
+        <div className="iv-services">
       <div className="treatment-container">
         {treatments.map((treatment, index) => (
           <TreatmentCard key={index} {...treatment} />
         ))}
+      </div>
       </div>
     </div>
   );

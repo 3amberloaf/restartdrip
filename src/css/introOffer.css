@@ -5,10 +5,14 @@
 }
 
 .intro-offer-header {
-    font-family: 'Allura'; 
     font-size: 40px;
-    color: #6aade5;
-    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: rgb(144, 193, 233);
+    text-transform: none;
+    font-family: 'Allura';
+    font-weight: 100;
+    margin: 10px;
+    align-items: flex-start;
+
 }
 
 .intro-offer h3 {

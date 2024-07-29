@@ -2,3 +2,40 @@
     font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
 
 }
+
+
+.pricing-box {
+    border: 3px solid rgb(144, 193, 233);
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+}
+.pricing-header h1 {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #45494c;
+    font-weight: 400;
+    margin: 0;
+    margin: 20px;
+}
+.pricing-box h1 {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #45494c;
+    font-weight: 800;
+
+}
+.pricing-box h3 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #45494c;
+    font-weight: 100;
+
+}
+.iv-services {
+    padding: 30px;
+    margin-top: 0px;
+}

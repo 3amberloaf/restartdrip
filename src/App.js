@@ -89,7 +89,17 @@ const Header = () => (
               <li><Link to="/specialty">Specialty IV Treatment</Link></li>
             </ul>
           </li>
+          <li className="dropdown-container">
           <li><Link to="/pricing">Pricing <i className="fas fa-chevron-down"></i> </Link></li>
+          <ul className="dropdown">
+              <li>
+                <Link to="/pricing">Pricing</Link>
+              </li>
+              <li><Link to="/intro-offers">Intro Offers</Link></li>
+            </ul>
+          
+
+          </li>
           <li><Link to="/about-us">About Us</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>

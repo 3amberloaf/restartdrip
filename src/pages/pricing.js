@@ -15,14 +15,18 @@ const Pricing = () => {
         <div className="pricing-box">
             <h1>IV THERAPY PRICING</h1>
             <h3>*You can also build your own IV! Scroll down to view our individual vitamin menu.</h3>
+            </div>
             <div className="vitamin-services">
           <h1> Signature Cocktails</h1>
         </div>
-      <div className="treatment-container">
+        <div className="iv-services">
+         <div className="treatment-container">
         {treatments.map((treatment, index) => (
           <TreatmentCard key={index} {...treatment} />
         ))}
       </div>
+        </div>
+
 
       <div className='injections-services'>
         <h1>Signature Shots</h1>
@@ -72,7 +76,7 @@ const Pricing = () => {
           </div>
           
         </div>
-        </div>
+  
         </div>
     </div>
   );
