@@ -6,6 +6,16 @@ Create a website for Woodline's IV Drip business
 
 Here I will track what I learned each day I worked on the website and what I accomplished.
 
+## July 29th, 2024
+
+**When adding routes, elements must be capitalized**
+
+`<Route path= "/intro-offers" element={<IntroOffer />} />`
+
+not 
+
+` <Route path= "/intro-offers" element={<introOffer />} />`
+
 ## July 28th, 2024
 
 **How to space things out in a container or push a button to the bottom**

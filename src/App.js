@@ -17,7 +17,7 @@ import IVTherapy from './components/IVTherapy';
 import Injections from './pages/injections';
 import Specialty from './pages/specialty';
 import ContactForm from './pages/contact';
-
+import IntroOffer from './pages/introOffer';
 
 const App = () => {
  
@@ -55,6 +55,7 @@ const App = () => {
           <Route path="/services/myers-cocktail" element={<Myers />} />
           <Route path="/services/fatburner" element={<Fat />} />
           <Route path="/services/hangover" element={<Hangover />} />
+          <Route path= "/intro-offers" element={<IntroOffer />} />
         </Routes>
       </main>
       <Footer />
@@ -115,8 +116,6 @@ const Footer = () => (
       <div className="footer-column">
         <h3>RESOURCES</h3>
         <ul>
-          <li><Link to="/membership">Membership</Link></li>
-          <li><Link to="/shot-pass">Shot Pass</Link></li>
          
           <li><Link to="/intro-offers">Intro Offers</Link></li>
           <li><Link to="/contact-us">Contact Us</Link></li>
