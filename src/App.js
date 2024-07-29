@@ -17,6 +17,7 @@ import IVTherapy from './components/IVTherapy';
 import Injections from './pages/injections';
 import Specialty from './pages/specialty';
 import ContactForm from './pages/contact';
+import Pricing from './pages/pricing';
 import IntroOffer from './pages/introOffer';
 
 const App = () => {
@@ -56,6 +57,7 @@ const App = () => {
           <Route path="/services/fatburner" element={<Fat />} />
           <Route path="/services/hangover" element={<Hangover />} />
           <Route path= "/intro-offers" element={<IntroOffer />} />
+          <Route path= "/pricing" element={<Pricing />} />
         </Routes>
       </main>
       <Footer />
@@ -107,7 +109,7 @@ const Footer = () => (
       <div className="footer-column">
         <h3>SERVICES</h3>
         <ul>
-          <li><Link to="/pricing">Pricing</Link></li>
+         
           <li><Link to="/iv-therapy">IV Therapy</Link></li>
           <li><Link to="/nad-therapy">NAD+ Therapy</Link></li>
           <li><Link to="/injections">Injections</Link></li>
@@ -116,7 +118,7 @@ const Footer = () => (
       <div className="footer-column">
         <h3>RESOURCES</h3>
         <ul>
-         
+          <li><Link to="/pricing">Pricing</Link></li>
           <li><Link to="/intro-offers">Intro Offers</Link></li>
           <li><Link to="/contact-us">Contact Us</Link></li>
 
