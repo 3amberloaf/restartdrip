@@ -95,19 +95,19 @@ const Injections = () => {
         </ul>
         <img src="../images/homepage/droplet.png" alt="Company Logo" />
       </div>
-      <div className='FAQ'>
+      <div className='injections-FAQ'>
         <h1>VITAMIN INJECTION FAQS</h1>
         <p>Restart Drip has provided vitamin injections for years. Our interaction with various clients has helped us compile a list of frequently asked questions and their answers to help you make an informed decision. Take a look;</p>
-        <div className="FAQ-section">
+        <div className="injections-FAQ-section">
           <div className="faq-list">
             {['howOftenShouldIGetVitaminInjections?', 'howDoIFeelAfterAVitaminInfusion?', 'howLongDoesItLast?'].map(section => (
               <div key={section}>
-                <button className="faq-button" onClick={() => toggleSection(section)}>
+                <button className="injections-faq-button" onClick={() => toggleSection(section)}>
                   {section.split(/(?=[A-Z])/).join(" ").toUpperCase()}
                   <span className={`icon ${activeSection === section ? 'open' : ''}`}>&#9660;</span>
                 </button>
                 {activeSection === section && (
-                  <div className="faq-content">
+                  <div className="injections-faq-content">
                     {section === 'howOftenShouldIGetVitaminInjections?' && (
                       <p>
                         The frequency of your vitamin shots depends on your therapy plan. However, regular injections are recommended.

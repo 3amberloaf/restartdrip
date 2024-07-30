@@ -18,7 +18,7 @@
 }
 
 .image-container img {
-  max-width: 80%;
+  max-width: 70%;
   border-radius: 10px;
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
@@ -33,6 +33,7 @@
 .content-container h1 {
   font-size: 2.5em;
   margin: 0 0 10px;
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;;
   color: #1E3A5F;
 }
 
@@ -182,20 +183,21 @@
   align-items: center;
   padding: 0px;
   background-color: #FAF9F6;
-  margin: 15px;
+  margin: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .ingredient-container img {
   max-width: 60px; /* Adjust size for better layout */
+  height: auto;
   margin-bottom: 0px;
 }
 
 .ingredient-container h1 {
   font-size: 23px;
   color: #272401;
-  margin: 10px 0;
+  margin: 0px 0;
   text-align: center;
 }
 
@@ -211,7 +213,7 @@
 /* Banner styling */
 .banner {
   width: 100%;
-  font-family: 'Barlow';
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
   background-color: #b4def3; /* Adjust this color to match your theme */
   color: #1e5379; /* Text color */
   font-size: 1.5em;

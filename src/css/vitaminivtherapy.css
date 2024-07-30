@@ -67,9 +67,10 @@
   .vitamin-IV-services h3 {
     font-size: 50px;
     color: rgb(144, 193, 233);
-    text-transform: none;
+    text-transform: lowercase;
     font-family: 'Allura';
     font-weight: 100;
+    text-align: center;
     margin: 10px;
   }
 
