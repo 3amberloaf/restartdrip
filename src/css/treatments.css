@@ -98,7 +98,7 @@
   color: #1E3A5F;
   margin-top: 10px;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   border-bottom: 2px solid #1E3A5F;
   padding-bottom: 5px;
 }
@@ -109,25 +109,31 @@
 
   color: #333;
 }
-
+.additional-info p{
+  margin-bottom: 5px;
+}
 .additional-info ul {
   padding-left: 40px;
   margin-left: 0; /* Ensure no additional left margin */
   list-style: none; /* Remove default list style */
+  color: #9bbae7;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 .additional-info ul li {
   display: flex;
   align-items: center;
-  margin-bottom: 5px;
+
   position: relative;
   padding-left: 20px; /* Space for custom bullet */
 }
 .additional-info ul li::before {
   content: '•';
   font-size: 1.5em;
-  color: #1E3A5F;
+  color: #9bbae7;
   margin-right: 10px;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
