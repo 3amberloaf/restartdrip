@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Athlete = () => {
 
   useEffect(() => {
-    const elements = document.querySelectorAll(".additional-info p, .additional-info li, .additional-info h1");
+    const elements = document.querySelectorAll(".additional-info p, .additional-info ul, .additional-info li, .additional-info h1");
 
     const elementInView = (element, offset = 0) => {
       const elementTop = element.getBoundingClientRect().top;
@@ -35,10 +35,9 @@ const Athlete = () => {
 
     window.addEventListener('scroll', handleScrollAnimation);
 
-    // Initial check
     handleScrollAnimation();
 
-    // Cleanup function to remove event listener
+
     return () => {
       window.removeEventListener('scroll', handleScrollAnimation);
     };
