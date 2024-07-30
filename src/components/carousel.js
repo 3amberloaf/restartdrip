@@ -44,7 +44,7 @@ const TreatmentsCarousel = () => {
 
   return (
     <div className="carousel-container">
-      <h2>Our Treatments</h2>
+      <h1>Signature Cocktails</h1>
       <div className="carousel-scroll">
         {getVisibleSlides().map((treatment, index) => (
           <div className="treatment-slide" key={index}>

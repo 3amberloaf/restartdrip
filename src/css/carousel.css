@@ -1,5 +1,6 @@
 .carousel-container {
     margin: 0 auto;
+
     padding: 20px;
     text-align: center;
     overflow: hidden;
@@ -17,9 +18,14 @@
     width: 100%;
 }
 
-.carousel-container h2 {
-    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-    color: #6f9dcb;
+.carousel-container h1 {
+    font-size: 100px;
+    color: rgb(144, 193, 233);
+    text-transform: none;
+    font-family: 'Allura';
+    font-weight: 100;
+    margin: 10px;
+    margin-top: 50px;
 }
 
 .treatment-slide {

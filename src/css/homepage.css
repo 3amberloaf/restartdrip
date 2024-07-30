@@ -51,7 +51,7 @@
   font-size: 40px;
   text-transform: uppercase;
   color: #45494c;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0;
 }
 .homepage-text h4 {
@@ -69,14 +69,16 @@
 }
 
 .homepage-buttons button {
-  color: #00AFEF; /* White text */
-  background: white; /* Tealish Blue to Darker Navy Blue */
+  background-color: #74BBDF; /* Adjust the color as needed */
+  font-size: 600;
+  color: white;
   border: none;
-  padding: 15px 30px;
+  padding: 15px 40px;
   margin: 0 20px;
   font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
   cursor: pointer;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 25px;
   border-radius: 10px;
   transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
