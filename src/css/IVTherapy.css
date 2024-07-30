@@ -1,15 +1,13 @@
 .iv-therapy {
     margin-bottom: 50px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .iv-therapy-container {
     display: flex;
     justify-content: space-between;
     padding-left: 50px;
-
     border-radius: 10px;
-    
     max-width: 1100px;
     margin: auto;
     font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
@@ -26,13 +24,9 @@
     border-top: 1px solid #6aade5;
 }
 
-
-
 .iv-therapy-image-text {
     max-width: 50%;
     margin-right: 20px;
- 
-
 }
 
 .iv-therapy-image-text h3 {
@@ -52,7 +46,7 @@
 }
 
 .iv-therapy-image {
-    width: 80%;
+    width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -60,19 +54,15 @@
 .iv-therapy-section {
     max-width: 45%;
     flex: 1;
-    align-items:first baseline;
 }
 
 .service-list {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
-    padding-top: 20px;
-  
-
-
+    height: 100%; /* Ensure the list takes the full height of the container */
 }
+
 .service-button {
     background-color: #ffffff; /* Match the background color */
     font-family: 'Montserrat';
@@ -83,7 +73,6 @@
     cursor: pointer;
     border-radius: 5px;
     width: 100%;
-    width: 400px;
     text-align: left;
     position: relative;
     font-size: 1em;
@@ -110,18 +99,11 @@
     transform: rotate(180deg);
 }
 
-.service-list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px; /* Add spacing between items */
-    align-items: center; /* Center align items */
-}
-
 .service-content {
     background-color: #f6f6f5; /* Match background color */
     color: #272401;
-    padding: 10px 0px;
-    margin: 10px;
+    padding: 0 10px;
+    margin: 10px 0;
     border-radius: 5px;
     width: 100%;
     max-width: 600px;
@@ -130,7 +112,16 @@
     font-size: 1.1em;
     line-height: 1.6;
     text-align: left;
+    overflow: hidden; /* Ensure the content doesn't overflow */
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
+
+.service-content.open {
+    padding: 10px;
+    max-height: 500px; /* Adjust this value based on your content's height */
+}
+
 .service-content ul {
     list-style-position: inside; /* Ensures bullets align with text */
     padding: 0; /* Removes default padding */
@@ -140,8 +131,6 @@
 .service-content li {
     margin-bottom: 10px; /* Adds space between list items */
 }
-
-
 
 @keyframes fadeIn {
     from { opacity: 0; }
