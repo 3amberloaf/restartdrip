@@ -182,7 +182,7 @@
   transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
-/* Final state: fully visible and in place */
+
 .visible-text {
   opacity: 1;
   transform: translateY(0);
