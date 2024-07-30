@@ -14,6 +14,20 @@
   font-style: normal;
 }
 
+.main-content {
+  padding-top: 60px;
+}
+.footer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FFFFFF; /* Light Blue */
+  z-index: 1000; /* Ensure it’s above other elements */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+
+
 body {
   margin: 0;
   font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
@@ -26,18 +40,20 @@ body {
   color: #273B5A; /* Navy Blue */
   width: 100%;
   font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-  padding: 20px 0; /* Add padding for better spacing */
+  padding: 0;
+
 }
 
 .nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   padding: 0 140px; /* Adjust padding as needed */
 }
 
 .logo img {
-  height: 70px;
+  height: 60px;
 }
 
 .nav-links {
