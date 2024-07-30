@@ -1,9 +1,46 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../css/specialty.css';
 
 const Specialty = () => {
   const [, ] = useState(null);
+  useEffect(() => {
+    const elements = document.querySelectorAll(
+      ".IV-services h3, .IV-services p"
+    );
 
+    const elementInView = (element, offset = 0) => {
+      const elementTop = element.getBoundingClientRect().top;
+      return elementTop <= (window.innerHeight || document.documentElement.clientHeight) - offset;
+    };
+
+    const displayScrollElement = (element) => {
+      element.classList.add('visible-text');
+    };
+
+    const hideScrollElement = (element) => {
+      element.classList.remove('visible-text');
+    };
+
+    const handleScrollAnimation = () => {
+      elements.forEach((el) => {
+        if (elementInView(el, 100)) {
+          displayScrollElement(el);
+        } else {
+          hideScrollElement(el);
+        }
+      });
+    };
+
+    window.addEventListener('scroll', handleScrollAnimation);
+
+    // Initial check
+    handleScrollAnimation();
+
+    // Cleanup function to remove event listener
+    return () => {
+      window.removeEventListener('scroll', handleScrollAnimation);
+    };
+  }, []);
 
   return (
     <div>
@@ -15,21 +52,22 @@ const Specialty = () => {
           <h4>Specialty IV Therapy</h4>
           </div>
         </div>
-        <p>NAD+ IV therapy is becoming the therapy of choice for people seeking to improve their energy levels, enhance mental and physical fitness or slow the aging process. Restart Drip offers the NAD+ IV therapy regimen in comfortable facilities under the care of registered nurses. Contact us today to learn more about NAD+ IV therapy services in the Denver area.</p>
+        <h3 className="hidden-text">WHAT IS NAD+?</h3>
+        <p className="hidden-text">NAD+ IV therapy is becoming the therapy of choice for people seeking to improve their energy levels, enhance mental and physical fitness or slow the aging process. Restart Drip offers the NAD+ IV therapy regimen in comfortable facilities under the care of registered nurses. Contact us today to learn more about NAD+ IV therapy services in the Denver area.</p>
         
-        <h3>WHAT IS NAD+?</h3>
-        <p>Nicotinamide adenine dinucleotide (NAD+) is a coenzyme found in all living cells. It is essentially vitamin B3 broken down into its most usable form, and when infused, it goes directly to your cells, creating energy at the cellular level. Between the ages of 40 – 60, we have 50% less NAD+ in our bodies. This means that when your cells break down, your body cannot repair them like it used to.</p>
+       
+        <p className="hidden-text">Nicotinamide adenine dinucleotide (NAD+) is a coenzyme found in all living cells. It is essentially vitamin B3 broken down into its most usable form, and when infused, it goes directly to your cells, creating energy at the cellular level. Between the ages of 40 – 60, we have 50% less NAD+ in our bodies. This means that when your cells break down, your body cannot repair them like it used to.</p>
     
-        <h3>WHAT BODILY FUNCTIONS DOES NAD+ HELP?</h3>
-        <p>NAD+ helps your body rebuild and repair cells. NAD+ promotes cell regeneration, and can be beneficial for: clients experiencing joint and muscle pain, stimulating sirtuins (proteins), which have anti-inflammatory properties, stabilizing hormones, improving mood, and increasing metabolism. NAD+ IV therapy can also be beneficial for better sleep, mental clarity, focus, energy, and the regulation of dopamine and serotonin levels.</p>
+        <h3 className="hidden-text">WHAT BODILY FUNCTIONS DOES NAD+ HELP?</h3>
+        <p className="hidden-text">NAD+ helps your body rebuild and repair cells. NAD+ promotes cell regeneration, and can be beneficial for: clients experiencing joint and muscle pain, stimulating sirtuins (proteins), which have anti-inflammatory properties, stabilizing hormones, improving mood, and increasing metabolism. NAD+ IV therapy can also be beneficial for better sleep, mental clarity, focus, energy, and the regulation of dopamine and serotonin levels.</p>
         
-        <h3>UNDERSTANDING NAD+ IV THERAPY</h3>
-        <p>Intravenous (IV) therapy is a method of administering vitamin and supplement infusions directly into a vein. IV infusions can be done in a healthcare facility or spas such as Restart Drip. At our spas, infusions and injections are overseen by an experienced, registered nurse. But why choose NAD IV therapy over other forms of introducing this powerful coenzyme into your body?</p>
-        <p>While several NAD+ administration methods exist, IV infusing is the only guarantee of getting 100% bioavailability from the molecule. IV therapy ensures your body absorbs the highest possible amounts of the coenzyme, giving you maximum benefits.</p>
-        <p>Other administration methods, such as oral supplements, take longer to produce visible results. It is also harder to guarantee results since NAD+ is poorly absorbed through the digestive system. Moreover, oral supplements may cause undesired side effects such as diarrhea, cramping, and nausea. IV therapy is, therefore, the safest and most effective method of boosting NAD+ levels in your body. Its effectiveness has led to an exponential growth of NAD+ uses in the cosmetic and medical fields.</p>
+        <h3 className="hidden-text">UNDERSTANDING NAD+ IV THERAPY</h3>
+        <p className="hidden-text">Intravenous (IV) therapy is a method of administering vitamin and supplement infusions directly into a vein. IV infusions can be done in a healthcare facility or spas such as Restart Drip. At our spas, infusions and injections are overseen by an experienced, registered nurse. But why choose NAD IV therapy over other forms of introducing this powerful coenzyme into your body?</p>
+        <p className="hidden-text">While several NAD+ administration methods exist, IV infusing is the only guarantee of getting 100% bioavailability from the molecule. IV therapy ensures your body absorbs the highest possible amounts of the coenzyme, giving you maximum benefits.</p>
+        <p className="hidden-text">Other administration methods, such as oral supplements, take longer to produce visible results. It is also harder to guarantee results since NAD+ is poorly absorbed through the digestive system. Moreover, oral supplements may cause undesired side effects such as diarrhea, cramping, and nausea. IV therapy is, therefore, the safest and most effective method of boosting NAD+ levels in your body. Its effectiveness has led to an exponential growth of NAD+ uses in the cosmetic and medical fields.</p>
         
-        <h3>BENEFITS OF NAD+ THERAPY</h3>
-        <p>More and more people are choosing NAD+ therapy to improve their physical and mental well-being. The increased popularity shows that people are now open to alternative ways of improving their wellness from within. Your NAD+ IV therapy at Hydrate can help in the following ways:</p>
+        <h3 className="hidden-text">BENEFITS OF NAD+ THERAPY</h3>
+        <p className="hidden-text">More and more people are choosing NAD+ therapy to improve their physical and mental well-being. The increased popularity shows that people are now open to alternative ways of improving their wellness from within. Your NAD+ IV therapy at Hydrate can help in the following ways:</p>
         <div className='options'>
             <h3>CELL REGENERATION</h3>
             <h4>Your body naturally produces NAD+, which repairs and restores damaged cells to enhance tissue functionality. However, NAD+ levels decline with age, meaning the body cannot repair cells as it used to when you were younger. Boosting NAD+ levels rejuvenates your body’s cell regeneration ability keeping you healthy and youthful.</h4>

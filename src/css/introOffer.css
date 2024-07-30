@@ -34,6 +34,7 @@
     padding-right: 60px;
     padding-left: 60px;
    align-content: center;
+   animation: slideInLeft 1.5s ease-in-out;
 }
 
 .offer-buttons {

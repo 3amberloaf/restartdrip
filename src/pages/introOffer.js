@@ -1,15 +1,55 @@
-import React from 'react';
+import React, {useEffect, } from 'react';
 import '../css/introOffer.css';
 import { Link } from 'react-router-dom';
 
 const IntroOffer = () => {
+ 
+  useEffect(() => {
+    const elements = document.querySelectorAll(
+      ".intro-offer h1, .intro-offer h3"
+    );
+
+    const elementInView = (element, offset = 0) => {
+      const elementTop = element.getBoundingClientRect().top;
+      return elementTop <= (window.innerHeight || document.documentElement.clientHeight) - offset;
+    };
+
+    const displayScrollElement = (element) => {
+      element.classList.add('visible-text');
+    };
+
+    const hideScrollElement = (element) => {
+      element.classList.remove('visible-text');
+    };
+
+    const handleScrollAnimation = () => {
+      elements.forEach((el) => {
+        if (elementInView(el, 100)) {
+          displayScrollElement(el);
+        } else {
+          hideScrollElement(el);
+        }
+      });
+    };
+
+    window.addEventListener('scroll', handleScrollAnimation);
+
+    // Initial check
+    handleScrollAnimation();
+
+    // Cleanup function to remove event listener
+    return () => {
+      window.removeEventListener('scroll', handleScrollAnimation);
+    };
+  }, []);
+
   return (
     <div>
       <div className="intro-offer">
         <div className="intro-offer-header">
-          <h1>New Client Intro Offers</h1>
+          <h1 className="hidden-text">New Client Intro Offers</h1>
         </div>
-        <h3>Lower The Cost of IV Therapy With One of Our Special Intro Offers!</h3>
+        <h3 className="hidden-text">Lower The Cost of IV Therapy With One of Our Special Intro Offers!</h3>
         <p>Restart Drip is best-known for our spa’s menu of vitamin-infused IV therapy cocktails. All of our signature IV drips have 1 liter of saline paired with a blend of vitamins and nutrients. If any of our signature IV cocktails aren’t quite what you’re looking for, you can build your own IV drip! For an extra boost, many Restart Drip clients love to add an extra half or full bag of fluids to the end of their visit as well.</p>
         <p>We also offer vitamin injections, which are great quick pick-me-up options if you’re short on time but still need a healthy boost to get through your day. We have seven different vitamin shots to choose from: b12, MIC, D3, Tri-Immune, L-lysine, Amino Acids, and NAD+. Click here to learn more about each injection.</p>
         <p>Interested in adding IV therapy, vitamin injections, or NAD+ IV therapy to your wellness routine, but aren’t quite sure where to start? Scroll below to view each of our new client intro offers — some of our most popular services at discounted prices!</p>
