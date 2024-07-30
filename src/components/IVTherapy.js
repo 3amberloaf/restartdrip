@@ -10,7 +10,7 @@ const IVTherapy = () => {
 
     return (
         <div className="iv-therapy">
-            <div className='iv-therapy-header'>
+            <div className="iv-therapy-header">
                 <h1>IV THERAPY & INJECTION SERVICES</h1>
             </div>
             <div className="iv-therapy-container">

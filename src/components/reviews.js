@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './reviews.css';
+import '../css/reviews.css';
 
 const reviews = [
   {
@@ -43,7 +43,6 @@ const Reviews = () => {
       <div className="review">
         <div className="review-content">
           <h3>{reviews[currentIndex].name}</h3>
-
           <div className="rating">
             {Array(reviews[currentIndex].rating)
               .fill()

@@ -1,79 +1,88 @@
+/* Modal container styling */
 .modal {
-    position: fixed;
-    top: 20%;
-    right: 0;
-    width: 300px;
-    height: auto;
-    background-color: white;
-    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
-    transition: transform 0.3s ease-in-out;
-    z-index: 1000;
-    transform: translateX(100%);
+  position: fixed;
+  top: 20%;
+  right: 0;
+  width: 300px;
+  background-color: white;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+  transform: translateX(100%);
+}
 
-  }
-  
-  .modal.display-block {
-    transform: translateX(0);
-  }
-  
-  .modal.display-none {
-    transform: translateX(100%);
-  }
-  
-  .modal-main {
-    padding: 10px;
- 
-    position: relative;
-    height: 100%;
-    overflow-y: auto;
-  }
-  
-  .close-btn {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    color: #aaa;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  .close-btn:hover,
-  .close-btn:focus {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .popup-logo {
-    width: 140px;
-    display: block;
-    margin: 0 auto 10px;
-    padding: 0px;
-  }
-  
-  .popup-btn {
-    background-color: #6aade5;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 0px;
-    cursor: pointer;
-  }
-  
-  .popup-btn:hover {
-    background-color: #2a7cbf;
-  }
-  
-  .popup-header {
-    text-align: center;
-    margin: 0px;
+/* Show the modal */
+.modal.display-block {
+  transform: translateX(0);
+}
 
-  }
+/* Hide the modal */
+.modal.display-none {
+  transform: translateX(100%);
+}
 
-  .discount-text h1, p {
-    padding: 0px;
-  }
-  
+/* Main content area of the modal */
+.modal-main {
+  padding: 10px;
+  position: relative;
+  overflow-y: auto;
+}
+
+/* Close button styling */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: black;
+  text-decoration: none;
+}
+
+/* Button to sign up and unlock discount code */
+.popup-btn {
+  background-color: #6aade5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.popup-btn:hover {
+  background-color: #2a7cbf;
+}
+
+/* Centered header in the popup */
+.popup-header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Discount text styling */
+.discount-text h1 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: #272401;
+}
+
+.discount-text p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #272401;
+}
+
+/* Optional logo styling */
+.popup-logo {
+  width: 140px;
+  display: block;
+  margin: 10px auto;
+}

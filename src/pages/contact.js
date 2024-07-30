@@ -5,31 +5,34 @@ const ContactForm = () => {
 
   const submitForm = (event) => {
     event.preventDefault();
+    const form = event.target;
+    const data = new URLSearchParams(new FormData(form)).toString();
+    
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(new FormData(event.target)).toString()
+      body: data
     })
     .then(() => {
       document.getElementById('form-success').style.display = 'block';
       document.getElementById('form-error').style.display = 'none';
     })
-    .catch((error) => {
+    .catch(() => {
       document.getElementById('form-success').style.display = 'none';
       document.getElementById('form-error').style.display = 'block';
     });
   };
 
   return (
-    <div className="contact-us">
-      <img src="/images/random/stones.jpg" alt="stones" />
-      <h1>GET IN TOUCH WITH US TODAY!</h1>
-      <div className="smaller-contact">
-        <img src="/images/homepage/droplet.png" alt="droplet" />
-        <h1>Questions About Restart Drip? We’d LOVE TO HEAR FROM YOU!</h1>
+    <div className="contact-container">
+      <img src="/images/random/stones.jpg" alt="Decorative stones" />
+      <h1>Contact Us Today!</h1>
+      <div className="sub-contact">
+        <img src="/images/homepage/droplet.png" alt="Water droplet" />
+        <h1>We'd Love to Hear from You!</h1>
       </div>
-      <form name="contact" method="POST" data-netlify="true" onSubmit={submitForm}>
-        <input type="hidden" name="form-name" value="contact" />
+      <form name="contact-form" method="POST" data-netlify="true" onSubmit={submitForm}>
+        <input type="hidden" name="form-name" value="contact-form" />
         <p><strong>"*"</strong> indicates required fields</p>
         <p>
           <label>Name* <input type="text" name="name" required /></label>
@@ -44,7 +47,7 @@ const ContactForm = () => {
           <label>Location <input type="text" name="location" /></label>
         </p>
         <p>
-          <label>Message <textarea name="message" /></label>
+          <label>Message <textarea name="message"></textarea></label>
         </p>
         <p>
           <button type="submit">Send</button>

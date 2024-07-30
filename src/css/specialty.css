@@ -5,6 +5,14 @@
     font-style: normal;
 }
 
+/* Define CSS Variables for colors */
+:root {
+    --primary-color: rgb(144, 193, 233);
+    --secondary-color: #45494c;
+    --background-color: #ffffff;
+    --text-color: #45494c;
+}
+
 .services-text {
     display: flex;
     align-items: center; /* Align items vertically centered */
@@ -19,12 +27,9 @@
     margin-right: 20px; /* Add some space between the image and the text */
 }
 
-
-
-
 .IV-services {
     padding: 30px;
-    background-color: #ffffff; /* Light Cream */
+    background-color: var(--background-color); /* Light Cream */
     border-radius: 10px;
     text-align: center;
     width: 100%; /* Ensure the section spans the full width */
@@ -35,23 +40,20 @@
 
 .IV-services h4 {
     font-size: 70px;
-    color: rgb(144, 193, 233);
+    color: var(--primary-color);
     text-transform: none;
     font-family: 'Allura';
-    font-weight: 0;
+    font-weight: 100;
     margin: 10px;
-    align-items: flex-start;
-
 }
 
 .IV-services h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    color: #45494c;
+    color: var(--secondary-color);
     font-weight: 600;
-    padding-left: 80px;
+    padding: 0 80px;
     text-transform: capitalize;
-    padding-right: 80px;
     margin-top: 30px;
 }
 
@@ -59,44 +61,22 @@
     font-family: 'Montserrat';
     font-size: 50px;
     text-transform: uppercase;
-    color: #45494c;
+    color: var(--secondary-color);
     font-weight: 400;
     margin: 0;
 }
 
-.services h1 {
-    font-size: 100px;
-    color: rgb(144, 193, 233);
-    text-transform: none;
-    font-family: 'Allura';
-    font-weight: 100;
-    margin: 10px;
-}
-
-.IV-services p {
+.IV-services p, .options h4, .benefits-section p, .FAQ p {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    color: #45494c;
+    color: var(--text-color);
     font-weight: 200;
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
-.options h4 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    color: #45494c;
-    font-weight: 200;
-    padding-left: 80px;
-    padding-right: 80px;
-    text-transform: none;
-
+    padding: 0 80px;
 }
 
 .options h3 {
     font-size: 30px;
-    color: rgb(144, 193, 233);
-
+    color: var(--primary-color);
     font-family: 'Montserrat';
     font-weight: 100;
     margin-top: 30px;
@@ -104,7 +84,7 @@
 
 .benefits-section {
     padding: 30px;
-    background-color: #ffffff; /* Light Cream */
+    background-color: var(--background-color); /* Light Cream */
     border-radius: 10px;
     text-align: center;
     width: 100%; /* Ensure the section spans the full width */
@@ -112,71 +92,40 @@
     margin: 0 auto; /* Center the section */
 }
 
-.benefits-section h1 {
+.benefits-section h1, .FAQ h1, .header h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #45494c;
+    color: var(--secondary-color);
     margin: 0;
 }
 
-.benefits-section h4 {
+.benefits-section h4, .header h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    color: #45494c;
+    color: var(--secondary-color);
     font-weight: bold;
     margin-top: 20px;
 }
 
-.benefits-section p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    color: #45494c;
-    font-weight: 200;
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
 .benefits-section ul {
     list-style-type: disc;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin: 0 80px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 600;
-    color: rgb(144, 193, 233);
+    color: var(--primary-color);
 }
 
 .FAQ {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0 40px;
 }
 
-.FAQ h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    text-transform: uppercase;
-    color: #45494c;
-    font-weight: 400;
-    margin: 0;
-}
-
-.FAQ p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    color: #45494c;
-    font-weight: 200;
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
-.FAQ-section {
+.FAQ-section, .faq-button {
     max-width: 70%;
-    flex: 1;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 0 80px;
 }
 
 .faq-list {
@@ -185,12 +134,11 @@
 }
 
 .faq-button {
-    background-color: #ffffff; /* Match the background color */
+    background-color: var(--background-color); /* Match the background color */
     font-family: 'Montserrat', sans-serif;
     color: #273B5A; /* Adjust the text color */
-    border: 1px solid #5CB8E6; /* Add a border to match */
-    padding-left: 40px;
-    padding-right: 40px;
+    border: 1px solid var(--primary-color); /* Add a border to match */
+    padding: 0 40px;
     margin: 20px;
     cursor: pointer;
     border-radius: 5px;
@@ -206,9 +154,9 @@
 }
 
 .faq-button:hover {
-    background-color: #5CB8E6; /* Match hover background color */
+    background-color: var(--primary-color); /* Match hover background color */
     transform: translateY(-2px);
-    color: #ffffff; /* Change text color on hover */
+    color: var(--background-color); /* Change text color on hover */
 }
 
 .benefits-section img {
@@ -222,35 +170,16 @@
     margin-bottom: 40px;
 }
 
-.header h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    text-transform: uppercase;
-    color: #45494c;
-    font-weight: 400;
-    margin: 0;
-}
-
-.header h3 {
-    font-size: 40px;
-    color: rgb(144, 193, 233);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    margin: 10px;
-}
-
 .pricing-info {
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     font-weight: 100;
-    color: #45494c;
-
+    color: var(--text-color);
     margin: 5px;
     margin-bottom: 30px;
-
 }
 
-.pricing-info h4{
+.pricing-info h4 {
     font-style: italic;
     margin-top: 30px;
     font-size: 20px;
@@ -260,8 +189,7 @@
     flex-direction: row;
     row-gap: 5px;
     display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 20px;
 }
 
 .images {
@@ -272,7 +200,7 @@
 
 .text-content h4 {
     font-size: 70px;
-    color: rgb(144, 193, 233);
+    color: var(--primary-color);
     text-transform: none;
     font-family: 'Allura';
     font-weight: 100;

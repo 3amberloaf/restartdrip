@@ -1,7 +1,6 @@
-.intro-offer{
+.intro-offer {
     font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding: 0 60px;
 }
 
 .intro-offer-header {
@@ -10,9 +9,7 @@
     text-transform: none;
     font-family: 'Allura';
     font-weight: 100;
-    margin: 10px;
-    align-items: flex-start;
-
+    margin: 10px 0;
 }
 
 .intro-offer h3 {
@@ -20,34 +17,55 @@
     font-size: 30px;
     color: #45494c;
     font-weight: 600;
-    padding-left: 80px;
+    padding: 0 80px;
     text-transform: capitalize;
-    padding-right: 80px;
     margin-top: 30px;
+}
+
+.intro-offer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #45494c;
+    font-weight: 400;
+    padding: 0 80px;
+    margin-top: 20px;
+    line-height: 1.6;
 }
 
 .intro-offer-options {
     display: flex;
-    flex-direction: row;
-    margin-top: 60px;
-    margin-bottom: 0px;
-    padding-right: 60px;
-    padding-left: 60px;
-   align-content: center;
-   animation: slideInLeft 1.5s ease-in-out;
+    justify-content: center;
+    margin: 60px 0;
+    padding: 0 60px;
+    animation: slideInLeft 1.5s ease-in-out;
 }
 
 .offer-buttons {
     display: flex;
     flex-direction: row;
     width: 100%;
-    gap: 40px; /* Adjusted the gap here */
+    gap: 40px;
+    justify-content: center;
 }
 
 .view-services {
     flex: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(144, 193, 233);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-services:hover {
+    background-color: rgb(124, 173, 213);
 }
 
 .homepage {
-    margin-top: 0px;
+    margin-top: 0;
 }
+

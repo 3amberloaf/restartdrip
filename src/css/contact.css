@@ -1,4 +1,4 @@
-.contact-us img {
+.contact-container img {
     max-width: 60%;
     padding: 0 80px;
     height: auto;
@@ -6,7 +6,7 @@
     margin: 0 auto;
 }
 
-.smaller-contact img {
+.sub-contact img {
     max-width: 15%;
     padding: 0 80px;
     height: auto;
@@ -14,7 +14,7 @@
     margin: 0 auto;
 }
 
-.contact-us h1 {
+.contact-container h1 {
     font-family: 'Montserrat';
     font-size: 50px;
     text-transform: uppercase;
@@ -23,7 +23,7 @@
     margin: 20px;
 }
 
-.smaller-contact h1 {
+.sub-contact h1 {
     font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
     font-size: 30px;
     margin: 30px 0;
@@ -88,7 +88,7 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-    .contact-us img {
+    .contact-container img {
         padding: 0 20px;
     }
 

@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import './App.css'; // Import your CSS file for styling
+import './App.css'; 
 import { Link, Routes, Route, useLocation } from 'react-router-dom';
 import VitaminTherapy from './pages/vitaminivtherapy';
-import HomePage from './pages/HomePage'; // Ensure you have this component
+import HomePage from './pages/HomePage'; 
 import About from './pages/About';
 import Dehydration from './pages/treatments/dehydration';
 import Energy from './pages/treatments/energy';
@@ -26,7 +26,6 @@ const App = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-
     // Show the pop-up discount when the component mounts
    
   }, [location]);

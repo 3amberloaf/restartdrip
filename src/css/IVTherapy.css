@@ -1,8 +1,10 @@
+/* IV Therapy container styling */
 .iv-therapy {
     margin-bottom: 50px;
     margin-top: 50px;
 }
 
+/* Main container for IV therapy content */
 .iv-therapy-container {
     display: flex;
     justify-content: space-between;
@@ -10,33 +12,37 @@
     border-radius: 10px;
     max-width: 1100px;
     margin: auto;
-    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     color: #272401;
 }
 
+/* Header styling */
 .iv-therapy-header {
     margin-bottom: 20px;
-    font-family: 'Monstserrant';
+    font-family: 'Montserrat', sans-serif;
     color: #6aade5;
-    background-color: #ffffff4c;
-    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-weight: bold;
     border-bottom: 1px solid #6aade5;
     border-top: 1px solid #6aade5;
 }
 
+/* Image and text container */
 .iv-therapy-image-text {
     max-width: 50%;
     margin-right: 20px;
 }
 
+/* Styling for h3 inside image-text container */
 .iv-therapy-image-text h3 {
     color: #6aade5;
     margin-bottom: 20px;
     font-size: 1.5em;
-    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
 
+/* Styling for p inside image-text container */
 .iv-therapy-image-text p {
     color: #272401;
     margin-bottom: 20px;
@@ -45,29 +51,33 @@
     font-weight: 400;
 }
 
+/* Image styling */
 .iv-therapy-image {
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Section for services */
 .iv-therapy-section {
     max-width: 45%;
     flex: 1;
 }
 
+/* Service list container */
 .service-list {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%; /* Ensure the list takes the full height of the container */
+    height: 100%;
 }
 
+/* Service button styling */
 .service-button {
-    background-color: #ffffff; /* Match the background color */
-    font-family: 'Montserrat';
-    color: #273B5A; /* Adjust the text color */
-    border: 1px solid #5CB8E6; /* Add a border to match */
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    color: #273B5A;
+    border: 1px solid #5CB8E6;
     padding: 15px 20px;
     margin: 10px 0;
     cursor: pointer;
@@ -80,27 +90,31 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Service button hover effect */
 .service-button:hover {
-    background-color: #5CB8E6; /* Match hover background color */
+    background-color: #5CB8E6;
     transform: translateY(-2px);
-    color: #ffffff; /* Change text color on hover */
+    color: #ffffff;
 }
 
+/* Icon styling */
 .icon {
     font-size: 1.5em;
     transition: transform 0.3s;
-    color: #5CB8E6; /* Icon color to match border and text */
+    color: #5CB8E6;
 }
 
+/* Icon rotation for open state */
 .icon.open {
     transform: rotate(180deg);
 }
 
+/* Service content container */
 .service-content {
-    background-color: #f6f6f5; /* Match background color */
+    background-color: #f6f6f5;
     color: #272401;
     padding: 0 10px;
     margin: 10px 0;
@@ -112,26 +126,30 @@
     font-size: 1.1em;
     line-height: 1.6;
     text-align: left;
-    overflow: hidden; /* Ensure the content doesn't overflow */
+    overflow: hidden;
     max-height: 0;
     transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
 
+/* Open state for service content */
 .service-content.open {
     padding: 10px;
-    max-height: 500px; /* Adjust this value based on your content's height */
+    max-height: 500px;
 }
 
+/* List styling inside service content */
 .service-content ul {
-    list-style-position: inside; /* Ensures bullets align with text */
-    padding: 0; /* Removes default padding */
-    margin-left: 20px; /* Adjust this value as needed for alignment */
+    list-style-position: inside;
+    padding: 0;
+    margin-left: 20px;
 }
 
+/* List item styling inside service content */
 .service-content li {
-    margin-bottom: 10px; /* Adds space between list items */
+    margin-bottom: 10px;
 }
 
+/* Fade-in animation */
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }

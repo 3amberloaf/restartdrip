@@ -1,3 +1,4 @@
+/* Container styling */
 .container {
   display: flex;
   justify-content: center;
@@ -7,6 +8,7 @@
   font-family: 'Montserrat';
 }
 
+/* Image container styling */
 .image-container {
   flex: 1;
   display: flex;
@@ -21,6 +23,7 @@
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Content container styling */
 .content-container {
   flex: 1;
   padding: 20px;
@@ -31,7 +34,6 @@
   font-size: 2.5em;
   margin: 0 0 10px;
   color: #1E3A5F;
-  
 }
 
 .content-container h3 {
@@ -52,10 +54,10 @@
   text-align: left;
 }
 
+/* Button container styling */
 .button-container {
   text-align: center;
   margin-top: 20px;
-
 }
 
 .button-container .book-now {
@@ -83,6 +85,7 @@
   transform: translateY(0);
 }
 
+/* Additional information styling */
 .additional-info {
   margin-top: 10px;
   display: flex;
@@ -90,7 +93,6 @@
   align-items: flex-start;
   padding: 20px;
   text-align: left;
-
 }
 
 .additional-info h1 {
@@ -105,16 +107,14 @@
 
 .additional-info p, .additional-info ul {
   font-size: 18px;
-
-
   color: #333;
 }
-.additional-info p{
+
+.additional-info p {
   margin-bottom: 5px;
-
   margin-top: 15px;
-
 }
+
 .additional-info ul {
   padding-left: 40px;
   margin-left: 0; /* Ensure no additional left margin */
@@ -127,10 +127,10 @@
 .additional-info ul li {
   display: flex;
   align-items: center;
-
   position: relative;
   padding-left: 20px; /* Space for custom bullet */
 }
+
 .additional-info ul li::before {
   content: '•';
   font-size: 1.5em;
@@ -139,6 +139,7 @@
   font-weight: bold;
 }
 
+/* Responsive design adjustments */
 @media (max-width: 768px) {
   .additional-info {
     padding: 15px;
@@ -153,11 +154,10 @@
     font-size: 1em;
     align-items: flex-start;
     text-align: left;
-    
   }
 }
 
-
+/* Main container styling */
 .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -166,6 +166,7 @@
   padding: 20px;
 }
 
+/* Ingredient wrapper styling */
 .ingredient-wrapper {
   display: flex;
   justify-content: space-around;
@@ -173,21 +174,22 @@
   flex-wrap: wrap;
 }
 
+/* Individual ingredient container styling */
 .ingredient-container {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 0px;
   background-color: #FAF9F6;
-  margin: 10px;
+  margin: 15px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .ingredient-container img {
   max-width: 60px; /* Adjust size for better layout */
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .ingredient-container h1 {
@@ -195,8 +197,6 @@
   color: #272401;
   margin: 10px 0;
   text-align: center;
-  padding: 0;
-  border: none;
 }
 
 .ingredient-container h3 {
@@ -205,17 +205,10 @@
   margin: 10px 0;
   text-align: center;
   text-transform: lowercase;
-  padding: 0;
-  border: none;
   font-weight: 100;
 }
 
-.ingredient-container h1, .ingredient-container h3 {
-  margin: 0; /* Ensure no margins */
-  padding: 0; /* Ensure no padding */
-  border: none; /* Ensure no borders */
-}
-
+/* Banner styling */
 .banner {
   width: 100%;
   font-family: 'Barlow';

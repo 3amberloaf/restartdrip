@@ -3,42 +3,42 @@ const treatments = [
       name: 'DEHYDRATION',
       price: '$105',
       description: 'Rehydrate and replenish your body!',
-      imageUrl: 'images/services/dehydration.png', // Update with actual path
+      imageUrl: 'images/services/dehydration.png', 
       servicePath: '/services/dehydration'
     },
     {
       name: 'BEAUTY & YOUTH',
       price: '$195',
       description: 'Become the Best Version of YOU today!',
-      imageUrl: 'images/services/beauty.png', // Update with actual path
+      imageUrl: 'images/services/beauty.png', 
       servicePath: '/services/beauty'
     },
     {
       name: 'MIGRAINE FIGHTER',
       price: '$180',
       description: 'Fight back against headaches and nausea!',
-      imageUrl: 'images/services/migraine.png', // Update with actual path
+      imageUrl: 'images/services/migraine.png', 
       servicePath: '/services/migraine'
     },
     {
       name: 'ENERGY BOOST',
       price: '$200',
       description: 'Replenish with vital fluids and vitamins.',
-      imageUrl: 'images/services/energy.png', // Update with actual path
+      imageUrl: 'images/services/energy.png', 
       servicePath: '/services/energy-boost'
     },
     {
       name: 'HANGOVER DETOX',
       price: '$220',
       description: 'Resolve nausea, headaches, & fatigue.',
-      imageUrl: 'images/services/hangover.png', // Update with actual path
+      imageUrl: 'images/services/hangover.png', 
       servicePath: '/services/hangover'
     },
     {
       name: 'IMMUNE BOOSTER',
       price: '$200',
       description: 'Boost your Immune System fast and naturally!',
-      imageUrl: 'images/services/immune.png', // Update with actual path
+      imageUrl: 'images/services/immune.png', 
       servicePath: '/services/immune-boost'
     },
 
@@ -46,14 +46,14 @@ const treatments = [
       name: 'MYERS COCKTAIL',
       price: '$280',
       description: 'Packed with Everything You Need!',
-      imageUrl: 'images/services/myers.png', // Update with actual path
+      imageUrl: 'images/services/myers.png', 
       servicePath: '/services/myers-cocktail'
     },
     {
       name: 'FAT BURNER',
       price: '$175',
       description: 'Increase Energy, Mood and Health!',
-      imageUrl: 'images/services/fat.png', // Update with actual path
+      imageUrl: 'images/services/fat.png', 
       servicePath: '/services/fatburner'
     },
 
@@ -61,7 +61,7 @@ const treatments = [
     name: 'ATHLETE RECOVERY',
     price: '$250',
     description: 'Workout & Recover like a professional!',
-    imageUrl: 'images/services/athlete.png', // Update with actual path
+    imageUrl: 'images/services/athlete.png', 
     servicePath: '/services/athlete'
   }
   ];

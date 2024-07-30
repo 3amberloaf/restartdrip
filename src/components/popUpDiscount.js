@@ -7,11 +7,12 @@ const PopUpDiscount = ({ show, handleClose }) => {
       <section className="modal-main">
         <span className="close-btn" onClick={handleClose}>&times;</span>
         <div className="popup-header">
-         
         </div>
         <div className="discount-text">
-        <h1>Unlock 20% Off</h1>
-        <p>Sign up to receive marketing texts and emails today to receive 20% off your first visit. Gain access to exclusive deals and be the first to know about upcoming events.</p>
+          <h1>Unlock 20% Off</h1>
+          <p>
+            Sign up to receive marketing texts and emails today to receive 20% off your first visit. Gain access to exclusive deals and be the first to know about upcoming events.
+          </p>
         </div>
         <button className="popup-btn">Sign Up and Unlock Code</button>
       </section>

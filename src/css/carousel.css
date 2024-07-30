@@ -1,6 +1,6 @@
+/* Container for the entire carousel */
 .carousel-container {
     margin: 0 auto;
-
     padding: 20px;
     text-align: center;
     overflow: hidden;
@@ -10,6 +10,7 @@
     box-sizing: border-box;
 }
 
+/* Scrollable area for slides */
 .carousel-scroll {
     display: flex;
     transition: transform 0.8s ease-in-out; /* Smoother transition */
@@ -18,16 +19,17 @@
     width: 100%;
 }
 
+/* Carousel header styling */
 .carousel-container h1 {
     font-size: 100px;
     color: rgb(144, 193, 233);
-    text-transform: none;
-    font-family: 'Allura';
+    font-family: 'Allura', cursive;
     font-weight: 100;
     margin: 10px;
     margin-top: 50px;
 }
 
+/* Individual slide styling */
 .treatment-slide {
     width: 300px; /* Fixed width */
     height: 600px; /* Fixed height */
@@ -42,11 +44,13 @@
     flex-direction: column;
 }
 
+/* Slide hover effect */
 .treatment-slide:hover {
     transform: scale(1.1);
     z-index: 1; /* Ensure it appears above other slides */
 }
 
+/* Slide image styling */
 .treatment-slide img {
     width: 100%;
     height: auto;
@@ -54,6 +58,7 @@
     margin-bottom: 0px;
 }
 
+/* Slide title styling */
 .treatment-slide h3 {
     font-size: 1.1em;
     color: #1E3A5F;
@@ -61,13 +66,15 @@
     margin-bottom: 0px;
 }
 
+/* Slide paragraph styling */
 .treatment-slide p {
     font-size: 18px;
     color: #273B5A; /* Navy Blue */
-    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 5px;
 }
 
+/* Learn more button styling */
 .learn-more-button {
     display: inline-block;
     padding: 12px 20px;
@@ -85,13 +92,14 @@
     margin-top: auto; /* Push button to the bottom */
 }
 
+/* Learn more button hover effect */
 .learn-more-button:hover {
     background: linear-gradient(135deg, #00AFEF 0%, #0097B2 100%); /* Bright blue to green/blue */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     transform: scale(1.05);
 }
 
-/* Navigation Buttons */
+/* Navigation buttons styling */
 .carousel-button {
     position: absolute;
     top: 50%;
@@ -109,14 +117,17 @@
     align-items: center;
 }
 
+/* Navigation buttons hover effect */
 .carousel-button:hover {
     background-color: rgb(183, 181, 181);
 }
 
+/* Left navigation button */
 .carousel-button-left {
     left: 5px; /* Adjust as needed */
 }
 
+/* Right navigation button */
 .carousel-button-right {
     right: 5px; /* Adjust as needed */
 }

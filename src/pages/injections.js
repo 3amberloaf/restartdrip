@@ -40,10 +40,8 @@ const Injections = () => {
 
     window.addEventListener('scroll', handleScrollAnimation);
 
-    // Initial check
     handleScrollAnimation();
 
-    // Cleanup function to remove event listener
     return () => {
       window.removeEventListener('scroll', handleScrollAnimation);
     };
@@ -63,7 +61,6 @@ const Injections = () => {
         <p>
           Don’t be fooled by the name, it’s not only about the IVs at Restart Drip! Many clients come to us for our vitamin injections, whether they add them to an IV service or simply pop-in for a quick shot. Restart Drip offers vitamin IV therapies for everything from B12 injections to vitamin D3 injections and more! Learn more about our vitamin injections and schedule an appointment near you at any of our locations. You can also call today to book an appointment near you.
         </p>
-
         <p>
           We have seven shots to choose from at our Restart Drip spas — B12 injections, MIC injections, D3 injections, Tri-Immune injections, and our newest additions, the NAD+ injection, L-lysine injection, and the Amino Acid injection! Our staff can consult with you on which injection(s) may be best for you. Injection packages and our Shot Pass are available for those who want to add routine injections to their health and wellness regime.
         </p>
@@ -91,10 +88,10 @@ const Injections = () => {
         <h4 className="hidden-text">CAN BE TAILORED TO MEET SPECIFIC NEEDS</h4>
         <p className="hidden-text">Most vitamin injections are pre-formulated, meaning they have specific benefits for the body. While we have our signature shots, we can customize an injection session to address particular needs. You can book a vitamin injection for:</p>
         <ul className="hidden-text">
-          <li className="hidden-text">Anxiety and stress relief</li>
-          <li className="hidden-text">Enhance energy and stamina</li>
-          <li className="hidden-text">Enhanced immune system and gastrointestinal support</li>
-          <li className="hidden-text">Reduce inflammation</li>
+          <li>Anxiety and stress relief</li>
+          <li>Enhance energy and stamina</li>
+          <li>Enhanced immune system and gastrointestinal support</li>
+          <li>Reduce inflammation</li>
         </ul>
         <img src="../images/homepage/droplet.png" alt="Company Logo" />
       </div>

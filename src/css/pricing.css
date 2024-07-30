@@ -1,46 +1,118 @@
 .pricings {
     font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-
 }
 
-
-.pricing-box {
-    border: 3px solid rgb(144, 193, 233);
-    margin-left: 150px;
-    margin-right: 150px;
-    padding: 10px;
-}
 .pricing-header h1 {
     font-family: 'Montserrat';
     font-size: 50px;
     text-transform: uppercase;
     color: #45494c;
     font-weight: 400;
- 
     margin-top: 30px;
 }
+
+.pricing-box {
+    border: 3px solid rgb(144, 193, 233);
+    margin: 0 150px;
+    padding: 10px;
+}
+
 .pricing-box h1 {
     font-family: 'Montserrat';
     font-size: 40px;
     text-transform: capitalize;
     color: #45494c;
     font-weight: 800;
-
 }
+
 .pricing-box h3 {
     font-family: 'Montserrat';
     font-size: 20px;
     text-transform: capitalize;
     color: #45494c;
     font-weight: 100;
-
 }
+
 .iv-services {
     padding: 20px;
-    padding-top: 0px;
+    padding-top: 0;
 }
 
 .vitamin-services {
     margin-top: 50px;
+}
 
+.injections-services {
+    margin-top: 30px;
+}
+
+.treatment-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pricing {
+    margin-top: 50px;
+}
+
+.header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #45494c;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.header h3 {
+    font-size: 40px;
+    color: rgb(144, 193, 233);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin: 10px;
+}
+
+.pricing-info {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    color: #45494c;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+.pricing-info h4 {
+    font-style: italic;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.images .cell, .images .metabolism, .images .joint, .images .sleep, .images .clarity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.images img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.images p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #45494c;
+    margin: 0;
 }

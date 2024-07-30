@@ -1,3 +1,4 @@
+/* Main container for reviews */
 .reviews-container {
   max-width: 800px;
   margin: 0 auto;
@@ -5,12 +6,10 @@
   padding-bottom: 60px;
   margin-top: 30px;
   position: relative;
-
-
   padding: 20px;
-
 }
 
+/* Header styling for the reviews section */
 .reviews-container h2 {
   font-size: 50px;
   margin-bottom: 30px;
@@ -18,14 +17,15 @@
   font-weight: bold;
 }
 
+/* Individual review styling */
 .review {
   position: relative;
   display: flex;
-
   align-items: center;
   justify-content: center;
 }
 
+/* Content within each review */
 .review-content {
   padding: 40px;
   background: #ffffff; /* Light Cream */
@@ -37,23 +37,27 @@
   border: 1px solid #9bbae7; /* Primary color border */
 }
 
+/* Reviewer's name styling */
 .review-content h3 {
   font-size: 24px;
   margin-bottom: 10px;
   color: #557373; /* Dark Text */
 }
 
+/* Review text styling */
 .review-content p {
   font-size: 18px;
   margin-bottom: 10px;
   color: #0d0d0d; /* Text Color */
 }
 
+/* Star rating styling */
 .rating {
   color: #ffc107; /* Star color */
   margin-bottom: 10px;
 }
 
+/* Previous and next button styling */
 button.prev, button.next {
   background: none;
   border: none;
@@ -65,14 +69,17 @@ button.prev, button.next {
   color: #9bbae7; /* Primary color */
 }
 
+/* Positioning for previous button */
 button.prev {
   left: -40px;
 }
 
+/* Positioning for next button */
 button.next {
   right: -40px;
 }
 
+/* Leave review button styling */
 button.leave-review {
   margin-top: 20px;
   padding: 10px 20px;
@@ -83,6 +90,7 @@ button.leave-review {
   cursor: pointer;
 }
 
+/* Hover effect for leave review button */
 button.leave-review:hover {
   background-color: #557373; /* Dark hover color */
 }
