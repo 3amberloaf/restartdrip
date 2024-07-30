@@ -71,6 +71,7 @@ const HomePage = () => {
           backgroundSize: 'cover',
           backgroundPosition: 'center top',
           height: '85vh',
+
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',

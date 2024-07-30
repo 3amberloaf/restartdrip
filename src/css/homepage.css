@@ -28,6 +28,7 @@
 .homepage-logo img {
   width: 100%;
   height: auto;
+
 }
 
 .homepage-text {
@@ -85,7 +86,9 @@
 
 .homepage-image-container {
   display: none; /* Hide the background image container */
+
 }
+
 
 .droplet {
   position: relative;
@@ -127,17 +130,20 @@
 
 .waves {
   position: relative;
+
 }
 
 .waves img {
   width: 100%;
-  height: 90vh;
+
+  height: 80vh;
   display: block;
 }
 
 .waves h1 {
   font-family: 'Allura';
   position: absolute;
+  
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);

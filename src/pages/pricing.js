@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../css/pricing.css';
 import TreatmentCard from './treatments/treatment_card';
 import treatments from './treatments/treatments';
@@ -74,6 +75,17 @@ const Pricing = () => {
             <img src="/images/services/clarity.png" alt="clarity" />
             <p>Mental Clarity</p>
           </div>
+        </div>
+      </div>
+      <div className="homepage">
+        <div className="waves">
+          <h1>Thirsty?</h1>
+          <div className="waves-buttons">
+            <Link to="https://booking.hydreight.com/widget">
+              <button className="view-services">BOOK NOW</button>
+            </Link>
+          </div>
+          <img src="/images/homepage/waves.png" alt="waves" />
         </div>
       </div>
     </div>

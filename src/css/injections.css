@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Allura';
-    src: url('../fonts/Allura-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
+    src: url('../fonts/Allura-Regular.ttf') format('truetype'); 
     font-weight: normal;
     font-style: normal;
   }
@@ -116,7 +116,8 @@
   }
   
   .treatment-container {
-    padding: 30px;
+    padding-left: 10px; /* Makes sure the 4 containers can fit on one line */
+    padding-right: 10px;
     margin: 0px;
   }
   
