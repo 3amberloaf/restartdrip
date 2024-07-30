@@ -10,6 +10,7 @@
     align-items: center; /* Align items vertically centered */
     justify-content: center; /* Center items horizontally */
     text-align: left; /* Ensure text is left-aligned */
+    animation: slideInLeft 1s ease-in-out;
 }
 
 .services-text img {
@@ -29,6 +30,7 @@
     width: 100%; /* Ensure the section spans the full width */
     box-sizing: border-box; /* Include padding in the width calculation */
     margin: 0 auto; /* Center the section */
+    animation: fadeIn 1s ease-in-out;
 }
 
 .IV-services h4 {
