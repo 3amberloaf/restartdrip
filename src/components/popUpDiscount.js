@@ -7,7 +7,7 @@ const PopUpDiscount = ({ show, handleClose }) => {
       <section className="modal-main">
         <span className="close-btn" onClick={handleClose}>&times;</span>
         <div className="popup-header">
-          <img src="images/logo.png" alt="Logo" className="popup-logo" />
+         
         </div>
         <div className="discount-text">
         <h1>Unlock 20% Off</h1>

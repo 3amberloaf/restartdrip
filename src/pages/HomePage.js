@@ -68,7 +68,7 @@ const HomePage = () => {
           backgroundImage: 'url(/images/homepage/homepage_background.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center top',
-          height: '90vh',
+          height: '80vh',
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
@@ -76,7 +76,7 @@ const HomePage = () => {
           position: 'relative',
         }}
       >
-        <div className="homepage-logo" style={{ position: 'relative', top: '-90px' }}>
+        <div className="homepage-logo" style={{ position: 'relative', top: '-80px' }}>
           <img src="/images/logo.png" alt="logo" />
         </div>
         <div className="homepage-text" style={{ position: 'relative', top: '-110px' }}>
