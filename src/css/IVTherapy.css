@@ -1,5 +1,6 @@
 .iv-therapy {
-    margin-bottom: 50px;;
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 .iv-therapy-container {
@@ -16,7 +17,7 @@
 }
 
 .iv-therapy-header {
-    margin: 20px;
+    margin-bottom: 20px;
     font-family: 'Monstserrant';
     color: #6aade5;
     background-color: #ffffff4c;
@@ -51,7 +52,7 @@
 }
 
 .iv-therapy-image {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -59,11 +60,17 @@
 .iv-therapy-section {
     max-width: 45%;
     flex: 1;
+    align-items:first baseline;
 }
 
 .service-list {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 20px;
+  
+
 
 }
 .service-button {
