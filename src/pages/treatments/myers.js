@@ -1,8 +1,46 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import '../../css/treatments.css';
 
 const Myers = () => {
+
+  useEffect(() => {
+    const elements = document.querySelectorAll(".additional-info p, .additional-info ul, .additional-info li, .additional-info h1");
+
+    const elementInView = (element, offset = 0) => {
+      const elementTop = element.getBoundingClientRect().top;
+      return (
+        elementTop <= ((window.innerHeight || document.documentElement.clientHeight) - offset)
+      );
+    };
+
+    const displayScrollElement = (element) => {
+      element.classList.add('visible-text');
+    };
+
+    const hideScrollElement = (element) => {
+      element.classList.remove('visible-text');
+    };
+
+    const handleScrollAnimation = () => {
+      elements.forEach((el) => {
+        if (elementInView(el, 100)) {
+          displayScrollElement(el);
+        } else {
+          hideScrollElement(el);
+        }
+      });
+    };
+
+    window.addEventListener('scroll', handleScrollAnimation);
+
+    handleScrollAnimation();
+
+
+    return () => {
+      window.removeEventListener('scroll', handleScrollAnimation);
+    };
+  }, []);
   return (
     <div className="container">
       <div className="image-container">
@@ -52,26 +90,25 @@ const Myers = () => {
       </div>
 
       <div className="additional-info">
-          <h1>Benefits of Myers Cocktail</h1>
-          <ul>
-            <li>Enhances relaxation</li>
-            <li>Reduces blood pressure</li>
-            <li>Increases metabolism</li>
-          </ul>
-          <h1>Myers Cocktail IV Therapy</h1>
-          <p>
-          The Myers' Cocktail IV therapy is particularly beneficial for individuals seeking to enhance energy levels, support immune function, and improve overall well-being. It is often used to alleviate symptoms of fatigue, dehydration, migraines, and chronic conditions like fibromyalgia and asthma.
-          </p>
-          <p>Regular sessions of Myers' Cocktail IV therapy can contribute to improved energy levels, reduced symptoms of illness or chronic conditions, and enhanced overall health and vitality. It is a valuable option for individuals looking to optimize their nutritional status and support their body's natural healing processes.
-          </p>
-          
-         
-          <h1>Why Choose Us for IV Hydration?</h1>
-          <p>
-            When you’re in need of liquid IV therapy for a hangover or recovery of any kinds in the New Jersey area, look no further than Restart Drip. Our focus is on promoting wellness from within, and that includes helping those who need to feel better fast! 
-          </p>
-          
-        </div>
+    <h1 className="hidden-text">Benefits of Myers Cocktail</h1>
+    <ul className="hidden-text">
+        <li className="hidden-text">Enhances relaxation</li>
+        <li className="hidden-text">Reduces blood pressure</li>
+        <li className="hidden-text">Increases metabolism</li>
+    </ul>
+    <h1 className="hidden-text">Myers Cocktail IV Therapy</h1>
+    <p className="hidden-text">
+        The Myers' Cocktail IV therapy is particularly beneficial for individuals seeking to enhance energy levels, support immune function, and improve overall well-being. It is often used to alleviate symptoms of fatigue, dehydration, migraines, and chronic conditions like fibromyalgia and asthma.
+    </p>
+    <p className="hidden-text">
+        Regular sessions of Myers' Cocktail IV therapy can contribute to improved energy levels, reduced symptoms of illness or chronic conditions, and enhanced overall health and vitality. It is a valuable option for individuals looking to optimize their nutritional status and support their body's natural healing processes.
+    </p>
+    <h1 className="hidden-text">Why Choose Us for IV Hydration?</h1>
+    <p className="hidden-text">
+        When you’re in need of liquid IV therapy for a hangover or recovery of any kinds in the New Jersey area, look no further than Restart Drip. Our focus is on promoting wellness from within, and that includes helping those who need to feel better fast!
+    </p>
+</div>
+
 
     </div>
   );
