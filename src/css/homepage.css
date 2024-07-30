@@ -22,7 +22,7 @@
 }
 
 .homepage-logo {
-  width: 400px;
+  width: 350px;
   margin: 0px;
 
 }
@@ -38,22 +38,30 @@
   z-index: 10;
   text-align: center;
 
-  color: #ffffff; /* Navy Blue */
+  color: #424b50; /* Adjust the color as needed */
   font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
   font-weight: 600;
   line-height: 2em;
-  text-shadow: 0em 0.1em 0.1em rgba(0, 0, 0, 0.4);
+  margin: 0px;
+ 
 }
 
 .homepage-text h3 {
-  font-size: 30px;
-  margin: 0px 0px;
-  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #45494c;
+  font-weight: 400;
+  margin: 0;
 }
 .homepage-text h4 {
-  font-size: 24px;
-  margin: 0px 0;
-  text-align: center;
+  font-size: 50px;
+  color: rgb(144, 193, 233);
+  text-transform: none;
+  font-family: 'Allura';
+  font-weight: 100;
+  margin: 10px;
+  align-items: flex-start;
 }
 
 .homepage-buttons {

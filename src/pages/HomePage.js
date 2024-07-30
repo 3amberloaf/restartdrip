@@ -34,7 +34,7 @@ const HomePage = () => {
           backgroundImage: 'url(/images/homepage/homepage_background.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center top',
-          height: '100vh', // Full viewport height
+          height: '90vh', // Full viewport height
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
@@ -42,10 +42,10 @@ const HomePage = () => {
           position: 'relative',
         }}
       >
-        <div className="homepage-logo">
+        <div className="homepage-logo" style={{ position: 'relative', top: '-90px' }}>
           <img src="/images/logo.png" alt="logo" />
         </div>
-        <div className="homepage-text" style={{ position: 'relative', top: '-50px' }}>
+        <div className="homepage-text" style={{ position: 'relative', top: '-110px' }}>
           <h3>IV therapy + vitamin injections + NAD+</h3>
           <h4>wellness • illness • recovery • beauty</h4>
           <div className="homepage-buttons">
