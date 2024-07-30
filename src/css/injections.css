@@ -6,6 +6,18 @@
     font-style: normal;
   }
   
+  .hidden-text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  
+  .visible-text {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
 
   .injections-services-text {
     display: flex;
@@ -153,6 +165,7 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         color: #9bbae7;
+        animation: fadeIn 1s ease-in-out;
 
     }
 

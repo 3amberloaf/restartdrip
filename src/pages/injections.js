@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../css/injections.css';
 import injections from './injections/injections_card';
 import TreatmentCard from './treatments/treatment_card';
@@ -11,7 +11,49 @@ const Injections = () => {
     const toggleSection = (section) => {
         setActiveSection(activeSection === section ? null : section);
     };
+
+    useEffect(() => {
+      const elements = document.querySelectorAll(".injections-benefits-section li, .injections-benefits-section p, .injections-benefits-section h1, .injections-benefits-section h4, injections-benefits-section ul");
+  
+      const elementInView = (element, offset = 0) => {
+        const elementTop = element.getBoundingClientRect().top;
+        return (
+          elementTop <= ((window.innerHeight || document.documentElement.clientHeight) - offset)
+        );
+      };
+  
+      const displayScrollElement = (element) => {
+        element.classList.add('visible-text');
+      };
+  
+      const hideScrollElement = (element) => {
+        element.classList.remove('visible-text');
+      };
+  
+      const handleScrollAnimation = () => {
+        elements.forEach((el) => {
+          if (elementInView(el, 100)) {
+            displayScrollElement(el);
+          } else {
+            hideScrollElement(el);
+          }
+        });
+      };
+  
+      window.addEventListener('scroll', handleScrollAnimation);
+  
+      // Initial check
+      handleScrollAnimation();
+  
+      // Cleanup function to remove event listener
+      return () => {
+        window.removeEventListener('scroll', handleScrollAnimation);
+      };
+    }, []);
+  
+   
   return (
+
     <div>
       <div className="injections-IV-services">
         <div className="injections-services-text">
@@ -39,19 +81,19 @@ const Injections = () => {
         ))}
       </div>
       <div className="injections-benefits-section">
-          <h1>WHAT ARE THE BENEFITS OF GETTING VITAMIN INJECTIONS?</h1>
-          <p>Vitamins are essential for overall health. You can get your vitamins from food, oral supplements, or injections. However, food and oral supplements pass through the digestive system, slowing the absorption process. For the following reasons, we recommend vitamin injections.</p>
+          <h1 className="hidden-text">WHAT ARE THE BENEFITS OF GETTING VITAMIN INJECTIONS?</h1>
+          <p className="hidden-text">Vitamins are essential for overall health. You can get your vitamins from food, oral supplements, or injections. However, food and oral supplements pass through the digestive system, slowing the absorption process. For the following reasons, we recommend vitamin injections.</p>
           
-          <h4>HIGHER ABSORPTION EFFICIENCY</h4>
-          <p>Vitamin shots bypass the digestive system to deliver essential nutrients directly into the bloodstream. This direct delivery enhances absorption efficiency, providing immediate benefits. The health benefits of vitamins are only realized when a specific amount is absorbed. While you may not know the amount of vitamins in food, an injection provides the right amount. Moreover, you only stop by our spa for a quick shot instead of ingesting supplementary pills daily.</p>
+          <h4 className="hidden-text">HIGHER ABSORPTION EFFICIENCY</h4>
+          <p className="hidden-text">Vitamin shots bypass the digestive system to deliver essential nutrients directly into the bloodstream. This direct delivery enhances absorption efficiency, providing immediate benefits. The health benefits of vitamins are only realized when a specific amount is absorbed. While you may not know the amount of vitamins in food, an injection provides the right amount. Moreover, you only stop by our spa for a quick shot instead of ingesting supplementary pills daily.</p>
           
-          <h4>CAN BE TAILORED TO MEET SPECIFIC NEEDS</h4>
-          <p>Most vitamin injections are pre-formulated, meaning they have specific benefits for the body. While we have our signature shots, we can customize an injection session to address particular needs. You can book a vitamin injection for:</p>
-          <ul>
-            <li>Anxiety and stress relief</li>
-            <li>Enhance energy and stamina</li>
-            <li>Enhanced immune system and gastrointestinal support</li>
-            <li>Reduce inflammation</li>
+          <h4 className="hidden-text">CAN BE TAILORED TO MEET SPECIFIC NEEDS</h4>
+          <p className="hidden-text">Most vitamin injections are pre-formulated, meaning they have specific benefits for the body. While we have our signature shots, we can customize an injection session to address particular needs. You can book a vitamin injection for:</p>
+          <ul className="hidden-text">
+            <li className="hidden-text">Anxiety and stress relief</li>
+            <li className="hidden-text">Enhance energy and stamina</li>
+            <li className="hidden-text">Enhanced immune system and gastrointestinal support</li>
+            <li className="hidden-text">Reduce inflammation</li>
           </ul>
           
          

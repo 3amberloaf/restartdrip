@@ -53,6 +53,20 @@ Here I will track what I learned each day I worked on the website and what I acc
 }
 `
 
+4. Sequential Fade in
+
+`@keyframes fadeInItem {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+`
+
 **Text Slowly Appearing**
 
 1. Have CSS for hidden and visible text that defines the opacity and transformation
