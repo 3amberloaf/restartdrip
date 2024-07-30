@@ -8,6 +8,51 @@ Here I will track what I learned each day I worked on the website and what I acc
 
 ## July 30th, 2024
 
+**Images/text/containers having animations**
+
+1. Fading
+
+`@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.about-us-container, .our-mission p, p, .hashtag, .hashtag-info, .nurse-image img {
+    animation: fadeIn 1s ease-in-out;
+}
+
+`
+
+2. Sliding in
+
+`@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.hero-content {
+    animation: slideInLeft 1s ease-in-out;
+}
+`
+
+3. Hover
+
+`.hero-content img:hover, .our-founder .founder-image:hover, .hashtag-info img:hover {
+    transform: scale(1.1);
+}
+`
+
 **Text Slowly Appearing**
 
 1. Have CSS for hidden and visible text that defines the opacity and transformation
