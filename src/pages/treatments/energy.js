@@ -1,8 +1,47 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import '../../css/treatments.css';
 
 const Energy = () => {
+
+  useEffect(() => {
+    const elements = document.querySelectorAll(".additional-info p, .additional-info ul, .additional-info li, .additional-info h1");
+
+    const elementInView = (element, offset = 0) => {
+      const elementTop = element.getBoundingClientRect().top;
+      return (
+        elementTop <= ((window.innerHeight || document.documentElement.clientHeight) - offset)
+      );
+    };
+
+    const displayScrollElement = (element) => {
+      element.classList.add('visible-text');
+    };
+
+    const hideScrollElement = (element) => {
+      element.classList.remove('visible-text');
+    };
+
+    const handleScrollAnimation = () => {
+      elements.forEach((el) => {
+        if (elementInView(el, 100)) {
+          displayScrollElement(el);
+        } else {
+          hideScrollElement(el);
+        }
+      });
+    };
+
+    window.addEventListener('scroll', handleScrollAnimation);
+
+    handleScrollAnimation();
+
+
+    return () => {
+      window.removeEventListener('scroll', handleScrollAnimation);
+    };
+  }, []);
+
   return (
     <div className="container">
       <div className="image-container">
@@ -16,7 +55,7 @@ const Energy = () => {
         </p>
         <div className="button-container">
           <Link to="https://booking.hydreight.com/widget">
-              <button className="book-now">Book Now</button>
+              <button className="book-now">BOOK NOW</button>
             </Link>
         </div>
       </div>
@@ -43,24 +82,29 @@ const Energy = () => {
         RESTART - DRIP 
       </div>
       <div className="additional-info">
-        <h1>Causes of low energy?</h1>
-        <ul>
-          <li>Thyroid conditions</li>
-          <li>Anemia</li>
-          <li>Insufficient sleep</li>
-          <li>Stress</li>
-          <li>Neurological conditions</li>
-          <li>Electrolyte imbalances</li>
-          <li>Overexertion</li>
-        </ul>
-        <h1>Energy Boost IV Therapy</h1>
-        <p>
-          Energy Boost IV Therapy is a specialized treatment designed to rejuvenate and revitalize your body by delivering a potent blend of essential vitamins directly into your bloodstream. This therapy harnesses the power of B-Complex vitamins, Vitamin C, and Vitamin B12 to effectively increase your energy levels and improve overall well-being.
-        </p>
-        <p>B-Complex vitamins play a crucial role in converting nutrients into energy, aiding in the reduction of fatigue and enhancing mental clarity. Vitamin C, a powerful antioxidant, helps protect your cells from oxidative stress and supports your immune system, keeping you feeling refreshed and resilient. Vitamin B12 is essential for red blood cell production and neurological function, providing an additional boost to your energy levels and cognitive performance. Together, these vitamins work synergistically to combat exhaustion, promote vitality, and help you feel your best.</p>
-        <h1>Why Choose Us for IV Hydration?</h1>
-        <p>When you’re in need of liquid IV therapy for a hangover or recovery of any kinds in the New Jersey area, look no further than Restart Drip. Our focus is on promoting wellness from within, and that includes helping those who need to feel better fast!</p>
-      </div>
+    <h1 className="hidden-text">Causes of low energy?</h1>
+    <ul className="hidden-text">
+        <li className="hidden-text">Thyroid conditions</li>
+        <li className="hidden-text">Anemia</li>
+        <li className="hidden-text">Insufficient sleep</li>
+        <li className="hidden-text">Stress</li>
+        <li className="hidden-text">Neurological conditions</li>
+        <li className="hidden-text">Electrolyte imbalances</li>
+        <li className="hidden-text">Overexertion</li>
+    </ul>
+    <h1 className="hidden-text">Energy Boost IV Therapy</h1>
+    <p className="hidden-text">
+        Energy Boost IV Therapy is a specialized treatment designed to rejuvenate and revitalize your body by delivering a potent blend of essential vitamins directly into your bloodstream. This therapy harnesses the power of B-Complex vitamins, Vitamin C, and Vitamin B12 to effectively increase your energy levels and improve overall well-being.
+    </p>
+    <p className="hidden-text">
+        B-Complex vitamins play a crucial role in converting nutrients into energy, aiding in the reduction of fatigue and enhancing mental clarity. Vitamin C, a powerful antioxidant, helps protect your cells from oxidative stress and supports your immune system, keeping you feeling refreshed and resilient. Vitamin B12 is essential for red blood cell production and neurological function, providing an additional boost to your energy levels and cognitive performance. Together, these vitamins work synergistically to combat exhaustion, promote vitality, and help you feel your best.
+    </p>
+    <h1 className="hidden-text">Why Choose Us for IV Hydration?</h1>
+    <p className="hidden-text">
+        When you’re in need of liquid IV therapy for a hangover or recovery of any kinds in the New Jersey area, look no further than Restart Drip. Our focus is on promoting wellness from within, and that includes helping those who need to feel better fast!
+    </p>
+</div>
+
     </div>
   );
 };

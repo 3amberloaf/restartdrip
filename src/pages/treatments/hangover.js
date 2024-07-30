@@ -19,7 +19,7 @@ const Hangover = () => {
   
         <div className="button-container">
           <Link to="https://booking.hydreight.com/widget">
-              <button className="book-now">Book Now</button>
+              <button className="book-now">BOOK NOW</button>
             </Link>
         </div>
       </div>
