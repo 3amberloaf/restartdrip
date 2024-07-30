@@ -111,6 +111,9 @@
 }
 .additional-info p{
   margin-bottom: 5px;
+
+  margin-top: 15px;
+
 }
 .additional-info ul {
   padding-left: 40px;
@@ -150,6 +153,7 @@
     font-size: 1em;
     align-items: flex-start;
     text-align: left;
+    
   }
 }
 

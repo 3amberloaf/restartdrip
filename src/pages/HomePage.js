@@ -70,7 +70,7 @@ const HomePage = () => {
           backgroundImage: 'url(/images/homepage/homepage_background.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center top',
-          height: '80vh',
+          height: '85vh',
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',

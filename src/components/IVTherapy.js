@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../css/IVTherapy.css';
 
 const IVTherapy = () => {
@@ -7,6 +7,44 @@ const IVTherapy = () => {
     const toggleSection = (section) => {
         setActiveSection(activeSection === section ? null : section);
     };
+
+    useEffect(() => {
+        const elements = document.querySelectorAll(".additional-info p, .additional-info li, .additional-info ul, .additional-info h1");
+    
+        const elementInView = (element, offset = 0) => {
+          const elementTop = element.getBoundingClientRect().top;
+          return (
+            elementTop <= ((window.innerHeight || document.documentElement.clientHeight) - offset)
+          );
+        };
+    
+        const displayScrollElement = (element) => {
+          element.classList.add('visible-text');
+        };
+    
+        const hideScrollElement = (element) => {
+          element.classList.remove('visible-text');
+        };
+    
+        const handleScrollAnimation = () => {
+          elements.forEach((el) => {
+            if (elementInView(el, 100)) {
+              displayScrollElement(el);
+            } else {
+              hideScrollElement(el);
+            }
+          });
+        };
+    
+        window.addEventListener('scroll', handleScrollAnimation);
+    
+        handleScrollAnimation();
+    
+    
+        return () => {
+          window.removeEventListener('scroll', handleScrollAnimation);
+        };
+      }, []);
 
     return (
   
