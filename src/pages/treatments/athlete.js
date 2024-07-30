@@ -50,7 +50,7 @@ const Athlete = () => {
       </div>
       <div className="content-container">
         <h1>ATHLETE RECOVERY</h1>
-        <h2>b12, magnesium, sodium chloride</h2>
+        <h3>b12, magnesium, sodium chloride</h3>
         <p>
         Recovering from a workout or gearing up for a competition? This service is for you, amino acids and B12 help with muscle conditioning, recovery and endurance. This blend also assists in our bodies nervous system, metabolism and protein synthesis. 
         </p>

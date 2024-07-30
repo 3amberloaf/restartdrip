@@ -48,7 +48,7 @@ const Dehydration = () => {
       </div>
       <div className="content-container">
         <h1>DEHYDRATION ELIMINATOR</h1>
-        <h2>b-complex, magnesium, b6</h2>
+        <h3>b-complex, magnesium, b6</h3>
         <p>
         Provides instant hydration and electrolytes. Whether you have been hitting the gym hard, partying all night or just need a pick me up this service will but the pep back in your step.
         </p>

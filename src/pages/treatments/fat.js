@@ -48,7 +48,7 @@ const Fat = () => {
       </div>
       <div className="content-container">
         <h1>FAT BURNER</h1>
-        <h2>amino blend, b-plex, glutathione, sodium chloride</h2>
+        <h3>amino blend, b-plex, glutathione, sodium chloride</h3>
         <p>
         These essential amino acids, vitamins and B12, are the perfect blend to transport fatty acids into mitochondria where they can be burned for energy. An extra benefit is mood improvement and additional appetite control.</p>
   

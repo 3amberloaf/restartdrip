@@ -48,7 +48,7 @@ const Beauty = () => {
       </div>
       <div className="content-container">
         <h1>BEAUTY & YOUTH</h1>
-        <h2>vitamin c, biotin, sodium chloride</h2>
+        <h3>vitamin c, biotin, sodium chloride</h3>
         <p>
         This beauty/youth IV infusion provides essential nutrients, antioxidants and vitamins that support our hormone pathways, reduce oxidative stress, and nourish the body to produce fatty acids preventing premature and visible skin aging.</p>
   

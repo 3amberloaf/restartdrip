@@ -48,7 +48,7 @@ const Immune = () => {
       </div>
       <div className="content-container">
         <h1>IMMUNITY BOOSTER</h1>
-        <h2>vitamin c, zinc, sodium chloride</h2>
+        <h3>vitamin c, zinc, sodium chloride</h3>
         <p>
         Contains zinc to block viral replication and assist cells mediating immunity. Provides Vitamin C to boost lymphocyte and phagocyte production and acts as a powerful antioxidant which protects cells and assists healing. 
         </p>

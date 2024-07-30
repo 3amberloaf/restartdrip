@@ -48,7 +48,7 @@ const Myers = () => {
       </div>
       <div className="content-container">
         <h1>Myers Cocktail</h1>
-        <h2>vitamin c, magnesium, sodium chloride, pyridoxine</h2>
+        <h3>vitamin c, magnesium, sodium chloride, pyridoxine</h3>
         <p>
         This blend of B vitamins, Vitamin C, Magnesium and Calcium all work in combination to increase metabolism, replace electrolytes lost by dehydration, and facilitate enzymatic reactions in intracellular processes. This will revitalize, enhance relaxation, recovery, reduce blood pressure and stress.
         </p>

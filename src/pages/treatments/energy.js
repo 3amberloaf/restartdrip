@@ -49,7 +49,7 @@ const Energy = () => {
       </div>
       <div className="content-container">
         <h1>ENERGY BOOST</h1>
-        <h2>b-complex, vitamin c, b12</h2>
+        <h3>b-complex, vitamin c, b12</h3>
         <p>
         Rehydrate and replenish your body with IV fluids. This IV therapy cocktail is great for recovery from dehydration due to illness, travel, or strenuous activity.
         </p>

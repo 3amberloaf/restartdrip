@@ -48,7 +48,7 @@ const Migraine = () => {
       </div>
       <div className="content-container">
         <h1>MIGRAIN FIGHTER</h1>
-        <h2>b-plex, pyridoxine, sodium chloride</h2>
+        <h3>b-plex, pyridoxine, sodium chloride</h3>
         <p>
         This multifaceted infusion will improve vascular function linked to migraine attacks and reduces nausea.</p>
   

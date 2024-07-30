@@ -49,7 +49,7 @@ const Hangover = () => {
       </div>
       <div className="content-container">
         <h1>HANGOVER DETOX</h1>
-        <h2>vitamin c, magnesium, sodium chloride</h2>
+        <h3>vitamin c, magnesium, sodium chloride</h3>
         <p>
         Contains essential vitamins and minerals to combat dehydration and reduce oxidative stress on the liver, cardiovascular, and endocrine systems by assisting in detoxification of the body. Reduces nausea which is also helpful to recovery.
 
