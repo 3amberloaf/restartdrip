@@ -6,6 +6,29 @@ Create a website for Woodline's IV Drip business
 
 Here I will track what I learned each day I worked on the website and what I accomplished.
 
+## July 30th, 2024
+
+**Text Slowly Appearing**
+
+1. Have CSS for hidden and visible text that defines the opacity and transformation
+
+`/* Initial state: hidden and positioned for animation */
+.hidden-text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+/* Final state: fully visible and in place */
+.visible-text {
+    opacity: 1;
+    transform: translateY(0);
+}
+`
+
+2. Add scroll detection
+
+
 ## July 29th, 2024
 
 **Text shadow**
