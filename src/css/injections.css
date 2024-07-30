@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Allura';
     src: url('../fonts/Allura-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
@@ -12,13 +11,11 @@
     transition: opacity 1s ease-out, transform 1s ease-out;
   }
   
-  
   .visible-text {
     opacity: 1;
     transform: translateY(0);
   }
-
-
+  
   .injections-services-text {
     display: flex;
     align-items: center; /* Align items vertically centered */
@@ -27,215 +24,223 @@
     animation: slideInLeft 1s ease-in-out;
   }
   
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
   .injections-services-text img {
     max-width: 200px;
     height: auto;
     margin-right: 20px; /* Add some space between the image and the text */
   }
+  
   .injections-IV-services {
-      padding: 30px;
-      background-color: #ffffff; /* Light Cream */
-      border-radius: 10px;
-      text-align: center;
-      width: 100%; /* Ensure the section spans the full width */
-      box-sizing: border-box; /* Include padding in the width calculation */
-      margin: 0 auto; /* Center the section */
-      animation: fadeIn 1s ease-in-out;
-    }
-    
-    .injections-IV-services h1 {
-      font-family: 'Montserrat';
-      font-size: 50px;
-      text-transform: uppercase;
-      color: #45494c;
-      font-weight: 400;
-      margin: 0;
-    }
-    
-    .injections-IV-services h3 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 30px;
-        color: #45494c;
-        font-weight: 600;
-        padding-left: 80px;
-        text-transform: capitalize;
-        padding-right: 80px;
-        margin-top: 30px;
-
-      
-    }
-
-.injections-text-content {
+    padding: 30px;
+    background-color: #ffffff; /* Light Cream */
+    border-radius: 10px;
+    text-align: center;
+    width: 100%; /* Ensure the section spans the full width */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    margin: 0 auto; /* Center the section */
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .injections-IV-services h1 {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #45494c;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  .injections-IV-services h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #45494c;
+    font-weight: 600;
+    padding-left: 80px;
+    text-transform: capitalize;
+    padding-right: 80px;
+    margin-top: 30px;
+  }
+  
+  .injections-text-content {
     display: flex;
     flex-direction: column; /* Stack the text vertically */
-    align-items:center;
-}
-
-    .injections-text-content h1 {
-        font-family: 'Montserrat';
-        font-size: 50px;
-        text-transform: uppercase;
-        color: #45494c;
-        font-weight: 400;
-        margin: 0;
-    }
-
-    .injections-text-content h3 {
-        font-size: 70px;
-        color: rgb(144, 193, 233);
-        text-transform: none;
-        font-family: 'Allura';
-        font-weight: 100;
-        margin: 10px;
-        align-items: flex-start;
-    }
+    align-items: center;
+  }
   
-    .injections-services h1 {
-      font-size: 100px;
-      color: rgb(144, 193, 233);
-      text-transform: none;
-      font-family: 'Allura';
-      font-weight: 100;
-      margin: 10px;
-    }
-
-    .treatment-container {
-        padding: 30px;
-        margin: 0px;
-
-
-      }
+  .injections-text-content h1 {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #45494c;
+    font-weight: 400;
+    margin: 0;
+  }
   
-    .injections-IV-services p {
-      font-family: 'Montserrat';
-      font-size: 20px;
+  .injections-text-content h3 {
+    font-size: 70px;
+    color: rgb(144, 193, 233);
+    text-transform: none;
+    font-family: 'Allura';
+    font-weight: 100;
+    margin: 10px;
+    align-items: flex-start;
+  }
   
-      color: #45494c;
-      font-weight: 200;
+  .injections-services h1 {
+    font-size: 100px;
+    color: rgb(144, 193, 233);
+    text-transform: none;
+    font-family: 'Allura';
+    font-weight: 100;
+    margin: 10px;
+  }
   
-      padding-left: 80px;
-      padding-right: 80px;
-    }
-    
-    .injections-benefits-section {
-        padding: 30px;
-        background-color: #ffffff; /* Light Cream */
-        border-radius: 10px;
-        text-align: center;
-        width: 100%; /* Ensure the section spans the full width */
-        box-sizing: border-box; /* Include padding in the width calculation */
-        margin: 0 auto; /* Center the section */
-    }
-    
-    .injections-benefits-section h1 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 35px;
-        font-weight: bold;
-        text-transform: uppercase;
-        color: #45494c;
-
-        margin: 0;
-    }
-    
-
-    
-    .injections-benefits-section p {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        color: #45494c;
-        font-weight: 200;
-        padding-left: 80px;
-        padding-right: 80px;
-    }
-    
-    .injections-benefits-section h4 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 24px;
-        color: #45494c;
-        font-weight: bold;
-        margin-top: 20px;
-    }
-    
-    .injections-benefits-section ul {
-        list-style-type: disc;
-        margin-left: 80px;
-        margin-right: 80px;
-        text-align: left;
-        font-weight: 800;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        color: #9bbae7;
-        animation: fadeIn 1s ease-in-out;
-
-    }
-
-    .injections-FAQ {
-
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-
-    .injections-FAQ h1 {
-        font-family: 'Montserrat';
-        font-size: 50px;
-        text-transform: uppercase;
-        color: #45494c;
-        font-weight: 400;
-        margin: 0;
-    }
-
-
-
-    .injections-FAQ p {
-        font-family: 'Montserrat';
-        font-size: 20px;
-    
-        color: #45494c;
-        font-weight: 200;
-    
-        padding-left: 80px;
-        padding-right: 80px;
-    }
-
-    .injections-FAQ-section {
-        max-width: 70%;
-        flex: 1;
-        padding-left: 80px;
-        padding-right: 80px;
-    }
-    .injections-faq-list {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .injections-faq-button {
-        background-color: #ffffff; /* Match the background color */
-        font-family: 'Montserrat';
-        color: #273B5A; /* Adjust the text color */
-        border: 1px solid #5CB8E6; /* Add a border to match */
-        padding-left: 40px;
-        padding-right: 40px;
-        margin: 20px;
-        cursor: pointer;
-        border-radius: 5px;
-        width: 800px;
-        text-align: left;
-        position: relative;
-        font-size: 1.2em;
-        transition: background-color 0.3s, transform 0.3s;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
-    }
-    
-    .injections-faq-button-button:hover {
-        background-color: #5CB8E6; /* Match hover background color */
-        transform: translateY(-2px);
-        color: #ffffff; /* Change text color on hover */
-    }
-
-.injections-benefits-section img {
+  .treatment-container {
+    padding: 30px;
+    margin: 0px;
+  }
+  
+  .injections-IV-services p {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #45494c;
+    font-weight: 200;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  
+  .injections-benefits-section {
+    padding: 30px;
+    background-color: #ffffff; /* Light Cream */
+    border-radius: 10px;
+    text-align: center;
+    width: 100%; /* Ensure the section spans the full width */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    margin: 0 auto; /* Center the section */
+  }
+  
+  .injections-benefits-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #45494c;
+    margin: 0;
+  }
+  
+  .injections-benefits-section p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #45494c;
+    font-weight: 200;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  
+  .injections-benefits-section h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #45494c;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .injections-benefits-section ul {
+    list-style-type: disc;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: left;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #9bbae7;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .injections-FAQ {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .injections-FAQ h1 {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #45494c;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  .injections-FAQ p {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #45494c;
+    font-weight: 200;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  
+  .injections-FAQ-section {
+    max-width: 70%;
+    flex: 1;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  
+  .injections-faq-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .injections-faq-button {
+    background-color: #ffffff; /* Match the background color */
+    font-family: 'Montserrat';
+    color: #273B5A; /* Adjust the text color */
+    border: 1px solid #5CB8E6; /* Add a border to match */
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 800px;
+    text-align: left;
+    position: relative;
+    font-size: 1.2em;
+    transition: background-color 0.3s, transform 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  
+  .injections-faq-button:hover {
+    background-color: #5CB8E6; /* Match hover background color */
+    transform: translateY(-2px);
+    color: #ffffff; /* Change text color on hover */
+  }
+  
+  .injections-benefits-section img {
     max-width: 300px;
     height: auto;
-}
+  }
+  
