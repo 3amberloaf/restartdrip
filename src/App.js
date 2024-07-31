@@ -119,9 +119,10 @@ const Footer = () => (
         <h3>SERVICES</h3>
         <ul>
          
-          <li><Link to="/iv-therapy">IV Therapy</Link></li>
-          <li><Link to="/nad-therapy">NAD+ Therapy</Link></li>
+          <li><Link to="/vitaminivtherapy">Vitamin IV Therapy</Link></li>
+
           <li><Link to="/injections">Injections</Link></li>
+          <li><Link to="/specialty">Specialty Treatment</Link></li>
         </ul>
       </div>
       <div className="footer-column">
@@ -137,7 +138,7 @@ const Footer = () => (
         <h3>ABOUT US</h3>
         <ul>
           <li><Link to="/about-us">Mission</Link></li>
-          <li><Link to="/contact-us">Contact Us</Link></li>
+          <li><Link to="/contact">Contact Us</Link></li>
         </ul>
       </div>
       <div className="footer-buttons">
