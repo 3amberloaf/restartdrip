@@ -1,5 +1,5 @@
 import React from 'react';
-import './steps.css';
+import '../css/steps.css';
 
 const Steps = () => {
   const handleMouseOver = (event) => {
