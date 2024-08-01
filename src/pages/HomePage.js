@@ -111,15 +111,9 @@ const HomePage = () => {
         <img src="/images/homepage/droplet.png" alt="droplet" />
       </div>
       <IVTherapy />
-      <TreatmentsCarousel />
-      <div className='injections-services'>
-        <h1>Signature Shots</h1>
-      </div>
-      <div className="treatment-container">
-        {injections.map((treatment, index) => (
-          <TreatmentCard key={index} {...treatment} />
-        ))}
-      </div>
+     
+     
+  
      
 
       <div className="homepage">
