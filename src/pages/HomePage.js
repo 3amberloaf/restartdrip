@@ -129,7 +129,7 @@ const HomePage = () => {
           <h3>– 500MG NAD IV Therapy: $400 for Hydrate members / $450 for non-members</h3>
           <h3>– 750MG NAD IV Therapy: $500 for Hydrate members / $550 for non-members</h3>
           <h3>– 1000MG NAD IV Therapy: $750 for Hydrate members / $850 for non-members</h3>
-          <h4>Please email info@restartdrip.com to speak with our staff about NAD+ loading dose packages and pricing.</h4>
+          <h4>Please email iv@restartdrip.com to speak with our staff about NAD+ loading dose packages and pricing.</h4>
         </div>
       </div>
       <div className="images-container">
