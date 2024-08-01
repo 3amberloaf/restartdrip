@@ -3,9 +3,9 @@ import { Link, useLocation } from 'react-router-dom';
 import PopUpDiscount from '../components/popUpDiscount';
 import TreatmentsCarousel from '../components/carousel';
 import IVTherapy from '../components/IVTherapy';
-import TreatmentCard from './treatments/treatment_card';
+
 import '../css/homepage.css';
-import injections from './injections/injections_card';
+
 
 const HomePage = () => {
   const [showPopUpDiscount, setShowPopUpDiscount] = useState(false);
