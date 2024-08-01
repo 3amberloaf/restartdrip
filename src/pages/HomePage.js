@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import PopUpDiscount from '../components/popUpDiscount';
-import Steps from '../components/steps';
+import TreatmentsCarousel from '../components/carousel';
 import IVTherapy from '../components/IVTherapy';
-
+import TreatmentCard from './treatments/treatment_card';
 import '../css/homepage.css';
-
+import injections from './injections/injections_card';
 
 const HomePage = () => {
   const [showPopUpDiscount, setShowPopUpDiscount] = useState(false);
@@ -111,10 +111,17 @@ const HomePage = () => {
         <img src="/images/homepage/droplet.png" alt="droplet" />
       </div>
       <IVTherapy />
-      
-      < Steps />
-    
-  
+      <TreatmentsCarousel />
+      <div className='injections-services'>
+        <h1>Signature Shots</h1>
+      </div>
+      <div className="treatment-container">
+        {injections.map((treatment, index) => (
+          <TreatmentCard key={index} {...treatment} />
+        ))}
+      </div>
+     
+
       <div className="homepage">
         <div className="waves">
           <h1>Thirsty?</h1>
