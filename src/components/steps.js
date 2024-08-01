@@ -20,7 +20,7 @@ const Steps = () => {
 
   return (
     <div className="background" style={backgroundStyle}>
-      <h1 className="title">HOW IT WORKS</h1>
+      <h1 className="title">HOW TO GET STARTED</h1>
       <div className="circle-container">
         <div className="circle" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
           <p>RESTART</p>
