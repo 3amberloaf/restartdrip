@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import PopUpDiscount from '../components/popUpDiscount';
+// eslint-disable-next-line no-unused-vars
 import TreatmentsCarousel from '../components/carousel';
 import IVTherapy from '../components/IVTherapy';
 
