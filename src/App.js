@@ -75,6 +75,9 @@ const Header = () => (
       </div>
       <nav>
         <ul className="nav-links">
+        <li>
+          <Link to="/">Home </Link>
+          </li>
           <li>
             <Link to="https://booking.hydreight.com/widget">BOOK NOW</Link>
           </li>
