@@ -102,9 +102,8 @@ const HomePage = () => {
         <p className="hidden-text">At any of our IV therapy spas, you can rest easy knowing you’re in good hands. At Restart Drip, our spas are overseen by a medical team consisting of award-winning doctors, nurse practitioners, and medical professionals, and all of our services are administered by some of the best registered nurses in the industry. Additionally, we pride ourselves on sourcing only high-quality, pharmaceutical-grade vitamins from trusted and reputable pharmacies.</p>
 
         <h1 className="hidden-text">ABOUT OUR IV THERAPY OFFERINGS</h1>
-        <p className="hidden-text">We offer monthly memberships for clients who want to maintain a healthy lifestyle, Shot Passes for clients looking for a quick pick-me-up, and a build-your-own IV (BYOIV) option for clients looking to meet specific needs. Appointments are highly encouraged, but walk-in IV and injection appointments are always welcome for those who need to feel better fast.</p>
+        <p className="hidden-text">We offer monthly memberships for clients who want to maintain a healthy lifestyle, and IM injections for clients looking for a quick pick-me-up, and a build-your-own IV (BYOIV) option for clients looking to meet specific needs. Appointments are highly encouraged, but walk-in IV and injection appointments are always welcome for those who need to feel better fast.</p>
 
-        <p className="hidden-text">There are Restart Drip locations throughout several states, making it easy to get luxurious and revitalizing IV therapy wherever you are.</p>
 
         <p className="hidden-text">We invite you to step out of the hustle and into Restart Drip.</p>
       </div>
