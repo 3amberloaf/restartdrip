@@ -14,7 +14,6 @@ const Pricing = () => {
 
       <div className="pricing-box">
         <h1>IV THERAPY PRICING</h1>
-        <h3>*You can also build your own IV! Scroll down to view our individual vitamin menu.</h3>
       </div>
 
       <div className="vitamin-services">
@@ -77,6 +76,16 @@ const Pricing = () => {
           </div>
         </div>
       </div>
+      <div className="pricing">
+        <div className="header">
+        <h1>NAD+ Injection</h1>
+        <h3>DOSAGE AND PRICING</h3>
+        </div>
+        <h3>Injection Price - $80</h3>
+        <p>NAD+ therapy can promote cell regeneration, aid  joint and muscle pain, improve sleep, provide mental clarity, and boost energy. The NAD+ injection is a great substitute for the NAD+ infusion when you’re short on time and need a quick jump start.</p>
+        </div>
+     
+      
       <div className="homepage">
         <div className="waves">
           <h1>Thirsty?</h1>

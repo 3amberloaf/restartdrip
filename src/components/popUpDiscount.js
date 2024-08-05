@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../css/popUpDiscount.css';
 
 const PopUpDiscount = ({ show, handleClose }) => {
@@ -14,7 +15,9 @@ const PopUpDiscount = ({ show, handleClose }) => {
             New customers recieve 10% off their first IV therapy service!
           </p>
         </div>
-        <button className="popup-btn">Sign Up and Unlock Code</button>
+            <Link to="https://booking.hydreight.com/widget">
+              <button className="view-services">Sign Up</button>
+            </Link>
       </section>
     </div>
   );

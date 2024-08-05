@@ -2,8 +2,9 @@
 .modal {
   position: fixed;
   top: 20%;
+  margin: 20px 0;
   right: 0;
-  width: 300px;
+  width: 200px;
   background-color: white;
   box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
@@ -25,7 +26,7 @@
 .modal-main {
   padding: 10px;
   position: relative;
-  overflow-y: auto;
+  overflow-y: visible;
 }
 
 /* Close button styling */
@@ -50,11 +51,11 @@
   background-color: #6aade5;
   color: white;
   border: none;
-  padding: 10px 20px;
+
   text-align: center;
   font-size: 16px;
   cursor: pointer;
-  margin-top: 20px;
+
 }
 
 .popup-btn:hover {
@@ -64,25 +65,30 @@
 /* Centered header in the popup */
 .popup-header {
   text-align: center;
-  margin: 20px 0;
+
+}
+
+.discount-text {
+  margin: 0px;
+  padding-left: 0px;
+  font-size: 24px;
+  color: #272401;
+
 }
 
 /* Discount text styling */
 .discount-text h1 {
-  margin: 10px 0;
+
   font-size: 24px;
   color: #272401;
 }
 
 .discount-text p {
-  margin: 10px 0;
+  padding-left: 0;
+  padding-right: 0;
   font-size: 16px;
   color: #272401;
+  text-align: center;
+
 }
 
-/* Optional logo styling */
-.popup-logo {
-  width: 140px;
-  display: block;
-  margin: 10px auto;
-}
