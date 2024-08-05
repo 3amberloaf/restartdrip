@@ -67,10 +67,8 @@ const Injections = () => {
         <p>
           Restart Drip’s relaxing atmosphere may feel like your favorite spa, but we take IV safety very seriously! All of our services — from IVs to injections — are administered by experienced, registered nurses. The only thing more comforting than kicking back in our big recliners is the reassurance of knowing that you’re in good hands with our incredible staff.
         </p>
-        <h3>Book your appointment today</h3>
-        <p>
-          While walk-in IV and injection appointments are always welcome, we encourage you to book your appointment ahead of time. Appointments will help our team to accommodate all clients, and ensure that we have a recliner ready for you to relax and rehydrate in!
-        </p>
+        <h3>Book your appointment today!</h3>
+
       </div>
       <div className='injections-services'>
         <h1>Signature Shots</h1>
