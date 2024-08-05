@@ -17,6 +17,15 @@
     }
 }
 
+.droplet {
+    position: relative;
+  }
+  
+  .droplet img {
+    height: 100px;
+    width: auto;
+  }
+
 .hero-content {
     display: flex;
     margin-top: 50px;

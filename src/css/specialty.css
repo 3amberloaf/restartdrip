@@ -13,6 +13,14 @@
     --text-color: #45494c;
 }
 
+
+  
+  .benefits-section img {
+    height: 100px;
+    width: auto;
+
+  }
+
 .services-text {
     display: flex;
     align-items: center; /* Align items vertically centered */
@@ -159,10 +167,7 @@
     color: var(--background-color); /* Change text color on hover */
 }
 
-.benefits-section img {
-    max-width: 300px;
-    height: auto;
-}
+
 
 .header {
     border: 2px solid black;

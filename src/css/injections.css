@@ -242,7 +242,9 @@
   }
   
   .injections-benefits-section img {
-    max-width: 300px;
-    height: auto;
-  }
+
+      height: 100px;
+      width: auto;
+    }
+  
   

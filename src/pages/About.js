@@ -18,8 +18,8 @@ const About = () => {
         <p>
           At Restart Drip, our mission is to empower individuals to achieve optimal health and well-being through personalized IV hydration therapy. As a woman-owned business, we are committed to delivering exceptional care with a focus on integrity, compassion, and excellence. We strive to create a supportive and welcoming environment where our clients can rejuvenate and thrive. Our goal is to inspire and uplift our community by promoting wellness from within, fostering a culture of health, and making a positive impact on the lives we touch.
         </p>
-          <div className="nurse-image">
-            <img src="images/homepage/droplet.png" alt="About" />
+          <div className="droplet">
+            <img src="images/homepage/droplet.png" alt="droplet" />
           </div>
       </section>
 

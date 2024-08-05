@@ -92,7 +92,7 @@ const Injections = () => {
           <li>Enhanced immune system and gastrointestinal support</li>
           <li>Reduce inflammation</li>
         </ul>
-        <img src="../images/homepage/droplet.png" alt="Company Logo" />
+        <img src="../images/homepage/droplet.png" alt="droplet" />
       </div>
       <div className='injections-FAQ'>
         <h1>VITAMIN INJECTION FAQS</h1>

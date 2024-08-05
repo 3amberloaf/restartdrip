@@ -20,13 +20,7 @@ const injections = [
       imageUrl: 'images/services/joint.png', 
       servicePath: '/services/migraine'
     },
-    {
-      name: 'NAD+ INJECTION',
-      price: '$80',
-      description: '',
-      imageUrl: 'images/services/clarity.png',
-      servicePath: '/services/energy-boost'
-    },
+
    
   ];
 

@@ -80,7 +80,7 @@ const NAD = () => {
         <h4>RELAX, RECHARGE, & REHYDRATE WITH RESTART DRIP</h4>
       </div>
       <div className="benefits-section">
-        <img src='/images/homepage/droplet.png' alt='logo' />
+        <img src='/images/homepage/droplet.png' alt='droplet' />
         <div className="pricing">
           <div className="header">
             <h1>NAD+ IV THERAPY</h1>

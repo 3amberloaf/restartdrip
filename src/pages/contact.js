@@ -28,7 +28,7 @@ const ContactForm = () => {
       <img src="/images/random/stones.jpg" alt="Decorative stones" />
       <h1>Contact Us Today!</h1>
       <div className="sub-contact">
-        <img src="/images/homepage/droplet.png" alt="Water droplet" />
+        <img src="/images/homepage/droplet.png" alt="droplet" />
         <h1>We'd Love to Hear from You!</h1>
       </div>
       <form name="contact-form" method="POST" data-netlify="true" onSubmit={submitForm}>
