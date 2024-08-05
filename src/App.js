@@ -14,7 +14,7 @@ import Myers from './pages/treatments/myers';
 import Immune from './pages/treatments/immune';
 import Hangover from './pages/treatments/hangover';
 import IVTherapy from './components/IVTherapy';
-import Injections from './pages/injections';
+import Injections from './pages/injections_page';
 import Specialty from './pages/specialty';
 import ContactForm from './pages/contact';
 import Pricing from './pages/pricing';

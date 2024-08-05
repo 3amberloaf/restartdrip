@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import '../css/injections.css';
 import injections from './injections/injections_card';
-import TreatmentCard from './treatments/treatment_card';
+import InjectionCard from './injections/different_injections';
+
 
 const Injections = () => {
   const [activeSection, setActiveSection] = useState(null);
@@ -75,7 +76,7 @@ const Injections = () => {
       </div>
       <div className="treatment-container">
         {injections.map((treatment, index) => (
-          <TreatmentCard key={index} {...treatment} />
+          <InjectionCard key={index} {...treatment} />
         ))}
       </div>
       <div className="injections-benefits-section">
