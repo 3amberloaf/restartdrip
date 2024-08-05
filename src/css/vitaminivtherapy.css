@@ -83,7 +83,10 @@
     font-family: 'Allura';
     font-weight: 100;
     margin: 10px;
+
   }
+
+
 
   .vitamin-IV-services p {
     font-family: 'Montserrat';
@@ -91,7 +94,7 @@
 
     color: #45494c;
     font-weight: 200;
-
+    margin: 10;
     padding-left: 80px;
     padding-right: 80px;
   }
