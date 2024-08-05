@@ -52,17 +52,12 @@ const IntroOffer = () => {
         <div className="intro-offer-options">
           <div className="offer-buttons">
             <Link to="https://booking.hydreight.com/widget">
-              <button className="view-services">20% Off New Customers</button>
+              <button className="view-services">10% Off New Customers</button>
             </Link>
             <Link to="https://booking.hydreight.com/widget">
-              <button className="view-services">Free B12 Injection</button>
+              <button className="view-services">10% Off Athletes</button>
             </Link>
-            <Link to="https://booking.hydreight.com/widget">
-              <button className="view-services">$119 Immunity IV Cocktail</button>
-            </Link>
-            <Link to="https://booking.hydreight.com/widget">
-              <button className="view-services">50% Off NAD+ Injection</button>
-            </Link>
+         
           </div>
         </div>
       </div>
