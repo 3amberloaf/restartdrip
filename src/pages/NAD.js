@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import '../css/specialty.css';
 
-const Specialty = () => {
+const NAD = () => {
   useEffect(() => {
     const elements = document.querySelectorAll(
       ".IV-services h3, .IV-services p"
@@ -74,11 +74,10 @@ const Specialty = () => {
         </div>
       </div>
       <div className="benefits-section">
-        <h1>WHAT TO EXPECT FROM YOUR NAD+ IV THERAPY</h1>
-        <p>NAD+ IV therapy depends on your condition and the plan developed by your therapists. Appointments may consist of two to four-hour sessions of IV infusions over the course of two to three days. Throughout the session, you can still engage in light activities. Our comfortable and spacious spas allow you to work on your laptop, relax as you read a book, or play a game on your phone. If you simply want to relax, the comfort in our spa makes it possible to sleep during the sessions.</p>
+        <h1>NAD+ Injection</h1>
+        <h3>Injection Price - $80</h3>
+        <p>NAD+ (a.k.a. nicotinamide adenine dinucleotide) promotes cell regeneration, + can aid with: clients experiencing joint + muscle pain, better sleep, mental clarity, + energy. Great substitute for an NAD+ infusion when you’re short on time.</p>
         <h4>RELAX, RECHARGE, & REHYDRATE WITH RESTART DRIP</h4>
-        <p>Join us at any of our spas for the ultimate NAD+ IV or injection to help you relax, refresh, and recharge your routine. As with all of our spas, IV therapy and vitamin injection services, our NAD+ infusions and injections are administered by experienced, registered nurses. The only thing more comforting than the big recliners you get to kick back in is the assurance of knowing that you are always in good hands with our incredible staff.</p>
-        <p>Please note that NAD+ IV therapy can take anywhere between two to four hours, depending on your unique needs. Due to this longer service, NAD+ infusion appointments must be booked three hours prior to close. Last call for NAD+ IV therapy is at 3:00 p.m. Monday through Thursday, and 1:00 p.m. Friday through Sunday.</p>
       </div>
       <div className="benefits-section">
         <img src='/images/homepage/droplet.png' alt='logo' />
@@ -123,4 +122,4 @@ const Specialty = () => {
   );
 };
 
-export default Specialty;
+export default NAD;

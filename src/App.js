@@ -15,12 +15,13 @@ import Immune from './pages/treatments/immune';
 import Hangover from './pages/treatments/hangover';
 import IVTherapy from './components/IVTherapy';
 import Injections from './pages/injections_page';
-import Specialty from './pages/specialty';
+import Specialty from './pages/NAD';
 import ContactForm from './pages/contact';
 import Pricing from './pages/pricing';
 import IntroOffer from './pages/introOffer';
 import Header from './pages/homepage/header';
 import Footer from './pages/homepage/footer';
+import NAD from './pages/NAD';
 
 const App = () => {
  
@@ -31,9 +32,6 @@ const App = () => {
     // Show the pop-up discount when the component mounts
    
   }, [location]);
-
- 
-
 
   return (
     <div className="App">
@@ -59,6 +57,7 @@ const App = () => {
           <Route path="/services/hangover" element={<Hangover />} />
           <Route path= "/intro-offers" element={<IntroOffer />} />
           <Route path= "/pricing" element={<Pricing />} />
+          <Route path= "/services/NAD+" element={<NAD />} />
         </Routes>
       </main>
       <Footer />

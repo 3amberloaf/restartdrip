@@ -24,9 +24,16 @@ const Header = () => (
                   <Link to="/vitaminivtherapy">Vitamin IV Therapy</Link>
                 </li>
                 <li><Link to="/injections">Injections</Link></li>
-                <li><Link to="/specialty">Specialty Treatment</Link></li>
-              </ul>
-            </li>
+                <li className="dropdown-container-right">
+                <Link to="/specialty">Specialty Treatment <i className="fas fa-chevron-left"></i></Link>
+                <ul className="dropdown-right">
+                <li><Link to="/services/NAD+">NAD+</Link></li>
+                <li><Link to="/services/peptide">Peptides</Link></li>
+
+                </ul>
+              </li>
+            </ul>
+          </li>
             <li className="dropdown-container">
             <li><Link to="/pricing">Pricing <i className="fas fa-chevron-down"></i> </Link></li>
             <ul className="dropdown">

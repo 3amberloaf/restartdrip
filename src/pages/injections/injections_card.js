@@ -23,7 +23,7 @@ const injections = [
     {
       name: 'NAD+ INJECTION',
       price: '$80',
-      description: 'NAD+ (a.k.a. nicotinamide adenine dinucleotide) promotes cell regeneration, + can aid with: clients experiencing joint + muscle pain, better sleep, mental clarity, + energy. Great substitute for an NAD+ infusion when you’re short on time.',
+      description: '',
       imageUrl: 'images/services/clarity.png',
       servicePath: '/services/energy-boost'
     },
