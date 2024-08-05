@@ -95,16 +95,12 @@ const HomePage = () => {
       </div>
       <div className="additional-text">
         <h1 className="hidden-text">EXPERIENCE IV THERAPY AT RESTART DRIP</h1>
-        <p className="hidden-text">Restart Drip is a collection of IV therapy spas promoting wellness from within by delivering high-quality products and services administered by experienced and trustworthy medical and wellness professionals in a relaxing, spa-like atmosphere.</p>
+        <p className="hidden-text">Restart Drip is an at-home IV therapy service dedicated to promoting wellness from within. We deliver high-quality products and services, administered by experienced and trustworthy medical and wellness professionals, all in the comfort of your home. Experience a relaxing, spa-like atmosphere with every visit.</p>
 
         <h1 className="hidden-text">STEP OUT OF THE HUSTLE AND INTO RESTART DRIP</h1>
-        <p className="hidden-text">Clients come to us for our vitamin injections, signature IV therapy cocktails, NAD+ injections, and vitamin infusions, but they stay for the atmosphere. With comfortable chairs, soothing music, and a team of unbeatable staff, Restart Drip spas are a place for everyone to relax, recharge and refresh their routine.</p>
+        <p className="hidden-text">Clients choose us for our revitalizing vitamin injections, signature IV therapy cocktails, NAD+ injections, and vitamin infusions, but they stay for the atmosphere. Without stepping outside, Restart Drip transforms your home into a space where you can relax, recharge, and refresh your routine.</p>
 
-        <p className="hidden-text">At any of our IV therapy spas, you can rest easy knowing you’re in good hands. At Restart Drip, our spas are overseen by a medical team consisting of award-winning doctors, nurse practitioners, and medical professionals, and all of our services are administered by some of the best registered nurses in the industry. Additionally, we pride ourselves on sourcing only high-quality, pharmaceutical-grade vitamins from trusted and reputable pharmacies.</p>
-
-        <h1 className="hidden-text">ABOUT OUR IV THERAPY OFFERINGS</h1>
-        <p className="hidden-text">We offer monthly memberships for clients who want to maintain a healthy lifestyle, and IM injections for clients looking for a quick pick-me-up, and a build-your-own IV (BYOIV) option for clients looking to meet specific needs. </p>
-
+        <p className="hidden-text">At Restart Drip, you can rest easy knowing you’re in good hands. Our services are overseen by a medical team consisting of well-trained professionals who can help you find the best treatment based off your needs. Additionally, we pride ourselves on sourcing only high-quality, pharmaceutical-grade vitamins from trusted and reputable pharmacies. We bring the spa experience to your home, ensuring you receive top-notch care in a comfortable and familiar environment.</p>
 
         <p className="hidden-text">We invite you to step out of the hustle and into Restart Drip.</p>
       </div>
@@ -112,9 +108,6 @@ const HomePage = () => {
         <img src="/images/homepage/droplet.png" alt="droplet" />
       </div>
       <IVTherapy />
-     
-     
-  
      
 
       <div className="homepage">
