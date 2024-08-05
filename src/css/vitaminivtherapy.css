@@ -130,15 +130,23 @@
   }
   
   .treatment-card h3 {
-    font-size: 20px;
-    margin: 10px 0;
+    font-size: 18px;
+    margin: 5px 0;
     color: #0d0d0d; /* Very Dark Gray */
   }
   
+  .treatment-card h1 {
+    font-size: 20px;
+    margin: 5px 0;
+    color: #6aade5; /* Very Dark Gray */
+    font-weight: bold;
+  }
+
   .treatment-card p {
     font-size: 17px;
     color: #1E3A5F;
-    font-weight: bold;
+    font-weight: 500;
+  
   }
   
 
