@@ -45,10 +45,10 @@ const IntroOffer = () => {
           <h1 className="hidden-text">New Client Intro Offers</h1>
         </div>
         <h3 className="hidden-text">Lower The Cost of IV Therapy With One of Our Special Intro Offers!</h3>
-        <p>Restart Drip is best-known for our spa’s menu of vitamin-infused IV therapy cocktails. All of our signature IV drips have 1 liter of saline paired with a blend of vitamins and nutrients. If any of our signature IV cocktails aren’t quite what you’re looking for, you can build your own IV drip! For an extra boost, many Restart Drip clients love to add an extra half or full bag of fluids to the end of their visit as well.</p>
-        <p>We also offer vitamin injections, which are great quick pick-me-up options if you’re short on time but still need a healthy boost to get through your day. We have seven different vitamin shots to choose from: B12, MIC, D3, Tri-Immune, L-lysine, Amino Acids, and NAD+. Click here to learn more about each injection.</p>
-        <p>Interested in adding IV therapy, vitamin injections, or NAD+ IV therapy to your wellness routine, but aren’t quite sure where to start? Scroll below to view each of our new client intro offers — some of our most popular services at discounted prices!</p>
-        <p>NAD+ IV therapy is available at all of our Restart Drip spas. NAD+ (also known as nicotinamide adenine dinucleotide) is a coenzyme found in all living cells: it promotes cell regeneration, and can be beneficial for clients experiencing joint and muscle pain, stimulating sirtuins (proteins), which have anti-inflammatory properties, stabilizing hormones, improving mood, and increasing metabolism. NAD+ IV therapy can also be beneficial for better sleep, mental clarity, focus, energy, and the regulation of dopamine and serotonin levels. Click here to learn more about NAD+ IV therapy, and for our pricing.</p>
+        <p>Restart Drip is best-known for our unique menu of vitamin-infused IV therapy cocktails. All of our signature IV drips have 1 liter of saline paired with a blend of vitamins and nutrients. For an extra boost, many Restart Drip clients love to add an extra half or full bag of fluids to the end of their visit as well.</p>
+        <p>We also offer vitamin injections, which are great quick pick-me-up options if you’re short on time but still need a healthy boost to get through your day. We have 4 different vitamin shots to choose from: B12, B Complex, glutathione, and NAD+. <a href="/injections">Click here</a> to learn more about each injection.</p>
+        <p>Interested in adding IV therapy, vitamin injections, or NAD+ IV therapy to your wellness routine, but aren’t quite sure where to start? Scroll below to view each of our new client intro offers!</p>
+
         <div className="intro-offer-options">
           <div className="offer-buttons">
             <Link to="https://booking.hydreight.com/widget">
