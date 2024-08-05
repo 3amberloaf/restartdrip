@@ -205,6 +205,8 @@ body {
   font-size: 15px;
   cursor: pointer;
   transition: background-color 0.3s;
+
+  
 }
 
 .footer-button:hover {

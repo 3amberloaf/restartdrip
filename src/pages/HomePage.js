@@ -72,7 +72,6 @@ const HomePage = () => {
           backgroundSize: 'cover',
           backgroundPosition: 'center top',
           height: '85vh',
-
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
@@ -103,7 +102,7 @@ const HomePage = () => {
         <p className="hidden-text">At Restart Drip, you can rest easy knowing you’re in good hands. Our services are overseen by a medical team consisting of well-trained professionals who can help you find the best treatment based off your needs. Additionally, we pride ourselves on sourcing only high-quality, pharmaceutical-grade vitamins from trusted and reputable pharmacies. We bring the spa experience to your home, ensuring you receive top-notch care in a comfortable and familiar environment.</p>
 
         <p className="hidden-text">We invite you to step out of the hustle and     
-        <span style={{ color: '#6aade5', fontWeight: 'bold', textDecorationLine: 'underline', fontStyle: 'italic', fontSize: '35px' }}>   RESTART YOUR DRIP!</span>
+        <span style={{ color: '#6aade5', fontWeight: 'bold', fontStyle: 'italic', fontSize: '35px' }}>   RESTART YOUR DRIP!</span>
         </p>
       </div>
       <div className="droplet">

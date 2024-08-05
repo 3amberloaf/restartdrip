@@ -55,7 +55,7 @@ const Reviews = () => {
       </div>
       <button className="prev" onClick={handlePrevClick}>&#10094;</button>
       <button className="next" onClick={handleNextClick}>&#10095;</button>
-      <button className="leave-review">Leave a review</button>
+   
     </div>
   );
 };
