@@ -38,13 +38,13 @@
 }
 
 .vitamin-services-text img {
-  max-width: 200px;
+  max-width: 250px;
   height: auto;
   margin-right: 20px; /* Add some space between the image and the text */
 }
 
 .vitamin-IV-services {
-    padding: 30px;
+    padding: 0px;
     background-color: #ffffff; /* Light Cream */
     border-radius: 10px;
     text-align: center;
@@ -53,7 +53,11 @@
     margin: 0 auto; /* Center the section */
 
     animation: fadeIn 1s ease-in-out;
-  }
+}
+
+.vitamin-services-text {
+  padding-top: 30px;
+}
   
   .vitamin-text-content h1 {
     font-family: 'Montserrat';
@@ -103,21 +107,18 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
 
   }
   
   .treatment-card {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    padding: 20px;
+
+    padding: 0px;
     margin: 20px;
     width: 250px;
     display: flex;
     flex-direction: column;
-    text-align: center;
     justify-content: space-between;
     transition: transform 0.3s ease;
   }
@@ -127,52 +128,67 @@
   }
   
   .treatment-card img {
-    width: 100%;
+    width: 120px;
     border-bottom: 1px solid #ddd;
     margin-bottom: 10px;
+    align-self: center;
   }
   
   .treatment-card h3 {
-    font-size: 18px;
-    margin: 5px 0;
-    color: #0d0d0d; /* Very Dark Gray */
+    font-size: 17px;
+    color: #1E3A5F;
+    font-weight: 700;
+    
+    text-align: center;
+    margin: 5px;
+    padding-left: 0;
   }
   
   .treatment-card h1 {
     font-size: 20px;
-    margin: 5px 0;
-    color: #6aade5; /* Very Dark Gray */
+    margin: 10px 0;
+    color: #0d0d0d;
     font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #6aade5;
+    text-underline-offset: 10px; /* Adjust this value to move the line lower */
   }
+  
+  .treatment-card h1:hover {
+    color: #6aade5;
+  }
+  
 
   .treatment-card p {
     font-size: 17px;
     color: #1E3A5F;
     font-weight: 500;
-  
+    width: 250;
+    text-align: center;
+    margin: 5px;
+    padding-bottom: 0;
   }
   
 
-  .learn-more-button {
-  background-color: #6aade5; /* Blue */
-  color: white;
+/* Learn more button styling */
+.learn-more-button {
+  display: inline-block;
+  padding: 12px 20px;
+  color: #ffffff;
+
+  background: #6aade5;
   border: none;
-  padding: 10px 20px;
-  margin: 10px 0;
   border-radius: 5px;
+  text-decoration: none;
   font-size: 15px;
+  font-weight: bold;
+  margin: 5px;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
   cursor: pointer;
-  transition: background-color 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: auto; /* Push button to the bottom */
 }
 
-.learn-more-button:hover {
-    background-color: #5CB8E6;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    transform: scale(1.05);
-}
 
-.learn-more-button:active {
-    background: linear-gradient(135deg, #5ee7df 0%, #b490ca 100%);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transform: scale(1);
-}
+
+

@@ -74,17 +74,7 @@
   transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
 }
 
-.button-container .book-now:hover {
-  background: linear-gradient(135deg, #5CB8E6, #237AB7); /* Dark Blue to Teal */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transform: scale(1.05);
-}
 
-.button-container .book-now:active {
-  background: linear-gradient(45deg, #006666, #1E3A5F);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transform: translateY(0);
-}
 
 /* Additional information styling */
 .additional-info {

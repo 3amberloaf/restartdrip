@@ -8,6 +8,12 @@ Here I will track what I learned each day I worked on the website and what I acc
 
 ## August 7th, 2024
 
+**Create underline and move it**
+
+ `text-decoration: underline;
+  text-decoration-color: #6aade5;
+  text-underline-offset: 3px; /* Adjust this value to move the line lower */`
+
 **Make sure a gif keeps repeating**
 
 `background-repeat:repeat;`

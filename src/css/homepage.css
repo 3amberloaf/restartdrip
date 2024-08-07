@@ -80,9 +80,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.homepage-buttons button:hover {
-  background-color: #557373; /* Dark hover color */
-}
 
 .homepage-image-container {
   display: none; /* Hide the background image container */
