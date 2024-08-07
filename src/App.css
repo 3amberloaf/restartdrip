@@ -79,7 +79,7 @@ body {
 
 .nav-links li a:hover {
 
-  color: rgb(124, 173, 213);
+  color: rgb(60, 142, 209);
 
 }
 
@@ -95,6 +95,7 @@ body {
 
 .nav-links .dropdown-container:hover i {
   transform: rotate(180deg);
+  color: rgb(60, 142, 209);
 }
 
 .nav-links .dropdown {
@@ -113,6 +114,7 @@ body {
 
 .nav-links li:hover .dropdown {
   display: block;
+  color: rgb(60, 142, 209);
 }
 
 .dropdown li {
@@ -127,7 +129,7 @@ body {
 }
 
 .dropdown li a:hover {
-  color: #557373; /* Gray Blue */
+  color: rgb(60, 142, 209);
 }
 
 .social {
@@ -185,7 +187,7 @@ body {
 }
 
 .footer-column ul li a:hover {
-  color: #557373; /* Gray Blue */
+  color: rgb(60, 142, 209);
 }
 
 .footer-buttons {
@@ -254,5 +256,6 @@ body {
 
 .dropdown-container-right:hover .dropdown-right {
   display: block;
+  
 }
 
