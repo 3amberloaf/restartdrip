@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import '../css/peptides.css';
-
+import Steps from '../components/steps';
 const Peptide = () => {
 
     const [activeSection, setActiveSection] = useState(null);
@@ -56,6 +56,8 @@ const Peptide = () => {
           </div>
         </div>
         <p className="hidden-text">Peptides are essential proteins that can be self-administered to replenish levels that naturally decline with age. These treatments offer numerous health benefits, including enhanced muscle and joint recovery, better sleep quality, improved immune function, and increased longevity. By incorporating peptide therapy into your routine, you can support your body's natural processes and promote overall well-being.</p>
+
+        <Steps />
         
         <div className='injections-FAQ'>
         <h1>PEPTIDE FAQS</h1>

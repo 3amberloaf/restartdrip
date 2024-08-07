@@ -8,6 +8,28 @@ Here I will track what I learned each day I worked on the website and what I acc
 
 ## August 7th, 2024
 
+**Make sure a gif keeps repeating**
+
+`background-repeat:repeat;`
+
+**Change the opacity of just the background image**
+
+Add a ::before element to create an overlay on the background element and set it to whatever. Have the z-index be set to -1 so its behind the content
+
+`.background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/mnt/data/image.png'); /* Adjust the path as needed */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3; /* Adjust the opacity as needed */
+  z-index: -1; /* Ensure the overlay is behind other content */
+}`
+
 **Sort Treatments from least to most expensive**
 
 `
