@@ -214,3 +214,12 @@
     margin: 10px;
     align-items: flex-start;
 }
+
+.IV-services h5 {
+    font-family: 'Montserrant';
+    padding: 30px;
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(144, 193, 233);;
+    font-weight: 400;
+}

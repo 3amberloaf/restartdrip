@@ -15,7 +15,6 @@ import Immune from './pages/treatments/immune';
 import Hangover from './pages/treatments/hangover';
 import IVTherapy from './components/IVTherapy';
 import Injections from './pages/injections_page';
-import Specialty from './pages/NAD';
 import ContactForm from './pages/contact';
 import Pricing from './pages/pricing';
 import IntroOffer from './pages/introOffer';
@@ -23,6 +22,7 @@ import Header from './pages/homepage/header';
 import Footer from './pages/homepage/footer';
 import NAD from './pages/NAD';
 import Peptide from './pages/peptides';
+import Specialty from './pages/specialty';
 
 const App = () => {
  
@@ -45,7 +45,7 @@ const App = () => {
           <Route path="/services" element={<IVTherapy />} />
           <Route path="/vitaminivtherapy" element={<VitaminTherapy />} />
           <Route path="/injections" element={<Injections />} />
-          <Route path="/specialty" element={<Specialty />} />
+
           <Route path="/about-us" element={<About />} />
           <Route path="/services/dehydration" element={<Dehydration />} />
           <Route path="/services/energy-boost" element={<Energy />} />
@@ -60,6 +60,7 @@ const App = () => {
           <Route path= "/pricing" element={<Pricing />} />
           <Route path= "/services/NAD+" element={<NAD />} />
           <Route path= "/services/peptide" element={<Peptide />} />
+          <Route path= "/specialty" element={<Specialty />} />
         </Routes>
       </main>
       <Footer />
