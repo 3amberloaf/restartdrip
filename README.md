@@ -10,7 +10,14 @@ Here I will track what I learned each day I worked on the website and what I acc
 
 **Sort Treatments from least to most expensive**
 
-``const sortedTreatments = treatments.sort((a, b) => a.price - b.price);``
+`
+ /* Remove the dollar sign and convert price to number */
+const parsePrice = price => Number(price.replace('$', ''));
+
+/* sort treatments */
+const sortedTreatments = [...treatments].sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
+
+`
 
 ## July 30th, 2024
 
