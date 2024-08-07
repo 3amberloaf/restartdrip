@@ -42,7 +42,7 @@ const About = () => {
 
       <div className="hashtag">
         <div className="hashtag-header">
-          <h1> WE ARE <span style={{ fontWeight: 'bold', fontStyle: 'italic', color: '#6aade5' }}>#TEAMRESTARTYOURDRIP </span> </h1>
+          <h1> WE ARE <span style={{ fontWeight: 'bold', fontStyle: 'italic', color: '#6aade5' }}>#RESTARTDRIP </span> </h1>
         <div className="hashtag-info">
           <img src="/images/random/woman.jpg" alt="woman"/>
           <div className="hashtag-text">
