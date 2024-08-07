@@ -89,9 +89,11 @@ const Pricing = () => {
       <div className="homepage">
         <div className="waves">
           <h1>Thirsty?</h1>
-          <div className="waves-buttons">
+          <div className="homepage-buttons">
             <Link to="https://booking.hydreight.com/widget">
-              <button className="view-services">BOOK NOW</button>
+              <button className="view-services" style={{ position: 'absolute', top: '55%', left: 
+              '49%', transform: 'translate(-50%, -50%)'
+               }}>BOOK NOW</button>
             </Link>
           </div>
           <img src="/images/homepage/waves.png" alt="waves" />

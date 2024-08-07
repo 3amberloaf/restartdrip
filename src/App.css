@@ -78,7 +78,9 @@ body {
 }
 
 .nav-links li a:hover {
-  color: #557373; /* Gray Blue */
+
+  color: rgb(124, 173, 213);
+
 }
 
 .nav-links .dropdown-container {
@@ -218,7 +220,9 @@ body {
 
   
 }
-
+.footer-button:hover {
+  background-color: rgb(124, 173, 213);
+}
 
 
 .footer-bottom {

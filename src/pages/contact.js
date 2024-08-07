@@ -1,6 +1,8 @@
 import React from 'react';
 import '../css/contact.css';
+import { Link
 
+ } from 'react-router-dom';
 const ContactForm = () => {
 
   const submitForm = (event) => {
@@ -50,7 +52,12 @@ const ContactForm = () => {
           <label>Message <textarea name="message"></textarea></label>
         </p>
         <p>
-          <button type="submit">Send</button>
+        <div className="homepage-buttons">
+            <Link to="https://booking.hydreight.com/widget">
+              <button className="view-services"
+               >BOOK NOW</button>
+            </Link>
+          </div>
         </p>
         <div id="form-success" style={{display: 'none', color: 'green'}}>Thank you for your submission!</div>
         <div id="form-error" style={{display: 'none', color: 'red'}}>Oops! Something went wrong.</div>

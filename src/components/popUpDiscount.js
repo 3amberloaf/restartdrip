@@ -15,9 +15,12 @@ const PopUpDiscount = ({ show, handleClose }) => {
             New customers recieve 10% off their first IV therapy service!
           </p>
         </div>
+        <div className="homepage-buttons">
             <Link to="https://booking.hydreight.com/widget">
-              <button className="view-services">Sign Up</button>
+              <button className="view-services" style={{ padding: '10px', fontSize: '18px', marginTop: '0px'
+               }}>Sign Up</button>
             </Link>
+            </div>
       </section>
     </div>
   );
