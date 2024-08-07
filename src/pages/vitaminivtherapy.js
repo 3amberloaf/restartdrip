@@ -10,8 +10,8 @@ const VitaminTherapy = () => {
         <div className="vitamin-services-text">
           <img src='/images/random/ivbag.png' alt='iv-bag' />
           <div className="vitamin-text-content">
-            <h1>Vitamin IV Therapy</h1>
-            <h3>The cocktail your body craves</h3>
+            <h1>RESTART DRIP</h1>
+            <h3>Vitamin IV Therapy</h3>
           </div>
         </div>
         <div className="vitamin-IV-services">
