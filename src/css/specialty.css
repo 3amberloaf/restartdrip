@@ -205,9 +205,18 @@
     display: flex;
 }
 
+
+.text-content h1 {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #45494c;
+    font-weight: 400;
+    margin: 0;
+  }
 .text-content h4 {
     font-size: 70px;
-    color: var(--primary-color);
+    color: rgb(144, 193, 233);
     text-transform: none;
     font-family: 'Allura';
     font-weight: 100;
