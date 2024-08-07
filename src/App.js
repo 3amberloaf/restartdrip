@@ -22,6 +22,7 @@ import IntroOffer from './pages/introOffer';
 import Header from './pages/homepage/header';
 import Footer from './pages/homepage/footer';
 import NAD from './pages/NAD';
+import Peptide from './pages/peptides';
 
 const App = () => {
  
@@ -58,6 +59,7 @@ const App = () => {
           <Route path= "/intro-offers" element={<IntroOffer />} />
           <Route path= "/pricing" element={<Pricing />} />
           <Route path= "/services/NAD+" element={<NAD />} />
+          <Route path= "/services/peptide" element={<Peptide />} />
         </Routes>
       </main>
       <Footer />
