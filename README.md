@@ -6,6 +6,12 @@ Create a website for Woodline's IV Drip business
 
 Here I will track what I learned each day I worked on the website and what I accomplished.
 
+## August 7th, 2024
+
+**Sort Treatments from least to most expensive**
+
+``const sortedTreatments = treatments.sort((a, b) => a.price - b.price);``
+
 ## July 30th, 2024
 
 **Images/text/containers having animations**
