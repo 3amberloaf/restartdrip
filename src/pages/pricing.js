@@ -38,21 +38,18 @@ const Pricing = () => {
         ))}
       </div>
 
-      <div className="pricing">
-        <div className="header">
-          <h1>NAD+ IV THERAPY</h1>
-          <h3>DOSAGE AND PRICING</h3>
+      <div className="benefits-section">
+        <div className="pricing">
+          <div className="header">
+            <h1>NAD+ IV THERAPY</h1>
+            <h3>DOSAGE AND PRICING</h3>
+          </div>
+          <div className="pricing-info">
+            <h3>– 500MG NAD IV Therapy: $800</h3>
+            <h3>– 1000MG NAD IV Therapy: $1000</h3>
+          </div>
         </div>
-
-        <div className="pricing-info">
-          <h3>– 500MG NAD IV Therapy: $400 for Hydrate members / $450 for non-members</h3>
-          <h3>– 750MG NAD IV Therapy: $500 for Hydrate members / $550 for non-members</h3>
-          <h3>– 1000MG NAD IV Therapy: $750 for Hydrate members / $850 for non-members</h3>
-          <h4>Please email iv@restartdrip.com to speak with our staff about NAD+ loading dose packages and pricing.</h4>
-        </div>
-      </div>
-
-      <div className="images-container">
+        <div className="images-container">
         <div className="images">
           <div className="cell">
             <img src="/images/services/cell.png" alt="cell" />
@@ -76,14 +73,55 @@ const Pricing = () => {
           </div>
         </div>
       </div>
+      </div>
+      <div className="benefits-section">
+
       <div className="pricing">
         <div className="header">
         <h1>NAD+ Injection</h1>
         <h3>DOSAGE AND PRICING</h3>
         </div>
-        <h3>Injection Price - $80</h3>
+        <div className="pricing-info">
+            <h3>– 500MG NAD IV Therapy: $700</h3>
+            <h3>– 1000MG NAD IV Therapy: $900</h3>
+            <h4>Please email iv@restartdrip.com to speak with our staff about NAD+ loading dose packages and pricing.</h4>
+          </div>
         <p>NAD+ therapy can promote cell regeneration, aid  joint and muscle pain, improve sleep, provide mental clarity, and boost energy. The NAD+ injection is a great substitute for the NAD+ infusion when you’re short on time and need a quick jump start.</p>
         </div>
+        
+      </div>
+
+      
+     
+      <div className="pricing">
+        <div className="header">
+          <h1>PEPTIDE PRICING</h1>
+          <h3>MONTHLY PRICING</h3>
+        </div>
+        <div className="pricing-info">
+            <h3> $500 Monthly Fee</h3>
+          </div>
+        <div className="images-container">
+          <div className="images">
+         
+            <div className="metabolism">
+              <img src="/images/services/metabolism.png" alt="metabolism" />
+              <p> Weight Management</p>
+            </div>
+            <div className="joint">
+              <img src="/images/services/joint.png" alt="joint" />
+              <p> Cardiovascular Health</p>
+            </div>
+           
+            <div className="clarity">
+              <img src="/images/services/clarity.png" alt="clarity" />
+              <p> Quality of Life</p>
+            </div>
+          </div>
+        </div>
+        
+
+      </div>
      
       
       <div className="homepage">
