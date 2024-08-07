@@ -55,9 +55,48 @@ const Peptide = () => {
             <h4>Peptide Therapy</h4>
           </div>
         </div>
+        <div className="peptide-info">
         <p className="hidden-text">Peptides are essential proteins that can be self-administered to replenish levels that naturally decline with age. These treatments offer numerous health benefits, including enhanced muscle and joint recovery, better sleep quality, improved immune function, and increased longevity. By incorporating peptide therapy into your routine, you can support your body's natural processes and promote overall well-being.</p>
-
+        </div>
+        <div className="Semaglutide">
+        <h1> Semaglutide</h1>
+        <p> Semaglutide is a medication that belongs to a class of drugs known as GLP-1 receptor agonists. It is primarily used to manage type 2 diabetes by enhancing the body's natural insulin secretion in response to elevated blood sugar levels. By mimicking the incretin hormone GLP-1, semaglutide not only helps in regulating blood glucose but also slows gastric emptying, which can lead to reduced appetite and better control over food intake. This makes it a valuable tool not just for diabetes management but also for weight loss in people with obesity, as it aids in reducing overall calorie consumption and promotes a feeling of satiety.</p>
+        <p>The benefits of semaglutide extend beyond glycemic control and weight management. Clinical studies have shown that it significantly reduces the risk of major cardiovascular events such as heart attack and stroke in individuals with type 2 diabetes who have established cardiovascular disease. This makes it a dual-purpose medication, offering both metabolic and cardiovascular advantages. Additionally, semaglutide's ability to be administered once weekly via injection provides convenience and improves adherence compared to other medications that require more frequent dosing. Overall, semaglutide represents a powerful option in the treatment arsenal for diabetes and obesity, with added benefits that support long-term health and quality of life.</p>
+        </div>
         <Steps />
+
+        <div className="pricing">
+        <div className="header">
+          <h1>PEPTIDE PRICING</h1>
+          <h3>$500 MONTHLY</h3>
+        </div>
+        <div className="images-container">
+          <div className="images">
+            <div className="cell">
+              <img src="/images/services/cell.png" alt="cell" />
+              <p> Blood Sugar Control</p>
+            </div>
+            <div className="metabolism">
+              <img src="/images/services/metabolism.png" alt="metabolism" />
+              <p> Weight Management</p>
+            </div>
+            <div className="joint">
+              <img src="/images/services/joint.png" alt="joint" />
+              <p> Cardiovascular Health</p>
+            </div>
+            <div className="sleep">
+              <img src="/images/services/sleep.png" alt="sleep" />
+              <p> A1C Reduction</p>
+            </div>
+            <div className="clarity">
+              <img src="/images/services/clarity.png" alt="clarity" />
+              <p> Quality of Life</p>
+            </div>
+          </div>
+        </div>
+        
+
+      </div>
         
         <div className='injections-FAQ'>
         <h1>PEPTIDE FAQS</h1>
