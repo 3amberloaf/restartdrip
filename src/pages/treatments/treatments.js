@@ -8,10 +8,10 @@ const treatments = [
     servicePath: '/services/dehydration'
   },
   {
-    name: 'BEAUTY & YOUTH',
+    name: 'BEAUTY and YOUTH',
     price: '$195',
     half: '$115',
-    description: 'Become the Best Version of YOU today!',
+    description: 'Become the best version of you today!',
     imageUrl: 'images/services/beauty.png', 
     servicePath: '/services/beauty'
   },
@@ -35,7 +35,7 @@ const treatments = [
     name: 'HANGOVER DETOX',
     price: '$220',
     half: '$165',
-    description: 'Resolve nausea, headaches, & fatigue.',
+    description: 'Resolve nausea, headaches, and fatigue.',
     imageUrl: 'images/services/hangover.png', 
     servicePath: '/services/hangover'
   },
@@ -43,7 +43,7 @@ const treatments = [
     name: 'IMMUNE BOOSTER',
     price: '$200',
     half: '$150',
-    description: 'Boost your Immune System fast and naturally!',
+    description: 'Boost your immune system fast and naturally!',
     imageUrl: 'images/services/immune.png', 
     servicePath: '/services/immune-boost'
   },
@@ -51,7 +51,7 @@ const treatments = [
     name: 'MYERS COCKTAIL',
     price: '$280',
     half: '$195',
-    description: 'Packed with Everything You Need!',
+    description: 'Packed with everything you need!',
     imageUrl: 'images/services/myers.png', 
     servicePath: '/services/myers-cocktail'
   },
@@ -59,7 +59,7 @@ const treatments = [
     name: 'FAT BURNER',
     price: '$175',
     half: '$115',
-    description: 'Increase Energy, Mood and Health!',
+    description: 'Increase energy, mood and health!',
     imageUrl: 'images/services/fat.png', 
     servicePath: '/services/fatburner'
   },
@@ -67,7 +67,7 @@ const treatments = [
     name: 'ATHLETE RECOVERY',
     price: '$250',
     half: '$150',
-    description: 'Workout & Recover like a professional!',
+    description: 'Workout and recover like a professional!',
     imageUrl: 'images/services/athlete.png', 
     servicePath: '/services/athlete'
   }
