@@ -44,11 +44,11 @@ const Hangover = () => {
         <p>
           Contains essential vitamins and minerals to combat dehydration and reduce oxidative stress on the liver, cardiovascular, and endocrine systems by assisting in detoxification of the body. Reduces nausea which is also helpful to recovery.
         </p>
-        <div className="button-container">
-          <Link to="https://booking.hydreight.com/widget">
-            <button className="book-now">BOOK NOW</button>
-          </Link>
-        </div>
+     <div className="homepage-buttons">
+            <Link to="https://booking.hydreight.com/widget">
+              <button className="view-services">BOOK NOW</button>
+            </Link>
+          </div>
       </div>
 
       <div className="main-container">

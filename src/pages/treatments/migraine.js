@@ -44,11 +44,11 @@ const Migraine = () => {
         <p>
           This multifaceted infusion improves vascular function linked to migraine attacks and reduces nausea.
         </p>
-        <div className="button-container">
-          <Link to="https://booking.hydreight.com/widget">
-            <button className="book-now">BOOK NOW</button>
-          </Link>
-        </div>
+     <div className="homepage-buttons">
+            <Link to="https://booking.hydreight.com/widget">
+              <button className="view-services">BOOK NOW</button>
+            </Link>
+          </div>
       </div>
 
       <div className="main-container">

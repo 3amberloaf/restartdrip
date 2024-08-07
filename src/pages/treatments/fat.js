@@ -44,11 +44,12 @@ const Fat = () => {
         <p>
           This infusion of essential amino acids, vitamins, and B12 is designed to transport fatty acids into the mitochondria where they can be burned for energy. Additional benefits include mood improvement and better appetite control.
         </p>
-        <div className="button-container">
-          <Link to="https://booking.hydreight.com/widget">
-            <button className="book-now">BOOK NOW</button>
-          </Link>
-        </div>
+  
+        <div className="homepage-buttons">
+            <Link to="https://booking.hydreight.com/widget">
+              <button className="view-services">BOOK NOW</button>
+            </Link>
+          </div>
       </div>
 
       <div className="main-container">

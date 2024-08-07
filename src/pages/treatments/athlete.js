@@ -52,11 +52,11 @@ const Athlete = () => {
         <p>
           Recovering from a workout or gearing up for a competition? This service is for you, amino acids and B12 help with muscle conditioning, recovery and endurance. This blend also assists in our bodies nervous system, metabolism and protein synthesis. 
         </p>
-        <div className="button-container">
-          <Link to="https://booking.hydreight.com/widget">
-            <button className="book-now">BOOK NOW</button>
-          </Link>
-        </div>
+     <div className="homepage-buttons">
+            <Link to="https://booking.hydreight.com/widget">
+              <button className="view-services">BOOK NOW</button>
+            </Link>
+          </div>
       </div>
       <div className="main-container">
         <div className="ingredient-wrapper">

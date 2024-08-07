@@ -44,11 +44,11 @@ const Energy = () => {
         <p>
           Rehydrate and replenish your body with IV fluids. This IV therapy cocktail is great for recovery from dehydration due to illness, travel, or strenuous activity.
         </p>
-        <div className="button-container">
-          <Link to="https://booking.hydreight.com/widget">
-            <button className="book-now">BOOK NOW</button>
-          </Link>
-        </div>
+     <div className="homepage-buttons">
+            <Link to="https://booking.hydreight.com/widget">
+              <button className="view-services">BOOK NOW</button>
+            </Link>
+          </div>
       </div>
       <div className="main-container">
         <div className="ingredient-wrapper">

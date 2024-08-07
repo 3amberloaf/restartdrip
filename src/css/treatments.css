@@ -34,12 +34,12 @@
   font-size: 2.5em;
   margin: 0 0 10px;
   font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;;
-  color: #1E3A5F;
+  color: #74BBDF; /* Tealish Blue */
 }
 
 .content-container h3 {
   font-size: 1.5em;
-  color: #557373;
+  color: rgba(0, 0, 0, 0.511);
   margin: 0 0 20px;
   font-style: italic;
   padding-bottom: 5px;
@@ -74,8 +74,9 @@
   transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
 }
 
-
-
+.button-container .book-now:hover {
+background-color: rgb(124, 173, 213);
+}
 /* Additional information styling */
 .additional-info {
   margin-top: 10px;

@@ -44,11 +44,11 @@ const Immune = () => {
         <p>
           This treatment includes zinc to block viral replication and support immune cells, along with Vitamin C to boost lymphocyte and phagocyte production and act as a powerful antioxidant that protects cells and aids in healing.
         </p>
-        <div className="button-container">
-          <Link to="https://booking.hydreight.com/widget">
-            <button className="book-now">BOOK NOW</button>
-          </Link>
-        </div>
+     <div className="homepage-buttons">
+            <Link to="https://booking.hydreight.com/widget">
+              <button className="view-services">BOOK NOW</button>
+            </Link>
+          </div>
       </div>
 
       <div className="main-container">

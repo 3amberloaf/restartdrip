@@ -44,11 +44,11 @@ const Beauty = () => {
         <p>
           This beauty/youth IV infusion provides essential nutrients, antioxidants, and vitamins that support hormone pathways, reduce oxidative stress, and nourish the body to produce fatty acids preventing premature and visible skin aging.
         </p>
-        <div className="button-container">
-          <Link to="https://booking.hydreight.com/widget">
-            <button className="book-now">BOOK NOW</button>
-          </Link>
-        </div>
+     <div className="homepage-buttons">
+            <Link to="https://booking.hydreight.com/widget">
+              <button className="view-services">BOOK NOW</button>
+            </Link>
+          </div>
       </div>
 
       <div className="main-container">

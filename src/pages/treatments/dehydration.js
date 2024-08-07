@@ -45,11 +45,11 @@ const Dehydration = () => {
         <p>
           Provides instant hydration and electrolytes. Whether you’ve been hitting the gym hard, partying all night, or just need a pick-me-up, this service will put the pep back in your step.
         </p>
-        <div className="button-container">
-          <Link to="https://booking.hydreight.com/widget">
-            <button className="book-now">BOOK NOW</button>
-          </Link>
-        </div>
+     <div className="homepage-buttons">
+            <Link to="https://booking.hydreight.com/widget">
+              <button className="view-services">BOOK NOW</button>
+            </Link>
+          </div>
       </div>
 
       <div className="main-container">
