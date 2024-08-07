@@ -94,6 +94,8 @@
     padding: 30px;
     background-color: var(--background-color); /* Light Cream */
     border-radius: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     text-align: center;
     width: 100%; /* Ensure the section spans the full width */
     box-sizing: border-box; /* Include padding in the width calculation */
