@@ -79,22 +79,22 @@ background-color: rgb(124, 173, 213);
 }
 /* Additional information styling */
 .additional-info {
-  margin-top: 10px;
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 20px;
+  padding: 10px;
   text-align: left;
 }
 
 .additional-info h1 {
   font-size: 1.3em;
   color: #1E3A5F;
-  margin-top: 10px;
+  margin-top: 20px;
   text-transform: uppercase;
-  margin-bottom: 15px;
+ 
   border-bottom: 2px solid #1E3A5F;
-  padding-bottom: 5px;
+
 }
 
 .additional-info p, .additional-info ul {
@@ -103,7 +103,7 @@ background-color: rgb(124, 173, 213);
 }
 
 .additional-info p {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   margin-top: 15px;
 }
 
@@ -215,3 +215,5 @@ background-color: rgb(124, 173, 213);
   border-radius: 5px; /* Optional: to add rounded corners */
   letter-spacing: 1ch;
 }
+
+
