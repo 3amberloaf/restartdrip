@@ -95,11 +95,11 @@ const Pricing = () => {
      
       <div className="pricing">
         <div className="header">
-          <h1>PEPTIDE PRICING</h1>
-          <h3>MONTHLY PRICING</h3>
+          <h1>PEPTIDE</h1>
+          <h3>PRICING</h3>
         </div>
         <div className="pricing-info">
-            <h3> $500 Monthly Fee</h3>
+            <h3> $500 Monthly</h3>
           </div>
         <div className="images-container">
           <div className="images">

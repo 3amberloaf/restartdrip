@@ -8,6 +8,32 @@ Here I will track what I learned each day I worked on the website and what I acc
 
 ## August 7th, 2024
 
+**CSS not loading properly**
+
+By inspecting my code on the web, I found that I nested two <li> elements within one another which caused invalid DOM nesting.
+
+It cannot be:
+
+`<ul>
+  <li>Item 1
+    <li>Sub Item 1</li>
+  </li>
+  <li>Item 2</li>
+</ul>
+`
+
+Must be:
+
+`<ul>
+  <li>Item 1
+    <ul>
+      <li>Sub Item 1</li>
+    </ul>
+  </li>
+  <li>Item 2</li>
+</ul>
+`
+
 **Create underline and move it**
 
  `text-decoration: underline;
