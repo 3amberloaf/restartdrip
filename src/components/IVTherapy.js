@@ -36,15 +36,15 @@ const IVTherapy = () => {
                                         </p>
                                     )}
                                     {section === 'whatAreTheBenefits?' && (
-                                        <p>
-                                            IV therapy offers several benefits, including:
+                                        <div>
+                                            <p>IV therapy offers several benefits, including:</p>
                                             <ul>
                                                 <li>Rapid hydration.</li>
                                                 <li>Nutrient replenishment.</li>
                                                 <li>Boosted energy and immune function: helps improve energy levels, enhance immune function, and promote overall well-being.</li>
                                                 <li>Targeted therapy: can be customized with specific nutrients to address individual health needs, such as vitamin deficiencies, fatigue, hangovers, and jet lag.</li>
                                             </ul>
-                                        </p>
+                                        </div>
                                     )}
                                     {section === 'howDoesItWork?' && (
                                         <p>
@@ -52,14 +52,15 @@ const IVTherapy = () => {
                                         </p>
                                     )}
                                     {section === 'whatShouldIExpect?' && (
-                                        <p>
+                                        <div>
+                                            <p>Here's what you can expect during an IV therapy session:</p>
                                             <ul>
                                                 <li>Consultation: Before the treatment, you'll have a consultation with a healthcare provider to discuss your health goals and any concerns.</li>
                                                 <li>Treatment session: During the IV therapy session, you'll relax in a comfortable setting while the IV is administered.</li>
                                                 <li>Duration: IV therapy sessions typically last between 30 minutes to an hour, depending on the type of treatment and your individual needs.</li>
                                                 <li>Aftercare: After the treatment, you may experience increased hydration, improved energy levels, and other immediate effects.</li>
                                             </ul>
-                                        </p>
+                                        </div>
                                     )}
                                     {section === 'whoCanBenefit?' && (
                                         <p>

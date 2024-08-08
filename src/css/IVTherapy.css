@@ -147,6 +147,9 @@
 /* List item styling inside service content */
 .service-content li {
     margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+    margin: 0 5 20px 0;
 }
 
 /* Fade-in animation */
